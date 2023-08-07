@@ -1,9 +1,0 @@
-{
-	"type": "crafting_shapeless",
-	"ingredients": [
-		{"item": "croptopia:knife"}
-	],
-	"result": {
-		"item": "simplyswords:iron_sai"
-	}
-}
