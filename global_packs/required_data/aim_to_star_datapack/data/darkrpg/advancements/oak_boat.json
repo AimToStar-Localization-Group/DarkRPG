@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Boat Trip (Quest)"},
+        "description": {"text": "Craft an Oak Boat.  Reward: 10 Exp, 1x Iron Boots"},
+        
+        "icon": {"item": "minecraft:oak_boat"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_oak_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:oak_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:cod": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:oak_boat"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:cod"
+}

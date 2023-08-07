@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Axolotl Investigation (Quest)"},
+        "description": {"text": "Kill an Axolotl. Reward: 500 Exp, 1x Bucket."},
+        
+        "icon": {"item": "minecraft:bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_axolotl": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:axolotl"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:axolotl"
+        ],
+		"experience": 500
+    },
+    "parent": "darkrpg:bee"
+}

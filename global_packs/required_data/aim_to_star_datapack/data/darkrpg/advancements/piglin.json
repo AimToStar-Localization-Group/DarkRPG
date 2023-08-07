@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Piglin Assault (Quest)"},
+        "description": {"text": "(Final Easy Quest) Craft a Nether Portal and Kill a Piglin in the Nether.  Reward: 1000 Exp, 10x Diamonds, 1x Green Dye, 1x Yellow Dye, 1x Blue Dye, 1x Pink Dye, 1x Orange Dye, 1x Cyan Dye, 5 Torches."},
+        
+        "icon": {"item": "minecraft:raw_gold"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_piglin": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:piglin"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:obsidian": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:piglin"
+        ],
+		"experience": 1000
+    },
+    "parent": "darkrpg:obsidian"
+}

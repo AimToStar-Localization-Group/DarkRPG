@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABC",
+		"D  ",
+		"   "
+	],
+	"key": {
+		"A": {"item": "mythicmetals:quadrillum_ingot"},
+		"B": {"item": "mythicmetals:manganese_ingot"},
+		"C": {"item": "mythicmetals:carmot_ingot"},
+		"D": {"item": "minecraft:copper_ingot"}
+		},
+	"result": {
+		"item": "mythicmetals:durasteel_ingot"
+	}
+}

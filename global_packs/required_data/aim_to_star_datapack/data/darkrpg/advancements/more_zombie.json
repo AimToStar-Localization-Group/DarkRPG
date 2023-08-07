@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Rotten Flesh Addiction (Quest)"},
+        "description": {"text": "Kill More Zombies, Collect 45x Rotten Flesh.  Reward: 375 Exp, 50x Arrows, 5x Diamonds."},
+        
+        "icon": {"item": "minecraft:zombie_head"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_more_zombie": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:zombie"
+	      }
+       }
+    },
+        "darkrpg_more_rotten_flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:rotten_flesh"],
+                        "count": {
+                            "min": 45
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:zombie": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_zombie"
+        ],
+		"experience": 50
+    },
+    "parent": "darkrpg:zombie"
+}

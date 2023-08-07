@@ -1,0 +1,29 @@
+{
+	"type": "origins:restrict_armor",
+	"head": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:helmet"
+		}
+	},
+	"chest": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:chestplate"
+		}
+	},
+	"legs": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:leggings"
+		}
+	},
+	"feet": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:boots"
+		}
+	},
+	"name": "Drip",
+	"description": "You cannot use chanimail armor, leather armor, and netherite armor because uhh..yes."
+}

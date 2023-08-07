@@ -1,0 +1,8 @@
+{
+  "name": "In hell",
+    "description": "your only hobby that you find interesting is in the deep dark because God hates you in particular.",
+  "type": "origins:modify_player_spawn",
+  "dimension": "minecraft:overworld",
+  "structure": "minecraft:ancient_city",
+  "spawn_strategy": "center"
+}

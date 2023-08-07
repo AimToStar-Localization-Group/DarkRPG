@@ -1,0 +1,28 @@
+{
+    "__comment": "Made by creators of DarkRPG",
+    "display": {
+        "title": {"text": "Special Login Rewards"},
+        "description": {"text": "Open the rewards bundle to receive your special login rewards..."},
+        
+        "icon": {"item": "minecraft:bundle"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "january": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+    "loot": ["rewards:rewards"],
+		"function":"rewards:rewards",
+		"experience": 1
+    }
+}

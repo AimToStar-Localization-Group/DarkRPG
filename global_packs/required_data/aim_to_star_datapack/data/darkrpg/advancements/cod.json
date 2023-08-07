@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Fishes (Quest)"},
+        "description": {"text": "Fish and catch 5x Raw Cod.  Reward: 5 Exp, 1x Turtle Helm."},
+        
+        "icon": {"item": "minecraft:cod"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:stone": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:cod"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:stone"
+}

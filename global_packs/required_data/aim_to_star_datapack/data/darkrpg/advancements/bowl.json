@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Soup And Noodles (Quest)"},
+        "description": {"text": "Craft 8x Bowls.  Rewards: 65 Exp."},
+        
+        "icon": {"item": "minecraft:bowl"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_bowl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:bowl"],
+                        "count": {
+                            "min": 8
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 65
+    },
+    "parent": "darkrpg:stone_button"
+}

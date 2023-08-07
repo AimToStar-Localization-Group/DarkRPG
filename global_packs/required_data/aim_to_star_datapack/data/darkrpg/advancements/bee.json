@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Man VS Bee (Quest)"},
+        "description": {"text": "Kill a Bee. Reward: 30 Exp, 15x Honey Bottles, 1x Diamond Sword, 10x Red Wool."},
+        
+        "icon": {"item": "minecraft:honey_bottle"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_bee": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:bee"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:crimson_fungus": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:bee"
+        ],
+		"experience": 30
+    },
+    "parent": "darkrpg:crimson_fungus"
+}

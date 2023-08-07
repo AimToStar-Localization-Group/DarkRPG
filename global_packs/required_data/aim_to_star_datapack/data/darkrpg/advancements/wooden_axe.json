@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Chop chop chop (Quest)"},
+        "description": {"text": "Craft a Wooden Axe.  Reward: 20 Exp, 1x Wooden Shield."},
+        
+        "icon": {"item": "minecraft:wooden_axe"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_axe"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:crafting_table": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_axe"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:crafting_table"
+}

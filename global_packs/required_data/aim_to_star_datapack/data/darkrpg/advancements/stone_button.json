@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Push The Button (Quest)"},
+        "description": {"text": "Craft 1x Stone Button.  Rewards: 65 Exp."},
+        
+        "icon": {"item": "minecraft:stone_button"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_stone_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:stone_button"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 65
+    },
+    "parent": "darkrpg:glass_bottle"
+}

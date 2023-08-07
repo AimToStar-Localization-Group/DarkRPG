@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Soothing.. (Quest)"},
+        "description": {"text": "Craft 1x Honey Bottle.  Rewards: 80 Exp."},
+        
+        "icon": {"item": "minecraft:honey_bottle"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_honey_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:honey_bottle"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 80
+    },
+    "parent": "darkrpg:gold_nugget"
+}

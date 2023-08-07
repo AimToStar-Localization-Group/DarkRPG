@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "End Tower (Quest)"},
+        "description": {"text": "Gather 60x End Stone Bricks.  Reward: 200 Exp, 50x Glass, 10x Eye of the Ender."},
+        
+        "icon": {"item": "minecraft:end_stone_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_more_end_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:end_stone_bricks"],
+                        "count": {
+                            "min": 60
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_stone_bricks": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_end_stone_bricks"
+        ],
+		"experience": 200
+    },
+    "parent": "darkrpg:end_stone_bricks"
+}

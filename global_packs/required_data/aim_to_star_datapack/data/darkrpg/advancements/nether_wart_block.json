@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Build The Wart (Quest)"},
+        "description": {"text": "Craft 1x Nether Wart Block.  Rewards: 70 Exp."},
+        
+        "icon": {"item": "minecraft:nether_wart_block"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_nether_wart_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:nether_wart_block"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 70
+    },
+    "parent": "darkrpg:nether_wart"
+}

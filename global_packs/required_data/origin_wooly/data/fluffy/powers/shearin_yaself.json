@@ -1,0 +1,743 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:white_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:white_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:white_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 0
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:pink_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:pink_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:pink_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:red_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:red_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:red_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 2
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:orange_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:orange_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:orange_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 3
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:yellow_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:yellow_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:yellow_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 4
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:lime_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:lime_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:lime_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 5
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:green_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:green_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:green_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 6
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:cyan_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:cyan_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:cyan_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 7
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_blue_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_blue_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_blue_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 8
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:blue_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:blue_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:blue_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 9
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:magenta_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:magenta_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:magenta_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 10
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:purple_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:purple_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:purple_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 11
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_gray_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_gray_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:light_gray_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 12
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:gray_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:gray_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:gray_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 13
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:brown_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:brown_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:brown_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 14
+			}
+		},
+		{
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:black_wool",
+							"amount": 1
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:black_wool",
+							"amount": 2
+						}
+					},
+					"weight": 1
+				},
+				{
+					"element": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:black_wool",
+							"amount": 3
+						}
+					},
+					"weight": 1
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:resource",
+				"resource": "fluffy:current_color",
+				"comparison": "==",
+				"compare_to": 15
+			}
+		}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:shears"
+					}
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:shears"
+					}
+				}
+			}
+			]
+		},
+		{
+			"type": "origins:resource",
+			"resource": "fluffy:currently_fluffy",
+			"comparison": "==",
+			"compare_to": 1
+		}
+		]
+	},
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"cooldown": 60,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 24
+	},
+	"name": "Fluffy Wool",
+	"description": "You can be sheared, and your soft wool cushions falls, causing you to bounce a bit."
+}

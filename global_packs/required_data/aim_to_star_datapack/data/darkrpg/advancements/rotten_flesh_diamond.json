@@ -1,0 +1,25 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Convert Rotten Flesh to Diamonds"},
+        "description": {"text": "Convert 9x Rotten Flesh into 1x Diamond. Stand on a Crafting Table to enable the process and switch between off-hand and main hand to initiate."},
+        
+        "icon": {"item": "minecraft:rotten_flesh"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_rotten_flesh_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": ["minecraft:rotten_flesh"],"count": {"min": 9}}],
+                           "player": {"stepping_on": {"block": {"blocks": ["minecraft:crafting_table"]}}
+                            }}}},
+    "rewards": {
+        "function": "darkrpg:rotten_flesh_diamond",
+        "experience": 0
+    },
+    "parent": "darkrpg:info_casino"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "I Can Fly! (Quest)"},
+        "description": {"text": "Obtain 1x Elytra.  Rewards: 200 Exp."},
+        
+        "icon": {"item": "minecraft:elytra"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:elytra"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 200
+    },
+    "parent": "darkrpg:popped_chorus_fruit"
+}

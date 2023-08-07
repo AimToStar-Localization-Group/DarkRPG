@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Pass The Dip (Quest)"},
+        "description": {"text": "Craft 25x Gold Nuggets.  Rewards: 80 Exp."},
+        
+        "icon": {"item": "minecraft:gold_nugget"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_gold_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:gold_nugget"],
+                        "count": {
+                            "min": 25
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 80
+    },
+    "parent": "darkrpg:stone_button"
+}

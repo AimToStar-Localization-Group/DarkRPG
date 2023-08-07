@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Campfire Story (Quest)"},
+        "description": {"text": "Make a Campfire.  Reward: 10 Exp, 7x Cooked Rabbit, 50x Green Wool."},
+        
+        "icon": {"item": "minecraft:campfire"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_campfire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:campfire"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:skeleton": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:campfire"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:skeleton"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Water Catcher (Quest)"},
+        "description": {"text": "Craft 5x Buckets.  Rewards: 50 Exp."},
+        
+        "icon": {"item": "minecraft:bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:bucket"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 50
+    },
+    "parent": "darkrpg:cracked_stone_bricks"
+}

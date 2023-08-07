@@ -1,0 +1,35 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Going to Hell (Quest)"},
+        "description": {"text": "Gather 14x Obisidan blocks.  Reward: 20 Exp, 1x Flint and Steel"},
+        
+        "icon": {"item": "minecraft:obsidian"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:obsidian"],
+                        "count": {
+                            "min": 14
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:obsidian2"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:panda"
+}

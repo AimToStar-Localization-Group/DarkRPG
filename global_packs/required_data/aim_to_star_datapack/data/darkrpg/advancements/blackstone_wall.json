@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Reinforced Privacy (Quest)"},
+        "description": {"text": "Craft 6x Blackstone Walls.  Rewards: 70 Exp."},
+        
+        "icon": {"item": "minecraft:blackstone_wall"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_blackstone_walls": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:blackstone_wall"],
+                        "count": {
+                            "min": 6
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 70
+    },
+    "parent": "darkrpg:nether_bricks"
+}

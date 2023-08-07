@@ -1,0 +1,20 @@
+    {
+        "powers": [
+            "cosmo:nosee",
+            "cosmo:boom",
+            "cosmo:keep",
+            "origins:fragile",
+            "origins:tailwind",
+            "origins:sprint_jump",
+            "cosmo:gun",
+            "cosmo:spawn",
+            "origins:cat_vision",
+            "cosmo:flame",
+            "origins:slow_falling"
+        ],
+        "icon": "minecraft:echo_shard",
+        "order": 10,
+        "impact": 3,
+        "name": "Warden Hunter",
+        "description": "A hunter of the Warden."
+    }

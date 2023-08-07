@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Magmaliciouslydocious (Quest)"},
+        "description": {"text": "Kill Magma Cubes, Collect 60x Magma Cream.  Reward: 1000 Exp, 5x Totem of Undying."},
+        
+        "icon": {"item": "minecraft:magma_cream"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_even_more_magma_cube": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:magma_cube"
+	      }
+       }
+    },
+        "darkrpg_even_more_ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:magma_cream"],
+                        "count": {
+                            "min": 60
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:more_magma_cube": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:even_more_magma_cube"
+        ],
+		"experience": 1000
+    },
+    "parent": "darkrpg:more_magma_cube"
+}

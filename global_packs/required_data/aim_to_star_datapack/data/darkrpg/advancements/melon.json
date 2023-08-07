@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Metal Gear Rising (Quest)"},
+        "description": {"text": "Gather 10x Melons.  Reward: 120 Exp, 50x Moss Block."},
+        
+        "icon": {"item": "minecraft:melon"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_melon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:melon"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:melon"
+        ],
+		"experience": 120
+    },
+    "parent": "darkrpg:end_enderman"
+}

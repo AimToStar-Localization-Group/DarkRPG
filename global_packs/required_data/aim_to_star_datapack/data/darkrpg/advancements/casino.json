@@ -1,0 +1,28 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Creeper Casino Roulette"},
+        "description": {"text": "Try your luck and win rare prizes. Entry fee is 5 Diamonds per spin. Stand on a Diamond Block to enable the process and switch between off-hand and main hand to initiate."},
+        
+        "icon": {"item": "minecraft:diamond"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_casino": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": ["minecraft:diamond"],"count": {"min": 5}}],
+                           "player": {"stepping_on": {"block": {"blocks": ["minecraft:diamond_block"]}}
+                            }}}},
+    "rewards": {
+    "loot": [
+            "darkrpg:casino"
+        ],
+		"function": "darkrpg:casino",
+        "experience": 0
+    },
+    "parent": "darkrpg:info_casino"
+}

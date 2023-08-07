@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Charcoal Toothpaste (Quest)"},
+        "description": {"text": "Gather Charcoal.  Rewards: 30 Exp."},
+        
+        "icon": {"item": "minecraft:charcoal"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:charcoal"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:furnace"
+}

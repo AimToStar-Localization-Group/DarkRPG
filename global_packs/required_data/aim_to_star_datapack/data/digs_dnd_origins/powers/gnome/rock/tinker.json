@@ -1,0 +1,29 @@
+{
+    "name": "Tinker",
+    "description": "You can construct a tiny clockwork toy that resembles a frog. When placed on the ground, the toy moves at a slower than walking pace in random directions.",
+    "type": "origins:multiple",
+    "animated_gear":
+    {
+        "type": "origins:recipe",
+        "recipe":
+        {
+            "id": "digs_dnd_origins:tinker/toy_frog",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "#",
+                "$"
+            ],
+            "key": {
+                "#": {
+                    "item": "minecraft:leather"
+                },
+                "$": {
+                    "item": "minecraft:gold_ingot"
+                }
+            },
+            "result": {
+                "item": "digs_dnd_origins:toy_frog_spawn_egg"
+            }
+        }
+    }
+}

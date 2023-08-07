@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Iron Man IV (Quest)"},
+        "description": {"text": "Get an Iron Ingot.  Reward: 15 Exp, 1x Golden Pickaxe, 1x Flint."},
+        
+        "icon": {"item": "minecraft:iron_ingot"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_iron_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:iron_ingot"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:copper_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:iron_ingot"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:copper_ingot"
+}

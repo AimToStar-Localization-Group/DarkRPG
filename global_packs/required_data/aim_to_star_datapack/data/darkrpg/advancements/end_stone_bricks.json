@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "End Foundation (Quest)"},
+        "description": {"text": "Gather 20x End Stone Bricks.  Reward: 150 Exp, 14x Glass, 2x Eye of the Ender."},
+        
+        "icon": {"item": "minecraft:end_stone_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_end_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:end_stone_bricks"],
+                        "count": {
+                            "min": 20
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:shulker_again": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:end_stone_bricks"
+        ],
+		"experience": 150
+    },
+    "parent": "darkrpg:shulker_again"
+}

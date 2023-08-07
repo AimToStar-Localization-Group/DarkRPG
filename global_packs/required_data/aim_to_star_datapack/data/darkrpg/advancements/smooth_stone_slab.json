@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Pavement Time (Quest)"},
+        "description": {"text": "Craft 6x Smooth Stone Slabs.  Rewards: 30 Exp."},
+        
+        "icon": {"item": "minecraft:smooth_stone_slab"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_smooth_stone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:smooth_stone_slab"],
+                        "count": {
+                            "min": 6
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:torch"
+}

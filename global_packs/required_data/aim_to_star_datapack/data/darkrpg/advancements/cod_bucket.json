@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Bucket Of Cod (Quest)"},
+        "description": {"text": "Use an empty bucket and fill up with Cod.  Reward: 20 Exp, 5x Golden Apples."},
+        
+        "icon": {"item": "minecraft:cod_bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cod_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:white_wool": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:cod_bucket"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:white_wool"
+}

@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Groovy Fungi (Quest)"},
+        "description": {"text": "Gather 2x Crimson Fungus.  Reward: 25 Exp, 1x Iron Shovel, 10x Cooked Salmon."},
+        
+        "icon": {"item": "minecraft:crimson_fungus"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_crimson_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:crimson_fungus"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:gold_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:crimson_fungus"
+        ],
+		"experience": 25
+    },
+    "parent": "darkrpg:gold_ingot"
+}

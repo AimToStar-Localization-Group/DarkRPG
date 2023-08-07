@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ender's Demise (Quest)"},
+        "description": {"text": "(Final Extreme Quest) Kill The Ender Dragon.  Reward: 4000 Exp, 1x Black Bed, 1x Elytra, 25x Lapis Lazuli, 25x Red Mushroom Blocks, 1x Pink Shulker Box, 1x Cyan Shulker Box, 1x Brown Shulker Box."},
+        
+        "icon": {"item": "minecraft:dragon_head"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_ender_dragon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+		 "biome": "minecraft:the_end",
+		 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_stone_bricks": "true"}}},
+	     "player": {"type_specific": {"type": "player","advancements": {"minecraft:end/kill_dragon": "true"}}}
+		} }
+    },
+ 
+    "rewards": {
+        "loot": [
+            "darkrpg:ender_dragon"
+        ],
+		"experience": 4000
+    },
+    "parent": "darkrpg:end_stone_bricks"
+}

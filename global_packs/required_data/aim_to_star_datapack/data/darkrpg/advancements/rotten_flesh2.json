@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Dedicated Survivor (Quest)"},
+        "description": {"text": "Gather 40x Rotten Flesh.  Rewards: 50 Exp."},
+        
+        "icon": {"item": "minecraft:rotten_flesh"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_rotten_flesh2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:rotten_flesh"],
+                        "count": {
+                            "min": 40
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 50
+    },
+    "parent": "darkrpg:bone_meal"
+}

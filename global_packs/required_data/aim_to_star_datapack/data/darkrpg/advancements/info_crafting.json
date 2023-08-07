@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Crafting Quests"},
+        "description": {"text": "Craft various items and gain bonus Experience points. These can be completed in any order."},
+        
+        "icon": {"item": "minecraft:book"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_info_crafting": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {        
+		"experience": 0
+    },
+    "parent": "darkrpg:root"
+}

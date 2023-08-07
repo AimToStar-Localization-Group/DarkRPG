@@ -1,0 +1,24 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "invulnerabilities": {
+    "type": "origins:invulnerability",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "foxboi_two:phantomize"
+    },
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "inWall"
+        },
+        {
+          "type": "origins:name",
+          "name": "cramming"
+        }
+      ]
+    }
+  }
+}

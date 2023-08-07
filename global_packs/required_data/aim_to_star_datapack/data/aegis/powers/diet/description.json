@@ -1,0 +1,5 @@
+{
+    "name": "Method of Repair",
+    "description": "Your armor can't be fixed with carrots or pork, metal must be used! Consuming different metals/ores will result in more/less saturation.",
+    "type": "origins:simple"
+}

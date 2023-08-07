@@ -1,0 +1,32 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Warden Found! (Quest)"},
+        "description": {"text": "(Bonus Extreme Quest) Find and kill The Warden.  Reward: 2000 Exp, 1x Pigstep Music Disc"},
+
+        "icon": {"item": "minecraft:sculk_shrieker"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_warden": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:warden"
+          },
+          "player": {"type_specific": {"type": "player","advancements": {"darkrpg:ender_dragon": "true"}}}
+        } }
+    },
+ 
+    "rewards": {
+        "loot": [
+            "darkrpg:warden"
+        ],
+        "experience": 2000
+    },
+    "parent": "darkrpg:ender_dragon"
+}

@@ -1,0 +1,142 @@
+{
+    "name": "Echolocation",
+    "description": "Secondary: Emit an ultrasonic pulse, allowing you to see the location of nearby entities, even through walls!",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Secondary ability, use with %s"
+        }
+    ],
+    "type": "origins:multiple",
+    
+    "toggle": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                "type": "origins:change_resource",
+                "resource": "dolphling:echolocation_glow_timer",
+                "change": 5,
+                "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.dolphin.ambient_water master @a ~ ~ ~ 1 1.2"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:grant_power",
+                            "power": "dolphling:glowing",
+                            "source": "dolphling:dolphling"
+                        }
+                    },
+                    "radius": 30,
+                    "bientity_condition": {
+                             "type": "origins:target_condition",
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:living"
+                                    },
+                                    {
+                                        "type": "origins:submerged_in",
+                                        "fluid": "minecraft:water"
+                                    }
+                                    ]
+                                }
+                            
+                        
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "cooldown": 100,
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 7
+        }
+    },
+
+    "glow_timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+
+    "glow_timer_go_down": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:echolocation_glow_timer",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:echolocation_glow_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+    "glow": {
+        "type": "origins:entity_glow",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:echolocation_glow_timer",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:living"
+                    },
+                    {
+                        "type": "origins:power",
+                        "power": "dolphling:glowing"
+                    },
+                    {
+                        "type": "origins:submerged_in",
+                        "fluid": "minecraft:water"
+                    }
+                ]
+            }
+        }
+    },
+
+    "no_glowing": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power revoke @e dolphling:glowing dolphling:dolphling"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:echolocation_glow_timer",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+
+}

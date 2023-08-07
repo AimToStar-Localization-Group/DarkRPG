@@ -1,0 +1,35 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Bannerama (Quest)"},
+        "description": {"text": "Craft a Red Banner.  Reward: 40 Exp, 1x Shield"},
+        
+        "icon": {"item": "minecraft:red_banner"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_red_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:red_banner"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:red_banner"
+        ],
+		"experience": 40
+    },
+    "parent": "darkrpg:info_extras"
+}

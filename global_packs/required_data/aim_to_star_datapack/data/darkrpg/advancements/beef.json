@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Beefy (Quest)"},
+        "description": {"text": "Hunt cows for 1x Raw Beef.  Reward: 15 Exp, 10x Honey Bottles, 10x Beetroot Soup."},
+        
+        "icon": {"item": "minecraft:beef"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_beef": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:beef"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:stone": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:beef"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:stone"
+}

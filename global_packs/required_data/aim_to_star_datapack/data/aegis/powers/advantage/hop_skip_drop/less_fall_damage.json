@@ -1,0 +1,13 @@
+{
+    "name": "less fall damage",
+    "hidden": true,
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "max_total",
+        "value": 12
+    }
+}

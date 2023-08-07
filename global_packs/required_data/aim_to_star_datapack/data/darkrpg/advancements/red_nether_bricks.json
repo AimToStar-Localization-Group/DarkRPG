@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Brick On Brick (Quest)"},
+        "description": {"text": "Craft 2x Red Nether Bricks.  Rewards: 85 Exp."},
+        
+        "icon": {"item": "minecraft:red_nether_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_red_nether_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:red_nether_bricks"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 85
+    },
+    "parent": "darkrpg:quartz_block"
+}

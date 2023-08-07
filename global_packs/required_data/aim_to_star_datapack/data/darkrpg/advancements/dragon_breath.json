@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "What Did You Have For Dinner? (Quest)"},
+        "description": {"text": "Gather 1x Dragon Breath.  Rewards: 100 Exp."},
+        
+        "icon": {"item": "minecraft:dragon_breath"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_dragon_breath": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:dragon_breath"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 100
+    },
+    "parent": "darkrpg:soul_torch"
+}

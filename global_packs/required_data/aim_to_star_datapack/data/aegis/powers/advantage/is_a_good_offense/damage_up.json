@@ -1,0 +1,136 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 4
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.attack_speed",
+                    "comparison": "<=",
+                    "compare_to": 1.1
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 8
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 12
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.attack_speed",
+                    "comparison": "<=",
+                    "compare_to": 1.1
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    },
+    "key3": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 16
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    },
+    "key4": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.attack_speed",
+                    "comparison": "<=",
+                    "compare_to": 1.1
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    },
+    "formoddedarmor": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.armor",
+                    "comparison": ">=",
+                    "compare_to": 24
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "generic.attack_speed",
+                    "comparison": "<=",
+                    "compare_to": 1.1
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        }
+    }
+}

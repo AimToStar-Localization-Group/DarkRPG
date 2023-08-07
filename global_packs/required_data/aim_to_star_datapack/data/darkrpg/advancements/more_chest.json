@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Packed Lunch (Quest)"},
+        "description": {"text": "Craft 5x Chests.  Reward: 20 Exp, 1x Pink Shulker Box."},
+        
+        "icon": {"item": "minecraft:pink_shulker_box"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_more_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:chest"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:chest": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_chest"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:chest"
+}

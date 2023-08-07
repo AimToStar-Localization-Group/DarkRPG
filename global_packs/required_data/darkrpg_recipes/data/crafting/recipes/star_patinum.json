@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABC",
+		"D  ",
+		"   "
+	],
+	"key": {
+		"A": {"item": "mythicmetals:starrite"},
+		"B": {"item": "mythicmetals:platinum_ingot"},
+		"C": {"item": "mythicmetals:adamantite_ingot"},
+		"D": {"item": "minecraft:copper_ingot"}
+		},
+	"result": {
+		"item": "mythicmetals:star_platinum"
+	}
+}

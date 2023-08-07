@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Breakable (Quest)"},
+        "description": {"text": "Craft 3x Glass Bottles.  Rewards: 65 Exp."},
+        
+        "icon": {"item": "minecraft:glass_bottle"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_glass_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:glass_bottle"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 65
+    },
+    "parent": "darkrpg:lever"
+}

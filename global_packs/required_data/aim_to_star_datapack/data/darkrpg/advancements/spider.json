@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Arachnophobicly (Quest)"},
+        "description": {"text": "Kill Spiders, Collect 3x Spider Eyes.  Reward: 100 Exp, 35x Bread, 20 Apples, 1x Diamond Pickaxe."},
+        
+        "icon": {"item": "minecraft:cobweb"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_spider": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:spider"
+	      }
+       }
+    },
+        "darkrpg_spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:spider_eye"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:iron_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:spider"
+        ],
+		"experience": 100
+    },
+    "parent": "darkrpg:iron_ingot"
+}

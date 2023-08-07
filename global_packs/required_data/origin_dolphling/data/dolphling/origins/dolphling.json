@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:no_shield",
+        "origins:aquatic",
+        "origins:more_exhaustion",
+        "dolphling:water_breathing",
+        "dolphling:fishy_diet",
+        "dolphling:fishy_diet_buffs",
+        "dolphling:weak",
+        "dolphling:breaching",
+        "dolphling:echolocation",
+        "dolphling:dehydration",
+        "dolphling:water_vision"
+    ],
+    "icon": "minecraft:kelp",
+    "order": 0,
+    "impact": 3,
+    "name": "Dolphling",
+    "unchoosable": false,
+    "description": "The ambassador of the ocean."
+
+}

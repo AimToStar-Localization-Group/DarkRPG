@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Shroomy... (Quest)"},
+        "description": {"text": "Gather 10x Mycelium.  Reward: 120 Exp, 50x Crimson Nylium, 50x Warped Nylium."},
+        
+        "icon": {"item": "minecraft:mycelium"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_mycelium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:mycelium"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:mycelium"
+        ],
+		"experience": 120
+    },
+    "parent": "darkrpg:end_enderman"
+}

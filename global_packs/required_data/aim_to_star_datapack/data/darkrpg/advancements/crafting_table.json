@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Real Minecraft Starts Now (Quest)"},
+        "description": {"text": "Assault a tree, gather resources, make a Crafting Table.  Reward: 20 Exp, 10x Sticks."},
+        
+        "icon": {"item": "minecraft:crafting_table"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:crafting_table"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:crafting_table"
+        ],
+		"experience": 20
+    }
+	,
+    "parent": "darkrpg:info_story"
+}

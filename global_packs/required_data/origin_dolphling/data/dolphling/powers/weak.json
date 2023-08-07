@@ -1,0 +1,12 @@
+{
+    "name": "Weak",
+    "description": "Your species is naturally more fragile, sacrificing hardiness for underwater mobility. You only have 8 hearts.",
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "No health?",
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+    }
+
+}

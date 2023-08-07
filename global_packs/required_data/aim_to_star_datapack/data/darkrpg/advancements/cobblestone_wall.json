@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Entry Denied (Quest)"},
+        "description": {"text": "Craft 1x Cobblestone Wall.  Rewards: 30 Exp."},
+        
+        "icon": {"item": "minecraft:cobblestone_wall"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cobblestone_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cobblestone_wall"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:iron_bars"
+}

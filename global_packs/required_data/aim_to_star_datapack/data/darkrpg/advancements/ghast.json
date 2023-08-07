@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ghastly (Quest)"},
+        "description": {"text": "Kill Ghasts, Collect 20x Ghast Tears.  Reward: 150 Exp, 1x Warped Fungus on Stick, 5x Lanterns."},
+        
+        "icon": {"item": "minecraft:ghast_tear"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_ghast": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:ghast"
+	      }
+       }
+    },
+        "darkrpg_ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:ghast_tear"],
+                        "count": {
+                            "min": 20
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:ghast"
+        ],
+		"experience": 150
+    },
+    "parent": "darkrpg:bee"
+}

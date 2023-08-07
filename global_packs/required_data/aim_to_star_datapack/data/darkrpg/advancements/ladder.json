@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ladders Without Snakes (Quest)"},
+        "description": {"text": "Craft 5x Ladders.  Rewards: 30 Exp."},
+        
+        "icon": {"item": "minecraft:ladder"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_ladder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:ladder"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:charcoal"
+}

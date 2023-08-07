@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "DarkTides"},
+        "description": {"text": "Place a Diamond Shovel in offhand slot whilst underwater to gain Water Breathing, Speed, Night Vision."},
+        
+        "icon": {"item": "minecraft:pufferfish_bucket"},
+        "frame": "task",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "info_darktides": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {        
+		"experience": 0
+    }
+}

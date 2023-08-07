@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"fluffy:shearin_yaself",
+		"fluffy:stuffduringshear",
+		"fluffy:eat_up",
+		"fluffy:fluff_down",
+		"fluffy:beingsheared",
+		"fluffy:gettinsheared",
+		"fluffy:getshearedeffects",
+		"fluffy:current_color",
+		"fluffy:color_set",
+		"fluffy:currently_fluffy",
+		"fluffy:color_check",
+		"fluffy:soft_landing",
+		"fluffy:vegetarianism",
+		"fluffy:rainbowgapple",
+		"fluffy:rainbowgodapple",
+		"fluffy:grassblock",
+		"fluffy:grass",
+		"fluffy:tallgrass",
+		"fluffy:fern",
+		"fluffy:largefern"
+	],
+	"icon": "minecraft:pink_wool",
+	"order": 5,
+	"impact": 1,
+	"name": "Wooly",
+	"description": "Close kin of the sheep, you are especially fluffy"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:sonic_boom",
+  "frequency": 4,
+  "hidden": false,
+  "name": "boom",
+  "description": "after year of running from the wardens you have learned to mask your self from them."
+}

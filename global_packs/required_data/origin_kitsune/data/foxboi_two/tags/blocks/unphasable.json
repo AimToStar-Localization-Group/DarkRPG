@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:barrier",
+    "minecraft:bedrock",
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor",
+    "minecraft:obsidian",
+    "minecraft:enchanting_table",
+    "minecraft:ender_chest",
+    "minecraft:beacon"
+  ]
+}

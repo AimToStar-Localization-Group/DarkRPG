@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Pagemaster (Quest)"},
+        "description": {"text": "Craft 3x Books.  Rewards: 40 Exp."},
+        
+        "icon": {"item": "minecraft:book"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:book"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 40
+    },
+    "parent": "darkrpg:cobblestone_wall"
+}

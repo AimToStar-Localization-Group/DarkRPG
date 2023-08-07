@@ -1,0 +1,9 @@
+{
+    "name": "suffocation immunity",
+    "hidden": true,
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "inWall"
+    }
+}

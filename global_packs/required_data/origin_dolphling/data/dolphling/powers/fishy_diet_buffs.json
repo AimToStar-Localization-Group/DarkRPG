@@ -1,0 +1,224 @@
+{
+    "hidden": true, 
+   "type": "origins:multiple",
+
+    "cooked_salmon": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:cooked_salmon"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 6
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+
+    },
+
+    "cooked_cod": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:cooked_cod"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 4
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+
+    "dried_kelp": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:dried_kelp"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 3
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 1
+        },
+        "always_edible": true
+    },
+
+    "raw_cod": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:cod"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 3
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+   
+    "raw_salmon": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:salmon"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 3
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 1
+        }
+    },
+   
+    "tropical_fish": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:tropical_fish"
+            }
+        },
+        "food_modifier": {
+            "operation": "addition",
+            "value": 4
+        },
+        "saturation_modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "ink_sac": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                "type": "origins:equipped_item_action",
+                "action": {
+                "type": "origins:consume",
+                "amount": 1
+                },
+                "equipment_slot": "mainhand"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.generic.eat master @a ~ ~ ~ 0.35 1.1"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 6,
+                    "saturation": 6
+                }
+            ]
+        },
+        "cooldown": 5,
+        "key": {
+            "key": "key.use"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:ink_sac"
+                }
+                }
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+            
+        }
+    },
+
+    "glow_ink_sac": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                "type": "origins:equipped_item_action",
+                "action": {
+                "type": "origins:consume",
+                "amount": 1
+                },
+                "equipment_slot": "mainhand"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.generic.eat master @a ~ ~ ~ 0.35 1.1"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:glowing",
+                        "duration": 200,
+                        "is_ambient": true
+                    }
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 6,
+                    "saturation": 6
+                }
+            ]
+        },
+        "cooldown": 5,
+        "key": {
+            "key": "key.use"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:glow_ink_sac"
+                }
+                }
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+            
+        }
+    }
+}

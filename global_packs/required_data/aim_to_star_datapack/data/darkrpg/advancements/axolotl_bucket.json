@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Axolotl Testing (Quest)"},
+        "description": {"text": "Use a Bucket of Water to catch an Axolotl.  Reward: 200 Exp, 1x Grindstone."},
+        
+        "icon": {"item": "minecraft:axolotl_bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_axolotl_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:axolotl_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:axolotl": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:axolotl_bucket"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:axolotl"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ready, Set, Pull! (Quest)"},
+        "description": {"text": "Craft 2x Levers.  Rewards: 65 Exp."},
+        
+        "icon": {"item": "minecraft:lever"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_lever": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:lever"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 65
+    },
+    "parent": "darkrpg:iron_trapdoor"
+}

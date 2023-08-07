@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"biome": "minecraft:taiga",
+	"spawn_strategy": "default",
+	
+	"name": "Home Sweet Home",
+	"description": "Your natural spawnpoint is in the Taiga biome."
+}

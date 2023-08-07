@@ -1,0 +1,21 @@
+{
+    "name": "grenade incoming",
+    "description": "look out.",
+    "loading_priority": 10,
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wither_skull",
+    "cooldown": 150,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 15
+    },
+    "count": 1,
+    "speed": 3,
+    "divergence": 1,
+    "sound": "minecraft:entity.warden.roar",
+    "key":{
+        "key":"key.origins.primary_active",
+        "continuous":false
+     }
+}

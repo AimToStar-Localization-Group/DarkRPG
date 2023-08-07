@@ -1,0 +1,30 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "So cruel.. (Quest)"},
+        "description": {"text": "Hurt a Panda.  Reward: 10 Exp, 10x Slime Balls"},
+        
+        "icon": {"item": "minecraft:panda_spawn_egg"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_panda": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:panda"
+	      }
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:panda"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:raw_copper"
+}

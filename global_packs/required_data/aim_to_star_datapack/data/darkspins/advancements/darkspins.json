@@ -1,0 +1,23 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "XP Spinning Machine"},
+        "description": {"text": "Try your luck and win rewards! Gamble with your XP to win prizes..."},
+        
+        "icon": {"item": "minecraft:raw_gold_block"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkspins": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": ["minecraft:diamond_sword"]}],
+                           "player": {"stepping_on": {"block": {"blocks": ["minecraft:diamond_block"]}}
+                            }}}},
+    "rewards": {"function": "darkspins:darkspins"}
+,
+    "parent": "darkspins:root"
+}

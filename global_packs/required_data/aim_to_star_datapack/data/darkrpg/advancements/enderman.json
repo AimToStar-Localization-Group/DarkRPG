@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ender's Reach (Quest)"},
+        "description": {"text": "Travel to The End, Kill Endermen and collect 10x Ender Pearls.  Reward: 550 Exp, 20x Gold Ingots."},
+        
+        "icon": {"item": "minecraft:ender_pearl"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_enderman": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:enderman"
+	      }
+       }
+    },
+        "darkrpg_ender_pearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:ender_pearl"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:warped_fungus": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:enderman"
+        ],
+		"experience": 550
+    },
+    "parent": "darkrpg:warped_fungus"
+}

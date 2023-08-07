@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABC",
+		"DEF",
+		"GHI"
+	],
+	"key": {
+		"A": {"item": "mythicmetals:adamantite_ingot"},
+		"B": {"item": "mythicmetals:mythril_ingot"},
+		"C": {"item": "mythicmetals:orichalcum_ingot"},
+		"D": {"item": "mythicmetals:palladium_ingot"},
+		"E": {"item": "mythicmetals:unobtainium"},
+		"F": {"item": "mythicmetals:aquarium_ingot"},
+		"G": {"item": "mythicmetals:banglum_ingot"},
+		"H": {"item": "mythicmetals:bronze_ingot"},
+		"I": {"item": "minecraft:copper_ingot"}
+		},
+	"result": {
+		"item": "mythicmetals:metallurgium_ingot"
+	}
+}

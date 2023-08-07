@@ -1,0 +1,50 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Look at you now! (Quest)"},
+        "description": {"text": "Obtain all 4 pieces of Diamond Armor.  Reward: 150 Exp"},
+        
+        "icon": {"item": "minecraft:diamond_chestplate"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_diamond_armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:diamond_helmet"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_chestplate"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_leggings"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_boots"],
+                        "count": {
+                            "min": 1
+                        }
+                    }]
+		} }
+        
+    },
+    "rewards": {
+
+		"experience": 150
+    },
+    "parent": "darkrpg:red_banner"
+}

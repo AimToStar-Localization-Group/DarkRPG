@@ -1,0 +1,31 @@
+{
+    "__comment": "DarkSpins",
+    "display": {
+        "title": {
+            "text": "DarkSpins",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "Stand on a Diamond Block, Alternate a Diamond sword between main hand and offhand. Cost is 5 XP Levels per spin. Good Luck!"
+        },
+        "icon": {
+            "item": "minecraft:lime_glazed_terracotta"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "darkrpg_info_extras": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+        "experience" : 0
+    }
+}

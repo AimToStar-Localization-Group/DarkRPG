@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Look But Do Not Touch (Quest)"},
+        "description": {"text": "Gather 10x Cactus.  Reward: 120 Exp, 50x Clay."},
+        
+        "icon": {"item": "minecraft:cactus"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cactus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cactus"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:cactus"
+        ],
+		"experience": 120
+    },
+    "parent": "darkrpg:end_enderman"
+}

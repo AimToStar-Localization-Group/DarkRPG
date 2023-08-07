@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "I Love Spiders (Quest)"},
+        "description": {"text": "Kill More Spiders, Collect 50x Spider Eyes.  Reward: 500 Exp, 1x Iron Chestplate, 1x Diamond Boots."},
+        
+        "icon": {"item": "minecraft:cobweb"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_more_spider": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:spider"
+	      }
+       }
+    },
+        "darkrpg_more_spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:spider_eye"],
+                        "count": {
+                            "min": 50
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:spider": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_spider"
+        ],
+		"experience": 500
+    },
+    "parent": "darkrpg:spider"
+}

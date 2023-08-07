@@ -1,0 +1,20 @@
+{
+    "type": "origins:phasing",
+    "blacklist": true,
+    "render_type": "blindness",
+    "view_distance": 10,
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "foxboi_two:unphasable"
+    },
+    "phase_down_condition": {
+    "type": "origins:constant",
+    "value": false
+    },
+    "condition": {
+     "type": "origins:power_active",
+     "power": "*:phantomize"
+    },
+    "name": "Phasing [Secondary]",
+    "description": "You can walk through solid material, except obsidian, crying obsidian, barriers and bedrock, BUT you are unable to phase up or down."
+}

@@ -1,0 +1,15 @@
+{
+  "type": "origins:launch",
+  "cooldown": 100,
+  "hud_render": {
+      "bar_index": 4
+  },
+  "sound": "minecraft:entity.warden.sonic_boom",
+  "speed": 1,
+  "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": true
+  },
+  "name": "Warden Blast",
+  "description": "Since you have been down here so long you can use some of the wardens moves."
+}

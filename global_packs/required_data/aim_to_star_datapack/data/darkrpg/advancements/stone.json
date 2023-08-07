@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Stoned (Quest)"},
+        "description": {"text": "Mine some Cobblestone, Use a Furnace and make 5x Stone.  Reward: 30 Exp, 1x Fishing Rod, 1x Bow, 30x Arrows."},
+        
+        "icon": {"item": "minecraft:stone"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:stone"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_axe": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:stone"
+        ],
+		"experience": 30
+    },
+    "parent": "darkrpg:wooden_axe"
+}

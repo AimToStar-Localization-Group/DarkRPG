@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Real Fighter (Quest)"},
+        "description": {"text": "Craft a Wooden Sword.  Reward: 5 Exp, 30x Oak Planks, 2x Bowls."},
+        
+        "icon": {"item": "minecraft:wooden_sword"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_sword"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_axe": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_sword"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:wooden_axe"
+}

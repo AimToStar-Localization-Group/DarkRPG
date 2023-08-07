@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Dirt off your shoulders (Quest)"},
+        "description": {"text": "Get 2x Dirt.  Reward: 5 Exp, 1x Wooden Pickaxe."},
+        
+        "icon": {"item": "minecraft:dirt"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:dirt"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_sword": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:dirt"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:wooden_sword"
+}

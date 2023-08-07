@@ -1,0 +1,677 @@
+{
+    "name": "Dehydration",
+    "description": "Due to the nature of your kind, you slowly dry out on land. the Water Protection enchantment will reduce its effects to some point.",
+    "type": "origins:multiple",
+
+
+    "dryout_timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 360,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 10,
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_hydration_meter",
+                        "comparison": "==",
+                        "compare_to": 900
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_dryout_timer",
+                        "comparison": ">",
+                        "compare_to": 0
+                    }
+                ]
+            }
+        }
+    },
+
+    "hydration_meter": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 900,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 16,
+            "inverted": true,
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_dryout_timer",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_hydration_meter",
+                        "comparison": ">",
+                        "compare_to": 0
+                    }
+                ]
+            }
+        }
+    },
+
+    "dehydration_toggle": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+
+    "dehydration_go_up": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_hydration_meter",
+            "change": 1
+        },
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dehydration_toggle",
+            "change": 1,
+            "operation": "set"
+        },
+        "falling_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dehydration_toggle",
+            "change": 0,
+            "operation": "set"
+        },
+        "condition": {
+            "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:and",
+                        "conditions": [
+                                   {
+                                       "type": "origins:in_block",
+                                       "block_condition": {
+                                           "type": "origins:and",
+                                           "conditions": [
+                                               {
+                                                   "type": "origins:block",
+                                                   "block": "minecraft:water"
+                                               },
+                                               {
+                                                   "type": "origins:fluid",
+                                                   "fluid_condition": {
+                                                       "type": "origins:still"
+                                                   }
+                                               }
+                                           ]
+                                       }
+                                   },
+                                   {
+                                       "type": "origins:block_in_radius",
+                                       "block_condition": {
+                                           "type": "origins:and",
+                                           "conditions": [
+                                               {
+                                                   "type": "origins:block",
+                                                   "block": "minecraft:water"
+                                               },
+                                               {
+                                                   "type": "origins:fluid",
+                                                   "fluid_condition": {
+                                                       "type": "origins:still"
+                                                   }
+                                               }
+                                           ]
+                                       },
+                                       "radius": 1,
+                                       "shape": "cube",
+                                       "comparison": ">=",
+                                       "compare_to": 2
+                                   }
+                        ],
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:submerged_in",
+                        "fluid": "minecraft:water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:in_rain",
+                        "inverted": true
+                    }
+                    ]
+        }
+    },
+
+    "dryout_go_up": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dryout_timer",
+            "change": 1
+        },
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dehydration_toggle",
+            "change": 1,
+            "operation": "set"
+        },
+        "falling_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dehydration_toggle",
+            "change": 0,
+            "operation": "set"
+        },
+        "condition": {
+            "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:and",
+                        "conditions": [
+                                   {
+                                       "type": "origins:in_block",
+                                       "block_condition": {
+                                           "type": "origins:and",
+                                           "conditions": [
+                                               {
+                                                   "type": "origins:block",
+                                                   "block": "minecraft:water"
+                                               },
+                                               {
+                                                   "type": "origins:fluid",
+                                                   "fluid_condition": {
+                                                       "type": "origins:still"
+                                                   }
+                                               }
+                                           ]
+                                       }
+                                   },
+                                   {
+                                       "type": "origins:block_in_radius",
+                                       "block_condition": {
+                                           "type": "origins:and",
+                                           "conditions": [
+                                               {
+                                                   "type": "origins:block",
+                                                   "block": "minecraft:water"
+                                               },
+                                               {
+                                                   "type": "origins:fluid",
+                                                   "fluid_condition": {
+                                                       "type": "origins:still"
+                                                   }
+                                               }
+                                           ]
+                                       },
+                                       "radius": 1,
+                                       "shape": "cube",
+                                       "comparison": ">=",
+                                       "compare_to": 2
+                                   }
+                        ],
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:submerged_in",
+                        "fluid": "minecraft:water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:in_rain",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_hydration_meter",
+                        "comparison": "==",
+                        "compare_to": 900
+                    }
+                    ]
+        }
+    },
+
+    "dryout_go_down": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_dryout_timer",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dehydration_toggle",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_hydration_meter",
+                    "comparison": "==",
+                    "compare_to": 900
+                }
+            ]
+        }
+    },
+
+    "dehydration_go_down": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dolphling:dehydration_hydration_meter",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dehydration_toggle",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dryout_timer",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+
+    "debuff_weakness": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:weakness",
+                "duration": 200,
+                "amplifier": 0,
+                "show_icon": true,
+                "show_particles": false
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:dehydration_hydration_meter",
+            "comparison": ">=",
+            "compare_to": 900
+        }
+    },
+
+    "debuff_weakness_2_and_slowness": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:weakness",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "show_icon": true,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 200,
+                    "amplifier": 0,
+                    "show_icon": true,
+                    "show_particles": false
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:dehydration_dryout_timer",
+            "comparison": ">=",
+            "compare_to": 120
+        }
+    },
+    
+    "debuff_nausea": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:nausea",
+                "duration": 0,
+                "amplifier": 0
+            }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_dryout_timer",
+                        "comparison": "==",
+                        "compare_to": 180
+                        },
+                        {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_dryout_timer",
+                        "comparison": "==",
+                        "compare_to": 240
+                        },
+                        {
+                        "type": "origins:resource",
+                        "resource": "dolphling:dehydration_dryout_timer",
+                        "comparison": "==",
+                        "compare_to": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dehydration_toggle",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        }
+    },
+
+    "debuff_nausea_2": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                "type": "origins:apply_effect",
+                "effect": {
+                "effect": "minecraft:nausea",
+                "duration": 0,
+                "amplifier": 0
+            }
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "dolphling:dehydration_debuff_nausea_3"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dryout_timer",
+                    "comparison": "==",
+                    "compare_to": 360
+
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_dehydration_toggle",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dolphling:dehydration_debuff_nausea_3",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+
+    "debuff_nausea_3": {
+        "type": "origins:cooldown",
+        "cooldown": 300,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+
+
+    "debuff_slowness_2_weakness_2": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:weakness",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "show_icon": true,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "show_icon": true,
+                    "show_particles": false
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:dehydration_dryout_timer",
+            "comparison": ">=",
+            "compare_to": 300
+        }
+    },
+
+    "debuff_slowness_4": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:weakness",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "show_icon": true,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 200,
+                    "amplifier": 3,
+                    "show_icon": true,
+                    "show_particles": false
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dolphling:dehydration_dryout_timer",
+            "comparison": ">=",
+            "compare_to": 360
+        }
+    },
+
+    "no_health_regen_for_u": {
+        "type": "origins:disable_regen",
+        "condition": {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 300  
+        }
+    },
+
+    "aaaaaa": {
+        "type": "origins:shaking",
+        "condition": {
+            "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360  
+        }
+    },
+
+    "thats_alotta_damage": {
+        "type": "origins:damage_over_time",
+        "interval": 240,
+        "damage": 2,
+        "damage_source": {
+            "name": "dryout",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "origins:water_protection",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+
+    "thats_alotta_damage_2": {
+        "type": "origins:damage_over_time",
+        "interval": 480,
+        "damage": 2,
+        "damage_source": {
+            "name": "dryout",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "origins:water_protection",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        }
+    },
+
+    "thats_alotta_damage_3": {
+        "type": "origins:damage_over_time",
+        "interval": 720,
+        "damage": 2,
+        "damage_source": {
+            "name": "dryout",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "origins:water_protection",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 2
+                }
+            ]
+        }
+    },
+
+    "thats_alotta_damage_4": {
+        "type": "origins:damage_over_time",
+        "interval": 960,
+        "damage": 2,
+        "damage_source": {
+            "name": "dryout",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "origins:water_protection",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 3
+                }
+            ]
+        }
+    },
+
+    "thats_alotta_damage_5": {
+        "type": "origins:damage_over_time",
+        "interval": 300,
+        "damage": 1,
+        "damage_source": {
+            "name": "dryout",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:resource",
+                "resource": "dolphling:dehydration_dryout_timer",
+                "comparison": ">=",
+                "compare_to": 360
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "origins:water_protection",
+                    "calculation": "sum",
+                    "comparison": "==",
+                    "compare_to": 4
+                }
+            ]
+        }
+    }
+
+    
+}

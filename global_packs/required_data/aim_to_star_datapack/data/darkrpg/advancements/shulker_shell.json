@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Shell Power (Quest)"},
+        "description": {"text": "(Final Hard Quest) Find and kill Shulkers, Obtain 2x Shulker Shells.  Reward: 2000 Exp, 30x Diamonds, 15x Enchanted Golden Apples, 1x Netherite Chestplate, 1x Netherite Helmet."},
+        
+        "icon": {"item": "minecraft:shulker_shell"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_shulker_shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:shulker_shell"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:shulker_shell"
+        ],
+		"experience": 2000
+    },
+    "parent": "darkrpg:enderman"
+}

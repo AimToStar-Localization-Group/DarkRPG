@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "The Jailer (Quest)"},
+        "description": {"text": "Craft 16x Iron Bars.  Rewards: 30 Exp."},
+        
+        "icon": {"item": "minecraft:iron_bars"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_iron_bars": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:iron_bars"],
+                        "count": {
+                            "min": 16
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:shears"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Red Brick (Quest)"},
+        "description": {"text": "Craft 2x Nether Bricks.  Rewards: 70 Exp."},
+        
+        "icon": {"item": "minecraft:nether_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_nether_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:nether_bricks"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 70
+    },
+    "parent": "darkrpg:diamond_block2"
+}

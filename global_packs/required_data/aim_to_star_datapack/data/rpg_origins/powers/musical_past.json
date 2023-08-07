@@ -1,0 +1,11 @@
+{
+    "name": "Musical Past",
+    "description": "You've played goat horns in the past, and you still have one from a while ago.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:goat_horn",
+        "amount": 1,
+        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
+        "slot": 0
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Spacious (Quest)"},
+        "description": {"text": "Craft a Chest.  Reward: 10 Exp, 6x Copper Ingots, 1x Chest."},
+        
+        "icon": {"item": "minecraft:chest"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:chest"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:piglin": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:chest"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:piglin"
+}

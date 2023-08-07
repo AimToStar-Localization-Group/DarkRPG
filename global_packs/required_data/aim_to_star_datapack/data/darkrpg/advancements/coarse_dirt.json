@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Sophisticated Dirt (Quest)"},
+        "description": {"text": "Craft 3x Coarse Dirt.  Rewards: 70 Exp."},
+        
+        "icon": {"item": "minecraft:coarse_dirt"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_coarse_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:coarse_dirt"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 70
+    },
+    "parent": "darkrpg:bookshelf"
+}

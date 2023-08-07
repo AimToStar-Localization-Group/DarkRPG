@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_projectile_damage",
+	"name": "Paws",
+	"description": "You are unable to hold a shield and deal less damage with projectiles because of how your paws are built.",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.5
+    }
+}

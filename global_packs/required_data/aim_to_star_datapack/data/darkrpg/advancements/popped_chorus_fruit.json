@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Fruity Loops (Quest)"},
+        "description": {"text": "Smelt Chorus Fruits into Popped Chorus Fruit and obtain x4 of them.  Rewards: 150 Exp."},
+        
+        "icon": {"item": "minecraft:popped_chorus_fruit"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_popped_chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:popped_chorus_fruit"],
+                        "count": {
+                            "min": 4
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 150
+    },
+    "parent": "darkrpg:ender_chest"
+}

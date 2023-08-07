@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Strider Ender (Quest)"},
+        "description": {"text": "Kill a Strider. Reward: 320 Exp, 10x Amethyst Shards."},
+        
+        "icon": {"item": "minecraft:amethyst_shard"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_amethyst_shard": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:strider"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:strider"
+        ],
+		"experience": 320
+    },
+    "parent": "darkrpg:bee"
+}

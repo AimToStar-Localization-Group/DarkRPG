@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Bone Master (Quest)"},
+        "description": {"text": "Kill More Skeletons, Collect 50x Bones.  Reward: 500 Exp, 30 Apples, 20 Carrots, 5x Coal."},
+        
+        "icon": {"item": "minecraft:skeleton_skull"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_more_skeleton": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:skeleton"
+	      }
+       }
+    },
+        "darkrpg_more_bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:bone"],
+                        "count": {
+                            "min": 50
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:skeleton": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_skeleton"
+        ],
+		"experience": 100
+    },
+    "parent": "darkrpg:skeleton"
+}

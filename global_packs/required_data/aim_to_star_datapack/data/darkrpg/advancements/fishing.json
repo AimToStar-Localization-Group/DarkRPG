@@ -1,0 +1,52 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Amazing Fisher! (Quest)"},
+        "description": {"text": "Catch 64x of each type of Fish (Cod, Salmon, Pufferfish, Tropical).  Reward: 350 Exp, 5x Fishing Rods."},
+        
+        "icon": {"item": "minecraft:pufferfish"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:salmon"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:pufferfish"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:tropical_fish"],
+                        "count": {
+                            "min": 64
+                        }
+                    }]
+		} }
+        
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:fishing"
+        ],
+		"experience": 350
+    },
+    "parent": "darkrpg:diamond_armor"
+}

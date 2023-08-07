@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Precise Timekeeping (Quest)"},
+        "description": {"text": "Craft 1x Quartz Block.  Rewards: 85 Exp."},
+        
+        "icon": {"item": "minecraft:quartz_block"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_quartz_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:quartz_block"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 85
+    },
+    "parent": "darkrpg:quartz"
+}

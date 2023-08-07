@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Ender's End (Quest)"},
+        "description": {"text": "Travel to The End, Kill Endermen.  Reward: 220 Exp, 20x Bread, 15x Apples."},
+        
+        "icon": {"item": "minecraft:dirt"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_end_enderman": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:enderman"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:shulker_shell": "true"}}}
+		} }
+    },
+ 
+    "rewards": {
+        "loot": [
+            "darkrpg:end_enderman"
+        ],
+		"experience": 220
+    },
+    "parent": "darkrpg:shulker_shell"
+}
+

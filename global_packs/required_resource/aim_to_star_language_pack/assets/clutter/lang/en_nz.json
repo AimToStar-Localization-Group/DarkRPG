@@ -1,0 +1,16 @@
+{
+  "block.clutter.ripe_kiwi_leaves": "Ripe Kiwifruit Leaves",
+  "block.clutter.kiwi_leaves": "Kiwifruit Leaves",
+  "block.clutter.kiwi_tree_sapling": "Kiwifruit Sapling",
+  "block.clutter.kiwi_crop": "Kiwifruit Crop",
+  "block.clutter.kiwi_bird_egg": "Kiwi Egg",
+  "item.clutter.kiwi_bird_egg": "Kiwi Egg",
+  "item.clutter.kiwi": "Kiwifruit",
+  "item.clutter.kiwi_seeds": "Kiwifruit Seeds",
+  "item.clutter.kiwi_bird_spawn_egg": "Kiwi Spawn Egg",
+
+  "entity.clutter.kiwi_bird": "Kiwi",
+
+  "advancements.clutter.is_it_a_fruit.description": "Look at a Kiwi through a Spyglass",
+  "advancements.clutter.ya_think_its_a_bird.description": "Obtain a Kiwifruit"
+}

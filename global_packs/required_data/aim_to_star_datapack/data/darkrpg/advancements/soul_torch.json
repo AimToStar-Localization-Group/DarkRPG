@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Light Of The Soul (Quest)"},
+        "description": {"text": "Craft 1x Soul Torch.  Rewards: 100 Exp."},
+        
+        "icon": {"item": "minecraft:soul_torch"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_soul_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:soul_torch"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 100
+    },
+    "parent": "darkrpg:red_nether_bricks"
+}

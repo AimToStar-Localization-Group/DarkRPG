@@ -1,0 +1,42 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+	"type": "origins:and",
+	"conditions": [
+	  {
+		"type": "origins:food"
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "minecraft:fishes"
+		},
+		"inverted": true
+	  },
+	  {
+		"type": "origins:meat",
+		"inverted": true
+	  },
+	  {
+		"type": "origins:berries",
+		"inverted": true
+	  },
+	  {
+		 "type": "origins:ingredient",
+		 "ingredient": {
+		  "item": "glow_berries"
+		 },
+		 "inverted": true
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "item": "sweet_berries"
+		},
+		"inverted": true
+	  }
+	]
+  },
+  "name": "Vulpine Diet",
+  "description": "Kitsunes love berries and therefore they cure 4 hunger points and 14.4 saturation points (like the golden carrot) & your diet is restricted to meat, fish, and berries, so you can't really eat vegetables."
+}

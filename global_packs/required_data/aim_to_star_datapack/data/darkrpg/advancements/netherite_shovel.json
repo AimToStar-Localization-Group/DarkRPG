@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Dig Site (Quest)"},
+        "description": {"text": "Craft a Netherite Shovel.  Reward: 65 Exp, 1x Netherite Boots, 2x Experience Bottles."},
+        
+        "icon": {"item": "minecraft:netherite_shovel"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_netherite_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:netherite_shovel"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:netherite_shovel"
+        ],
+		"experience": 65
+    },
+    "parent": "darkrpg:end_enderman"
+}

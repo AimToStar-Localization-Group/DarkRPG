@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Zonal Equality (Quest)"},
+        "description": {"text": "Gather 10x Podzol.  Reward: 120 Exp, 50x Pumpkin, 20x Carved Pumpkin."},
+        
+        "icon": {"item": "minecraft:podzol"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_podzol": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:podzol"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:podzol"
+        ],
+		"experience": 120
+    },
+    "parent": "darkrpg:end_enderman"
+}

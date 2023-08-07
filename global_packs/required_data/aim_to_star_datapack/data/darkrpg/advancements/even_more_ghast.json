@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Even More Ghastly (Quest)"},
+        "description": {"text": "Kill Ghasts, Collect 60x Ghast Tears.  Reward: 2000 Exp, 2x Sea Lanterns."},
+        
+        "icon": {"item": "minecraft:ghast_tear"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_even_more_ghast": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:ghast"
+	      }
+       }
+    },
+        "darkrpg_even_more_ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:ghast_tear"],
+                        "count": {
+                            "min": 60
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:more_ghast": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:even_more_ghast"
+        ],
+		"experience": 2000
+    },
+    "parent": "darkrpg:more_ghast"
+}

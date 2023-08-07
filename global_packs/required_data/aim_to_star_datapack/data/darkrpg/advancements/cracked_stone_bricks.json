@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Earthquake (Quest)"},
+        "description": {"text": "Craft 4x Cracked Stone Bricks.  Rewards: 50 Exp."},
+        
+        "icon": {"item": "minecraft:cracked_stone_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cracked_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cracked_stone_bricks"],
+                        "count": {
+                            "min": 4
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 50
+    },
+    "parent": "darkrpg:bone_block"
+}

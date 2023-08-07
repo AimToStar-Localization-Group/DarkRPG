@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Repair, Rename and Combine! (Quest)"},
+        "description": {"text": "Craft 1x Anvil.  Rewards: 65 Exp."},
+        
+        "icon": {"item": "minecraft:anvil"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:anvil"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 65
+    },
+    "parent": "darkrpg:iron_boots"
+}

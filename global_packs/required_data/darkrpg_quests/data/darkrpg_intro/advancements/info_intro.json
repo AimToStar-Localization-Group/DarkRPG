@@ -1,0 +1,27 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "==DarkRPG Instructions=="},
+        "description": {"text": "Press L for Quests, O for Origin info, /trigger.. to RTP/Spawn, M for Map, C to Zoom. Use Orb of Orgin to change your origin. Complete quests or play the casino for more rewards!"},
+        
+        "icon": {"item": "minecraft:bread"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_intros": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"function":"darkrpg_intro:intro",
+		"experience": 1
+    },
+    "parent": "darkrpg:root"
+}

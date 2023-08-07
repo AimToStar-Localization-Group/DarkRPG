@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Warped Fungus Anyone? (Quest)"},
+        "description": {"text": "Get a Warped Fungus.  Reward: 50 Exp, 1x Netherite Sword."},
+        
+        "icon": {"item": "minecraft:warped_fungus"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_warped_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:warped_fungus"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:strider": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:warped_fungus"
+        ],
+		"experience": 50
+    },
+    "parent": "darkrpg:strider"
+}

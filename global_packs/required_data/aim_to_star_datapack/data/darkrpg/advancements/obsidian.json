@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Obsidianary (Quest)"},
+        "description": {"text": "Mine Obsidian.  Reward: 50 Exp, 1x Iron Sword, 1x Iron Helm."},
+        
+        "icon": {"item": "minecraft:obsidian"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:obsidian"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:spider": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:obsidian"
+        ],
+		"experience": 50
+    },
+    "parent": "darkrpg:spider"
+}

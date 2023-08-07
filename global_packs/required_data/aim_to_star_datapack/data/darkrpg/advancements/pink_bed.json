@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Cozy (Quest)"},
+        "description": {"text": "Craft a Pink Bed using Pink Wool.  Reward: 5 Exp, 2x Shulker Boxes."},
+        
+        "icon": {"item": "minecraft:pink_bed"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_pink_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:pink_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:white_wool": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:pink_bed"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:white_wool"
+}

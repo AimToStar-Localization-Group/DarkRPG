@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Farmer's Request (Quest)"},
+        "description": {"text": "Craft a Wooden Hoe.  Reward: 10 Exp, 30x Oak Fence."},
+        
+        "icon": {"item": "minecraft:wooden_hoe"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_hoe"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_sword": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_hoe"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:wooden_sword"
+}

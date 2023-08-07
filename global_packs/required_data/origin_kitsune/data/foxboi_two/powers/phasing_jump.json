@@ -1,0 +1,12 @@
+{
+	"hidden": true,
+	"type": "origins:modify_jump",
+	"modifier": {
+		"operation": "addition",
+		"value": -1.0
+	},
+	"condition": {
+		"type": "origins:power_active",
+		"power": "*:phantomize"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "Mighty Mouth",
+  "description": "You carry a secret stash that no one but you has acccess to. You can access this pouch by using your load hotbar activator key."
+}
