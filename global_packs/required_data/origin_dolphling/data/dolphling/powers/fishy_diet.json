@@ -1,6 +1,6 @@
 {
-    "name": "Fishy Diet",
-    "description": "You have evolved to only be able to eat fish.",
+    "name": "鱼类食性",
+    "description": "你已经进化得只能以鱼类为食。",
     "type": "origins:prevent_item_use",
     "item_condition": {
         "type": "origins:and",

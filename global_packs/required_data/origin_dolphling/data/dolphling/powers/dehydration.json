@@ -1,6 +1,6 @@
 {
-    "name": "Dehydration",
-    "description": "Due to the nature of your kind, you slowly dry out on land. the Water Protection enchantment will reduce its effects to some point.",
+    "name": "脱水",
+    "description": "由于你的种族特性，你会在陆地上慢慢变干。防水附魔能在一定程度上减少脱水的影响。",
     "type": "origins:multiple",
 
 
