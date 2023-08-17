@@ -15,6 +15,6 @@
         "icon": "minecraft:echo_shard",
         "order": 10,
         "impact": 3,
-        "name": "Warden Hunter",
-        "description": "A hunter of the Warden."
+        "name": "监守者猎人",
+        "description": "监守者猎人。"
     }
