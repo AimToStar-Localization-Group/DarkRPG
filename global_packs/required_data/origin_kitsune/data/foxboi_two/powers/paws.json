@@ -1,7 +1,7 @@
 {
     "type": "origins:modify_projectile_damage",
-	"name": "Paws",
-	"description": "You are unable to hold a shield and deal less damage with projectiles because of how your paws are built.",
+	"name": "兽爪",
+	"description": "由于你的兽爪构造，你无法持盾，造成的远程伤害也降低。You are unable to hold a shield and deal less damage with projectiles because of how your paws are built.",
     "modifier": {
         "operation": "multiply_total",
         "value": -0.5
