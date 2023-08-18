@@ -1,6 +1,6 @@
 {
-    "name": "Brewer",
-    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last 1.5 times longer.",
+    "name": "酿造师",
+    "description": "你在酿造这方面经验丰富，所以迅捷、再生、跳跃和力量效果会持续1.5倍时间。",
     "hidden": true,
     "type": "origins:modify_status_effect_duration",
     "status_effect": "minecraft:speed",

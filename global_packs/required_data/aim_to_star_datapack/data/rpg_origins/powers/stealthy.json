@@ -1,6 +1,6 @@
 {
-    "name": "Stealthy",
-    "description": "Whenever you crouch, you can't be seen, but you can't attack while you're invisible, and 3 seconds after.",
+    "name": "潜行",
+    "description": "当你蹲下时，你会隐身，然而你隐身时及破隐后的三秒内不能攻击",
     "condition": {
         "type": "origins:sneaking"
     },

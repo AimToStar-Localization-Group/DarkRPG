@@ -1,6 +1,6 @@
 {
-    "name": "Stealthy Invis",
-    "description": "The invisible effect for steathy",
+    "name": "隐匿无踪",
+    "description": "你潜行时会隐身",
     "hidden": true,
     "condition": {
         "type": "origins:sneaking"

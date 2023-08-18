@@ -1,6 +1,6 @@
 {
-    "name": "Resourceful",
-    "description": "Whenever you are near a fletching table, you can craft more arrows.",
+    "name": "心灵手巧",
+    "description": "当你处在制箭台周围时，你可以合成更多的箭矢。",
     "condition": {
         "type": "origins:block_in_radius",
         "block_condition": {

@@ -1,10 +1,10 @@
 {
-    "name": "Decoy",
-    "description": "Many people have used you as their decoy, so you've adapted to run faster whenever you're weak.",
+    "name": "诱饵",
+    "description": "很多人把你当做他们的诱饵，这使得你可以在身体虚弱的时候跑的更快。",
     "condition": {
         "type": "origins:health",
         "comparison": "<=",
-        "compare_to": 5
+        "compare_to": 5   
     },
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,

@@ -1,6 +1,6 @@
 {
-    "name": "Speedy",
-    "description": "You're faster than normal.",
+    "name": "来去如风",
+    "description": "你比往常更快。",
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,
     "max_stacks": 1,
