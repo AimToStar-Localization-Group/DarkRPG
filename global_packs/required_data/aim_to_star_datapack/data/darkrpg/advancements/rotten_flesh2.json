@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Dedicated Survivor (Quest)"},
-        "description": {"text": "Gather 40x Rotten Flesh.  Rewards: 50 Exp."},
+        "title": {"text": "职业幸存者（任务）"},
+        "description": {"text": "收集40个腐肉。奖励：50经验值。"},
         
         "icon": {"item": "minecraft:rotten_flesh"},
         "frame": "challenge",

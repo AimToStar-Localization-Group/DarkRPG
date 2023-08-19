@@ -1,7 +1,7 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Ender's Reach (Quest)"},
+        "title": {"text": "末影将至（任务）"},
         "description": {"text": "Travel to The End, Kill Endermen and collect 10x Ender Pearls.  Reward: 550 Exp, 20x Gold Ingots."},
         
         "icon": {"item": "minecraft:ender_pearl"},

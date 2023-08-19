@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Boat Trip (Quest)"},
-        "description": {"text": "Craft an Oak Boat.  Reward: 10 Exp, 1x Iron Boots"},
+        "title": {"text": "乘船旅行（任务）"},
+        "description": {"text": "制作橡木船。奖励：10经验值，1个铁靴子。"},
         
         "icon": {"item": "minecraft:oak_boat"},
         "frame": "challenge",

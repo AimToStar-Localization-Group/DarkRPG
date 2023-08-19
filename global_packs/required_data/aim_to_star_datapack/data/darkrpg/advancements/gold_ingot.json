@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Golden Blacksmith (Quest)"},
-        "description": {"text": "Collect 2x Gold Ingots.  Reward: 15 Exp, 5x Golden Apples, 1x Anvil."},
+        "title": {"text": "金匠（任务）"},
+        "description": {"text": "收集2个金锭。奖励：15经验值，5个金苹果，1个铁砧。"},
         
         "icon": {"item": "minecraft:gold_ingot"},
         "frame": "challenge",

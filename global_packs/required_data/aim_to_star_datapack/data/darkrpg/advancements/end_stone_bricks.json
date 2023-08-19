@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "End Foundation (Quest)"},
-        "description": {"text": "Gather 20x End Stone Bricks.  Reward: 150 Exp, 14x Glass, 2x Eye of the Ender."},
+        "title": {"text": "末地地基（任务）"},
+        "description": {"text": "收集20个末地石砖。奖励：150经验值，14个玻璃，2个末影之眼。"},
         
         "icon": {"item": "minecraft:end_stone_bricks"},
         "frame": "challenge",

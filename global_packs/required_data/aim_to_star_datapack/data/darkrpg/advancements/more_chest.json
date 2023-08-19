@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Packed Lunch (Quest)"},
-        "description": {"text": "Craft 5x Chests.  Reward: 20 Exp, 1x Pink Shulker Box."},
+        "title": {"text": "盒装餐（任务）"},
+        "description": {"text": "制作5个箱子。奖励：20经验值，1个粉红色潜影盒。"},
         
         "icon": {"item": "minecraft:pink_shulker_box"},
         "frame": "challenge",

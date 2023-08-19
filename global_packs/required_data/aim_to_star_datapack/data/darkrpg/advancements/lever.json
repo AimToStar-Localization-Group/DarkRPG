@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Ready, Set, Pull! (Quest)"},
-        "description": {"text": "Craft 2x Levers.  Rewards: 65 Exp."},
+        "title": {"text": "预备，就绪，拉！（任务）"},
+        "description": {"text": "制作2个拉杆。奖励：65经验值。"},
         
         "icon": {"item": "minecraft:lever"},
         "frame": "challenge",

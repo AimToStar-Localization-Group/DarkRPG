@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Man VS Bee (Quest)"},
-        "description": {"text": "Kill a Bee. Reward: 30 Exp, 15x Honey Bottles, 1x Diamond Sword, 10x Red Wool."},
+        "title": {"text": "人VS蜂（任务）"},
+        "description": {"text": "杀死蜜蜂。奖励：30经验值，15个蜂蜜瓶，1把钻石剑，10个红色羊毛。"},
         
         "icon": {"item": "minecraft:honey_bottle"},
         "frame": "challenge",

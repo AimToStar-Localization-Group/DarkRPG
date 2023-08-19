@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Look at you now! (Quest)"},
-        "description": {"text": "Obtain all 4 pieces of Diamond Armor.  Reward: 150 Exp"},
+        "title": {"text": "看看你自己！（任务）"},
+        "description": {"text": "集齐钻石盔甲的4件套。奖励：150经验值。"},
         
         "icon": {"item": "minecraft:diamond_chestplate"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Reinforced Privacy (Quest)"},
-        "description": {"text": "Craft 6x Blackstone Walls.  Rewards: 70 Exp."},
+        "title": {"text": "加强隐私防范（任务）"},
+        "description": {"text": "制造6个黑石墙。奖励：70经验值。"},
         
         "icon": {"item": "minecraft:blackstone_wall"},
         "frame": "challenge",

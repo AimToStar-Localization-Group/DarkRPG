@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Amazing Fisher! (Quest)"},
-        "description": {"text": "Catch 64x of each type of Fish (Cod, Salmon, Pufferfish, Tropical).  Reward: 350 Exp, 5x Fishing Rods."},
+        "title": {"text": "强力渔夫！（任务）"},
+        "description": {"text": "收集各种各样的鱼各64个（鳕鱼，鲑鱼，河豚，热带鱼）奖励：350经验值，5根钓鱼竿。"},
         
         "icon": {"item": "minecraft:pufferfish"},
         "frame": "challenge",

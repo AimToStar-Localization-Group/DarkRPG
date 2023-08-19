@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Ghastly (Quest)"},
-        "description": {"text": "Kill Ghasts, Collect 20x Ghast Tears.  Reward: 150 Exp, 1x Warped Fungus on Stick, 5x Lanterns."},
+        "title": {"text": "惊魂失魄（任务）"},
+        "description": {"text": "杀死恶魂，并收集20个恶魂之泪。奖励：150经验值，1个诡异菌钓竿，5个灯笼。"},
         
         "icon": {"item": "minecraft:ghast_tear"},
         "frame": "challenge",

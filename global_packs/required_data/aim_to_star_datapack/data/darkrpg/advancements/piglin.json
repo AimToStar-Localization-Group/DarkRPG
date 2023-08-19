@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Piglin Assault (Quest)"},
-        "description": {"text": "(Final Easy Quest) Craft a Nether Portal and Kill a Piglin in the Nether.  Reward: 1000 Exp, 10x Diamonds, 1x Green Dye, 1x Yellow Dye, 1x Blue Dye, 1x Pink Dye, 1x Orange Dye, 1x Cyan Dye, 5 Torches."},
+        "title": {"text": "猪灵小分队（任务）"},
+        "description": {"text": "（简单任务完结）制作下界传送门，并在下界杀死猪灵。奖励：1000经验值，10颗钻石，1个绿色染色染料，1个黄色染色染料，1个蓝色染色染料，1个粉色染色染料，1个橙色染色染料，1个青色染色染料，5个火把。"},
         
         "icon": {"item": "minecraft:raw_gold"},
         "frame": "challenge",

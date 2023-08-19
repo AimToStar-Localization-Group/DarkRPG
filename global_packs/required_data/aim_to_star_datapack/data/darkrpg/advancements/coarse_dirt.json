@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Sophisticated Dirt (Quest)"},
-        "description": {"text": "Craft 3x Coarse Dirt.  Rewards: 70 Exp."},
+        "title": {"text": "精致泥土（任务）"},
+        "description": {"text": "制造3个砂土.奖励：70经验值。"},
         
         "icon": {"item": "minecraft:coarse_dirt"},
         "frame": "challenge",

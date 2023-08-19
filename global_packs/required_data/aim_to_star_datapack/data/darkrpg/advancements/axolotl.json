@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Axolotl Investigation (Quest)"},
-        "description": {"text": "Kill an Axolotl. Reward: 500 Exp, 1x Bucket."},
+        "title": {"text": "美西螈调研（任务）"},
+        "description": {"text": "杀死美西螈。奖励：500经验值，1个桶。"},
         
         "icon": {"item": "minecraft:bucket"},
         "frame": "challenge",

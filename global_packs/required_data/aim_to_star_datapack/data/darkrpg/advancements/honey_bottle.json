@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Soothing.. (Quest)"},
-        "description": {"text": "Craft 1x Honey Bottle.  Rewards: 80 Exp."},
+        "title": {"text": "舒缓…（任务）"},
+        "description": {"text": "制造1个蜂蜜瓶。奖励：80经验值。"},
         
         "icon": {"item": "minecraft:honey_bottle"},
         "frame": "challenge",

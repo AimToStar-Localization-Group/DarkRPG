@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Hoarder! (Quest)"},
-        "description": {"text": "Collect 64x Diamond Blocks.  Reward: 200 Exp, 10x Emerald Blocks, 10x Gold Blocks."},
+        "title": {"text": "屯积者！（任务）"},
+        "description": {"text": "收集64个钻石块。奖励：200经验值，10个绿宝石块，10个金块。"},
         
         "icon": {"item": "minecraft:diamond_block"},
         "frame": "challenge",
