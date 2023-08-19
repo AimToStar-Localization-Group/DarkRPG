@@ -2,11 +2,11 @@
     "__comment": "DarkSpins",
     "display": {
         "title": {
-            "text": "DarkSpins",
+            "text": "暗黑转盘",
             "color": "dark_green"
         },
         "description": {
-            "text": "Stand on a Diamond Block, Alternate a Diamond sword between main hand and offhand. Cost is 5 XP Levels per spin. Good Luck!"
+            "text": "站在一个钻石块上，在主手和副手之间交换一把钻石剑。每次旋转转盘的花费是5级。祝你好运！"
         },
         "icon": {
             "item": "minecraft:lime_glazed_terracotta"
