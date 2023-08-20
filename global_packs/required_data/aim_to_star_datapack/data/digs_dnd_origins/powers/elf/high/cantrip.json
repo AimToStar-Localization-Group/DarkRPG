@@ -1,5 +1,5 @@
 {
-  "name": "Cantrip",
-  "description": "You know one cantrip of your choice from the following list: Firebolt, Poison Spray, Ray of Frost or Lightning Lure. You will pick your cantrip upon selecting this subrace.",
+  "name": "法术",
+  "description": "你可以从以下列表中选择一个法术并习得：焚射术，毒素溅射，寒冰射线和闪电之鞭。选择该亚种后，你将选择你的法术。",
   "type": "origins:simple"
 }

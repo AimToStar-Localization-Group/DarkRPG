@@ -5,6 +5,6 @@
 	"icon": "minecraft:shield",
 	"order": 1,
 	"impact": 0,
-	"name": "Sentinel",
-	"description": "When you hit a creature who is facing away from you, either for running away or attacking and ally, the target will be stunned for 6 seconds. This ability has a 6 second cooldown and does not work on other sentinels. You take 50% increased damage from projectiles."
+	"name": "哨兵",
+	"description": "攻击时，如果这个生物没有看向你、正在逃跑或者攻击你的伙伴，你会使目标眩晕6秒。这个能力有6秒的冷却，同时无法对其他哨兵生效。你受到的投射物伤害增加50%。"
 }

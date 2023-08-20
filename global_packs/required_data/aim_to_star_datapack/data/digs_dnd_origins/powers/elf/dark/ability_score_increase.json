@@ -1,6 +1,6 @@
 {
-	"name": "Ability Score Increase",
-	"description": "Due to your increased intelligence, your frost spell power is increased by 1.",
+	"name": "能力值提升",
+	"description": "由于智力增加，你的寒冰法术威力增加1。",
 	"type": "origins:attribute",
     "modifier": {
         "attribute": "spell_power:frost",

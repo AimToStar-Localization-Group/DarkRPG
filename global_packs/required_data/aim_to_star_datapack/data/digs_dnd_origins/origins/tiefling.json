@@ -12,6 +12,6 @@
   "icon": "minecraft:fire_charge",
   "order": 0,
   "impact": 1,
-  "name": "Tiefling",
-  "description": "Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance."
+  "name": "魔裔",
+  "description": "魔人起源于人类血统，从最广泛的意义来说，他们仍然长得像人类。然而，来自恶魔的遗传还是在他们的外貌上留下了清晰的印记。"
 }

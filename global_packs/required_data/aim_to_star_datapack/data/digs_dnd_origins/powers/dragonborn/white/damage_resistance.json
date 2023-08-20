@@ -1,6 +1,6 @@
 {
-	"name": "Damage Resistance",
-	"description": "You take half damage from freezing and slowness lasts half as long on you.",
+	"name": "抗性",
+	"description": "寒冰对你造成的伤害减半，你受到的缓慢效果持续时间减半。",
 	"type": "origins:multiple",
 	"freeze": {
 		"type": "origins:modify_damage_taken",

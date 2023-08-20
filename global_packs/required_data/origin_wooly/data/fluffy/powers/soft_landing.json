@@ -4,7 +4,7 @@
 		"type": "origins:invulnerability",
 		"damage_condition": {
 			"type": "origins:name",
-			"name": "fall"
+			"name": "摔落"
 		},
 		"condition": {
 			"type": "origins:in_block",
@@ -194,7 +194,7 @@
 		"type": "origins:modify_damage_taken",
 		"damage_condition": {
 			"type": "origins:name",
-			"name": "fall"
+			"name": "摔落"
 		},
 		"modifier": {
 			"name": "bouncy wool hehe",

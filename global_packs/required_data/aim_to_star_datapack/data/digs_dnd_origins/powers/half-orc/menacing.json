@@ -1,6 +1,6 @@
 {
-    "name": "Intimidating",
-    "description": "You are proficient in being intimidating, too proficient. Villagers are too afraid of you to trade.",
+    "name": "望风破胆",
+    "description": "你太令人生畏了，简直闻名丧胆。村民们太害怕你以至于不敢和你交易。",
     "type": "origins:prevent_entity_use",
     "bientity_condition": {
         "type": "origins:target_condition",

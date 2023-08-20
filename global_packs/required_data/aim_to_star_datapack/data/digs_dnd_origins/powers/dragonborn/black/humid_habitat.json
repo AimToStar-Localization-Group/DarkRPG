@@ -1,6 +1,6 @@
 {
-	"name": "Humid Habitat",
-	"description": "Whenever you are in a dry biome you will be slowed and weakened.",
+	"name": "潮湿的栖息地",
+	"description": "只要待在干燥的群系，你就会变得虚弱，同时移速变慢。",
     "type": "origins:multiple",
     
     "debuffs": {

@@ -1,6 +1,6 @@
 {
-  "name": "Range",
-  "description": "8 Blocks",
+  "name": "范围",
+  "description": "8个方块",
   "type": "origins:multiple",
 
   "firebolt": {
@@ -27,7 +27,7 @@
           "type": "origins:damage",
           "amount": 4,
           "source": {
-            "name": "wither",
+            "name": "凋零",
             "magic": true,
             "bypasses_armor": false
           }

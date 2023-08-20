@@ -1,6 +1,6 @@
 {
-  "name": "Darkness",
-  "description": "Magical darkness spreads from a point you are aiming at for a duration of 10 minutes. If you target an entity with this ability then the darkness moves with them. Activating this ability a second time or taking damage will cause the effect to drop.",
+  "name": "永夜",
+  "description": "带有魔法的黑暗从你指尖所指的地方四散开来，持续时间10分钟。如果你的目标是一个实体，这片黑暗将和它一起移动，如影随形。再次使用技能或受到伤害会导致技能失效。",
   "type": "origins:multiple",
 
   "cast": {

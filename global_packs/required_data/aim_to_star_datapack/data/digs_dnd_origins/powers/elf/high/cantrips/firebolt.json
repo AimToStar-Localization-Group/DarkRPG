@@ -1,6 +1,6 @@
 {
-  "name": "Range",
-  "description": "35 Blocks",
+  "name": "范围",
+  "description": "35个方块",
   "type": "origins:multiple",
 
   "firebolt": {
@@ -27,7 +27,7 @@
           "type": "origins:damage",
           "amount": 3,
           "source": {
-            "name": "onFire",
+            "name": "点火",
             "fire": true,
             "bypasses_armor": false
           }

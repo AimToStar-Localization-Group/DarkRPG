@@ -1,6 +1,6 @@
 {
-  "name": "Dwarven Resilience",
-  "description": "The poison status effect lasts half as long for you.",
+  "name": "矮人的韧性",
+  "description": "你的中毒状态持续时间减半。",
   "type": "origins:modify_status_effect_duration",
   "status_effect": "minecraft:poison",
   "modifier": {

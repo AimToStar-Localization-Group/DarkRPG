@@ -1,6 +1,6 @@
 {
-    "name": "Elf Weapon Training",
-    "description": "You have proficiency with the sword and bow, dealing 2 extra damage with both.",
+    "name": "精灵武器训练",
+    "description": "你精通剑和弓，使用时都能额外造成2点伤害。",
     "type": "origins:multiple",
     "melee": {
         "type": "origins:modify_damage_dealt",

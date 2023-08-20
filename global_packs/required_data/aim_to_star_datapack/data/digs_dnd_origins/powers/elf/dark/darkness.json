@@ -1,6 +1,6 @@
 {
-  "name": "Darkness",
-  "description": "Magical darkness spreads from a point you are aiming at within range to fill a 5 block radius sphere for the duration. A creature with darkvision cannot see through this darkness, and non magical light can't illuminate it. If the point you choose is an entity then the darkness emanates from them and moves with them. Activating this ability a second time or taking damage will cause the effect to end early.",
+  "name": "永夜",
+  "description": "在施法范围内，以你所指的位点为圆心，向外五个方块的球形区域都将被带有魔法的黑暗覆盖。即使是拥有夜视能力的生物也无法看破这片黑暗，只有同样带有魔法的光才能点亮这片区域。如果你所指的是一个实体，这片黑暗将以他为圆心向外扩散，如影随形。再次使用技能或受到伤害会导致技能更早失效。",
   "type": "origins:multiple",
 
   "cast": {

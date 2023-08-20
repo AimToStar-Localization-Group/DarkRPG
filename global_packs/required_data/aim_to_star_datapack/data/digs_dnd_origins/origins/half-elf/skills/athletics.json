@@ -5,6 +5,6 @@
 	"icon": "minecraft:iron_sword",
 	"order": 1,
 	"impact": 0,
-	"name": "Athletics",
-	"description": "You deal and resist 10% more knockback."
+	"name": "健将",
+	"description": "你造成的击退效果和你的击退抗性都增加10%。"
 }

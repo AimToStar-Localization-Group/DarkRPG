@@ -1,6 +1,6 @@
 {
-  "name": "Faerie Fire",
-  "description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute. Activating this ability a second time or taking damage will cause the effect to end early.",
+  "name": "精灵之火",
+  "description": "目标点周围的6个方块内，每一个实体都会被附上发光效果。这个区域会维持一分钟，让实体发光。再次使用技能或受到伤害会使技能效果更早失效。",
   "type": "origins:multiple",
 
   "cast": {

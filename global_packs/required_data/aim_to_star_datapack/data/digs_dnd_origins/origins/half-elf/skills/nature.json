@@ -5,6 +5,6 @@
 	"icon": "minecraft:wheat",
 	"order": 1,
 	"impact": 0,
-	"name": "Nature",
-	"description": "When using bonemeal on crops, the bonemeal effect is applied twice."
+	"name": "自然",
+	"description": "对农作物使用骨粉时，骨粉效果会生效两次。"
 }

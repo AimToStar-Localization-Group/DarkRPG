@@ -5,6 +5,6 @@
 	"icon": "minecraft:leather_chestplate",
 	"order": 1,
 	"impact": 0,
-	"name": "Lightly Armored",
-	"description": "You have trained to master the use of light armor. You gain proficiency with light armor, giving you +2 to your armor toughness while a full set of chainmail or lighter is equipped. You are 5% slower while benefiting from this effect."
+	"name": "轻型装甲",
+	"description": "精通轻甲的你在使用方面训练有素。穿戴一整套锁链及以下的盔甲时，盔甲韧性增加2。受益的同时，你的移速也降低了5%。"
 }

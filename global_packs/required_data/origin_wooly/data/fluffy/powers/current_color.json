@@ -7,6 +7,6 @@
 		"should_render": false,
 		"bar_index": 10
 	},
-	"name": "Effort",
-	"description": "Getting all that wool sheared is quite the effort, and tends to drain your hunger."
+	"name": "努力",
+	"description": "剪掉所有的羊毛是很费劲的，往往能耗空你的饥饿值。"
 }

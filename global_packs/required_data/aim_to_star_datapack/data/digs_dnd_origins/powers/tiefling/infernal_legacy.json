@@ -1,5 +1,5 @@
 {
-  "name": "Infernal Legacy",
-  "description": "You can cast the hellish rebuke and darkness spells once each with this ability. You regain the ability to do so once you take a long rest in a bed.",
+  "name": "恶魔传承",
+  "description": "拥有该能力，你能施展地狱反击和永夜法术各一次。只有在床上长时间休息后你才能再次获得该能力。",
   "type": "origins:simple"
 }

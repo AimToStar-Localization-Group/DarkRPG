@@ -1,6 +1,6 @@
 {
-	"name": "Lucky",
-	"description": "You find better loot in chests and when fishing.",
+	"name": "幸运",
+	"description": "你能在钓鱼和搜刮箱子时获得更好的宝藏和战利品。",
 	"type": "origins:attribute",
 	"modifier": {
         "attribute": "generic.luck",

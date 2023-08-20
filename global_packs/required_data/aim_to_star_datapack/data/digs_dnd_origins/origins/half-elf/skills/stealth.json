@@ -5,6 +5,6 @@
 	"icon": "minecraft:black_dye",
 	"order": 1,
 	"impact": 0,
-	"name": "Stealth",
-	"description": "Most of your movements do not trigger sculk sensors."
+	"name": "秘密行动",
+	"description": "你的大部分移动都不会惊动幽匿感测体。"
 }

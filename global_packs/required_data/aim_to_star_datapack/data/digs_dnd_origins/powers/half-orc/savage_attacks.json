@@ -1,6 +1,6 @@
 {
-    "name": "Savage Attacks",
-    "description": "You deal 20% more melee damage",
+    "name": "野蛮进攻",
+    "description": "你的近战伤害增加20%。",
     "type": "origins:modify_damage_dealt",
     "modifier": {
         "value": 0.2,

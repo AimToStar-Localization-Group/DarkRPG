@@ -1,6 +1,6 @@
 {
-    "name": "Drow Weapon Training",
-    "description": "You deal 2 more damage with swords, rapiers and crossbows.",
+    "name": "卓尔精灵武器训练",
+    "description": "当你使用剑和十字弩时能额外造成2点伤害。",
     "type": "origins:multiple",
     "melee": {
         "type": "origins:modify_damage_dealt",

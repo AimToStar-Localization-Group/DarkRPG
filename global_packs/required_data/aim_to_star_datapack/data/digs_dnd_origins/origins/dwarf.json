@@ -6,6 +6,6 @@
 	"icon": "minecraft:iron_pickaxe",
 	"order": 0,
 	"impact": 2,
-	"name": "Dwarf",
-	"description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. You will pick a sub race if you pick this race."
+	"name": "矮人",
+	"description": "勇猛坚毅的矮人是著名的石匠和铁匠，以其精湛的战斗技巧和挖掘技艺而闻名。选择该种族后，你可以选择亚种。"
 }

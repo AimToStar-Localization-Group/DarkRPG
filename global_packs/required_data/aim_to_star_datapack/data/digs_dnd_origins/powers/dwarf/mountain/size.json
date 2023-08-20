@@ -1,6 +1,6 @@
 {
-	"name": "Size",
-	"description": "You are a block and a half tall. You also have 40% less health points and deal 0.5 less damage. Your size is medium.",
+	"name": "体型",
+	"description": "你有一格半高，是中等体型。生命值减少30%的同时，你造成的伤害减少0.5。",
 	"type": "origins:multiple",
 	"size": {
 		"type": "origins:action_on_callback",
