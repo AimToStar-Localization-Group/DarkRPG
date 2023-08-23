@@ -1,0 +1,19 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "cooldown": 15,
+  "hud_render": {
+      "should_render": true
+  },
+  "tag": "{pickup:0b}",
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+  },
+  "condition": {
+    "type": "origins:sneaking",
+    "inverted": true
+},
+  "name": "Dark Arrow",
+  "description": "Using dark magic, you are able to fire arrows out of your chest. Biting your thumb and applying your blood on the arrow tips while sneaking will enable you to fire a special venomous arrow that will poison your enemies on impact."
+}

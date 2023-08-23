@@ -1,0 +1,10 @@
+{
+  "type": "origins:prevent_sleep",
+  "message": "It's not hot enough for you to sleep",
+  "condition": {
+      "type": "origins:on_fire",
+      "inverted": true
+  },
+  "name": "Ember Sleep",
+  "description": "You can only sleep while your body is on fire."
+}

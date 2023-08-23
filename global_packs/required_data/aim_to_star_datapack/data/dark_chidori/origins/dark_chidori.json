@@ -1,0 +1,28 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:extra_reach",
+        "origins:ender_particles",
+        "origins:nether_spawn",
+        "dark_chidori:arrow_dark_chidori",
+        "dark_chidori:venomous_arrow_dark_chidori",
+        "dark_chidori:heal_dark_chidori",
+        "dark_chidori:venomous_heal_dark_chidori",
+        "dark_chidori:speed_dark_chidori",
+        "dark_chidori:venomous_speed_dark_chidori",
+        "dark_chidori:fall_immunity_dark_chidori",
+        "dark_chidori:max_health_dark_chidori",
+        "dark_chidori:walk_on_lava_dark_chidori",
+        "dark_chidori:walk_on_water_dark_chidori",
+        "dark_chidori:climbing_dark_chidori",
+        "dark_chidori:no_ranged_dark_chidori",
+        "dark_chidori:inventory_dark_chidori",
+        "dark_chidori:particle_dark_chidori",
+        "dark_chidori:ember_sleep_dark_chidori"
+    ],
+    "icon": "minecraft:wither_skeleton_skull",
+    "order": 4,
+    "impact": 2,
+    "name": "Dark Chidori",
+    "description": "Awaken your Chidori and embrace the darkness! You are a dark warlock who specializes in dark arts and magic. Through your own research you have managed to adapt your body to be like the Blazeborn.."
+}

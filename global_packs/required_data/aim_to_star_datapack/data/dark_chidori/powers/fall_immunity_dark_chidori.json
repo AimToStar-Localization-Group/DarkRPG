@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "Axis Breaker",
+  "description": "Thanks to your dark magic, you are able to nullify all fall damage upon impact."
+}
