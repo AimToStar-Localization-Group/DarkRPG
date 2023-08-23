@@ -6,6 +6,6 @@
             "item": "minecraft:potion",
             "tag": "{Potion:\"minecraft:healing\"}"
         },
-    "name": "Easy Heals",
-    "description": "Using your special aquired powers, you can craft your own Health Potions (Use 1x Glass Bottle and 1x Kelp)."
+    "name": "愈合",
+    "description": "你可以制作自己独特的治疗药水（1x 玻璃瓶 + 1x 海带）。"
 }

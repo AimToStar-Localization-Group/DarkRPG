@@ -2,6 +2,6 @@
   "type": "origins:particle",
   "particle": "minecraft:glow_squid_ink",
   "frequency": 4,
-  "name": "Chidori Blood",
-  "description": "You have Chidori blood running through your veins which makes you emit strange particles."
+  "name": "千鸟之血",
+  "description": "你身上所流淌的千鸟之血令你散发奇特的粒子。"
 }

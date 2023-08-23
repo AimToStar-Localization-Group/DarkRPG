@@ -14,6 +14,6 @@
         "operation": "addition"
       }
     ],
-    "name": "Grabbed",
-    "description": "Your longer arms allow you better reach."
+    "name": "抓取",
+    "description": "更长的胳膊使你能触及更远的方块和生物。"
   }

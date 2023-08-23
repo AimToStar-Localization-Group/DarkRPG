@@ -3,6 +3,6 @@
   "damage_condition": {
     "type": "origins:fire"
   },
-  "name": "Fire Affinity",
-  "description": "Experimentations have left your body with a strange effect that stops fire from hurting you. (You still need water breathing to swim in lava)."
+  "name": "火焰亲和",
+  "description": "实验给你的身体留下了奇特的效果，让火焰无法伤害到你。（你仍然需要水下呼吸才能在熔岩中游泳）"
 }

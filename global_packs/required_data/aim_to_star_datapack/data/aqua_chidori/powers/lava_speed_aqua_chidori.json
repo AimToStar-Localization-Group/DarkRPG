@@ -4,6 +4,6 @@
         "operation": "addition",
         "value": 0.4
     },
-    "name": "Lava Speed",
-    "description": "Thanks to Lava Affinity, you have more speed in lava."
+    "name": "熔岩加速",
+    "description": "多亏了熔岩亲和性，你能在熔岩中移动得更快。"
 }

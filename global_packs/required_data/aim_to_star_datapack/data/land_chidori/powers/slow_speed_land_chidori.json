@@ -6,6 +6,6 @@
         "value": -0.06,
         "operation": "multiply_total"
     },
-    "name": "Overgrown Fatigue",
-    "description": "Due to your large size you tend to move slower than normal humans."
+    "name": "过度生长",
+    "description": "庞大的体型使你的移动速度比普通人慢。"
 }

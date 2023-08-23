@@ -7,6 +7,6 @@
       "comparison": "<=",
       "compare_to": 0.4
   },
-  "name": "Scorched Feet",
-  "description": "You are able to walk on lava."
+  "name": "熔岩行者",
+  "description": "你可以在熔岩上行走。"
 }

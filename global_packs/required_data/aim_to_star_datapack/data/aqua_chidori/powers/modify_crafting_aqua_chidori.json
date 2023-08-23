@@ -6,6 +6,6 @@
             "item": "minecraft:potion",
             "tag": "{Potion:\"minecraft:water_breathing\"}"
         },
-    "name": "Water Breather",
-    "description": "Spending time around witches has given you special magical powers to be able to craft your own Water Breathing Potions (Use 1x Glass Bottle and 1x Seagrass)."
+    "name": "水肺",
+    "description": "女巫赋予了你特殊的魔力，你可以制作自己独特的水肺药水（1x玻璃瓶 + 1x海草）。"
 }

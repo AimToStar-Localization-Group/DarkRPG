@@ -1,6 +1,6 @@
 {
-  "name": "Molecule Infraction",
-  "description": "Your skin molecules are oozing with dark magic and are able to stick to blocks.",
+  "name": "分子渗透",
+  "description": "你皮肤的分子渗透出的黑魔法使你可以附着在方块上。",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",

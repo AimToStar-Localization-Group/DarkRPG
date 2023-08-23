@@ -4,6 +4,6 @@
         {"item": "minecraft:trident","amount": 1,"tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:1}]}" },
         {"item": "minecraft:potion","amount": 3,"tag": "{Potion:\"minecraft:water_breathing\"}"}
     ],
-    "name": "Starter Gear",
-    "description": "You start with 1x Trident and 3x Water Breathing Potions."
+    "name": "初始装备",
+    "description": "你开始时就拥有 1x三叉戟 和 3x水肺药水。"
 }

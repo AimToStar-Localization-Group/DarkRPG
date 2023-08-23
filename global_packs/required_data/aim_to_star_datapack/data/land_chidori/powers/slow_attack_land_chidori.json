@@ -6,6 +6,6 @@
         "value": -0.1,
         "operation": "addition"
     },
-    "name": "Anti-Haste",
-    "description": "You attack slightly slower than a human."
+    "name": "笨重",
+    "description": "你的攻击速度稍慢于普通人。"
 }
