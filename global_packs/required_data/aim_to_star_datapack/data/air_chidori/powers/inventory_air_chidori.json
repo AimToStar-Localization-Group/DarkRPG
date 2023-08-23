@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "Volumetric Distortion",
+  "description": "You have special access to a distorted universe which allows you to carry 9 more items in your volumetric bag. You can access this bag by using your load hotbar activator key."
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:poison"
+    ],
+    "name": "Witch's Grace",
+    "description": "Being around witches all the time has made your body immune to poison."
+  }

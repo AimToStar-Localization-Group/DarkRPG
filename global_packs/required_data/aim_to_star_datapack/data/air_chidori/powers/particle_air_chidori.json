@@ -1,0 +1,7 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:cloud",
+  "frequency": 4,
+  "name": "Chidori Blood",
+  "description": "You have Chidori blood running through your veins which makes you emit strange particles."
+}

@@ -1,0 +1,15 @@
+{
+  "type": "origins:launch",
+  "cooldown": 100,
+  "hud_render": {
+    "bar_index": 8
+  },
+  "sound": "minecraft:entity.iron_golem.step",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name": "Quantum Leap",
+  "description": "Using your giant legs, you are able to leap into the air."
+}

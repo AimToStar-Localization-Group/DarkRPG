@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:elytra",
+        "air_chidori:launch_air_chidori",
+        "air_chidori:inventory_air_chidori",
+        "air_chidori:prevent_sprint_air_chidori",
+        "air_chidori:nine_lives_air_chidori",
+        "air_chidori:particle_air_chidori",
+        "origins:fresh_air"
+    ],
+    "icon": "minecraft:slime_ball",
+    "order": 4,
+    "impact": 1,
+    "name": "Air Chidori",
+    "description": "Awaken your Chidori and take to the skies! Born to an Avian mother and Blazeborn father, raised by the Elytrians in a small village, you have mastered the art of continuous flight and control of heat. Caution: Not every Air Chidori has yet mastered the art of landing without damage..."
+}

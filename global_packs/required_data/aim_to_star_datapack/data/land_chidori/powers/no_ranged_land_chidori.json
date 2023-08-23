@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:ranged_weapons"
+    }
+  },
+  "name": "Ranged Ignorance",
+  "description": "Having only ever used your fists, you have no knowledge in using ranged weapons."
+}

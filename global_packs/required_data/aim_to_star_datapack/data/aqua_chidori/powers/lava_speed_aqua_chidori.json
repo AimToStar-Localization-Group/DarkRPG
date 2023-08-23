@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_lava_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.4
+    },
+    "name": "Lava Speed",
+    "description": "Thanks to Lava Affinity, you have more speed in lava."
+}

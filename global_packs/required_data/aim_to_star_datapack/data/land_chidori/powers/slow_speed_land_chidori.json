@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Slow Movement Speed",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.06,
+        "operation": "multiply_total"
+    },
+    "name": "Overgrown Fatigue",
+    "description": "Due to your large size you tend to move slower than normal humans."
+}

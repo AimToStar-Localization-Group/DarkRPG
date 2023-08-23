@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "aqua_chidori:aqua_chidori_potion1",
+        "result": 
+            {
+            "item": "minecraft:potion",
+            "tag": "{Potion:\"minecraft:water_breathing\"}"
+        },
+    "name": "Water Breather",
+    "description": "Spending time around witches has given you special magical powers to be able to craft your own Water Breathing Potions (Use 1x Glass Bottle and 1x Seagrass)."
+}

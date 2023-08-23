@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+      "operation": "multiply_total",
+      "value": -0.06
+  }  ,
+    "name": "Fatigued Experience",
+    "description": "You gain XP slower than humans."
+}

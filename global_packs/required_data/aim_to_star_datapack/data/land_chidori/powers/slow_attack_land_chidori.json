@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Slow Attack Speed",
+        "attribute": "minecraft:generic.attack_speed",
+        "value": -0.1,
+        "operation": "addition"
+    },
+    "name": "Anti-Haste",
+    "description": "You attack slightly slower than a human."
+}

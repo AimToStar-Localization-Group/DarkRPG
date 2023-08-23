@@ -1,0 +1,11 @@
+{
+  "name": "Lives of the Nine Tails",
+  "description": "You have 1 less heart than Humans giving you 9 hearts only.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Nine lives health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -2.0,
+    "operation": "addition"
+  }
+}

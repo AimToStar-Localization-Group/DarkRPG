@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "Shulk Box",
+  "description": "You have special access to your own storage which allows you to carry 9 more items in your shulk box. You can access this bag by using your load hotbar activator key."
+}

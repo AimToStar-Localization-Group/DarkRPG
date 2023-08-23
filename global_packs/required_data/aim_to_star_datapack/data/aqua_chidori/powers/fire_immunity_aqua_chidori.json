@@ -1,0 +1,8 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "name": "Fire Affinity",
+  "description": "Experimentations have left your body with a strange effect that stops fire from hurting you. (You still need water breathing to swim in lava)."
+}

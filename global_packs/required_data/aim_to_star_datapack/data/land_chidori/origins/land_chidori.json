@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "land_chidori:tall_land_chidori",
+        "land_chidori:strong_arms_land_chidori",
+        "land_chidori:strong_arms_break_speed_land_chidori",
+        "land_chidori:inventory_land_chidori",
+        "land_chidori:prevent_sprint_land_chidori",
+        "land_chidori:fall_immunity_land_chidori",
+        "land_chidori:extra_reach_land_chidori",
+        "land_chidori:launch_into_air_land_chidori",
+        "land_chidori:natural_armor_land_chidori",
+        "land_chidori:slow_attack_land_chidori",
+        "land_chidori:slow_speed_land_chidori",
+        "land_chidori:max_health_land_chidori",
+        "land_chidori:no_ranged_land_chidori",
+        "land_chidori:particle_land_chidori",
+        "land_chidori:recipe_land_chidori"
+    ],
+    "icon": "minecraft:moss_block",
+    "order": 4,
+    "impact": 2,
+    "name": "Land Chidori",
+    "description": "Awaken your Chidori and protect the lands! Exiled from the northern overworld mountains, the Land Chidori took refuge in a small village run by the Shulks. Borrowing powers from the Shulks and mixing it with their own giant abilities, the Land Chidori have allowed earth magic to run through their bodies. An honorable race who have sworn to protect their allies at any cost.."
+}

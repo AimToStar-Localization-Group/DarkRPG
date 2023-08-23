@@ -1,0 +1,31 @@
+{
+    "powers": [
+        "aqua_chidori:small_aqua_chidori",
+        "aqua_chidori:starter_gear_aqua_chidori",
+        "aqua_chidori:inventory_aqua_chidori",
+        "aqua_chidori:modify_crafting_aqua_chidori",
+        "aqua_chidori:modify_crafting2_aqua_chidori",
+        "aqua_chidori:hotblood_aqua_chidori",
+        "origins:water_breathing",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+        "aqua_chidori:climbing_aqua_chidori",
+        "aqua_chidori:lava_vision_aqua_chidori",
+        "aqua_chidori:fire_immunity_aqua_chidori",
+        "aqua_chidori:lava_speed_aqua_chidori",
+        "aqua_chidori:less_hearts_aqua_chidori",
+        "aqua_chidori:light_armor_aqua_chidori",
+        "aqua_chidori:particle_aqua_chidori",
+        "aqua_chidori:xp_slower_aqua_chidori"
+    ],
+    "icon": "minecraft:trident",
+    "order": 4,
+    "impact": 3,
+    "name": "Aqua Chidori",
+    "description": "Awaken your Chidori and swim through the seas! Originated from a failed experiment by Witches using dark magic on Merling prisoners, the Aqua Chidori grew in numbers and now look to dominate the aquatic space. A fast and agile water based race who have now mastered the ability to survive on land using magic that allows them to craft special potions.."
+}

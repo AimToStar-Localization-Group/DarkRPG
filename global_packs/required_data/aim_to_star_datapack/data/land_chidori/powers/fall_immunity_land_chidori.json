@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "Grounded Cushion",
+  "description": "Thanks to your earth magic and Quantum Leap abilities, you take no damage upon falling from tall heights."
+}

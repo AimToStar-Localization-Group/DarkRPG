@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_crafting",
+  "recipe": "minecraft:shield",
+  "result": 
+  {
+  "item": "minecraft:shield",
+  "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}]}"
+  },
+  "name": "Shielded",
+  "description": "Crafting Shields automatically applies Unbreaking III to them."
+}
