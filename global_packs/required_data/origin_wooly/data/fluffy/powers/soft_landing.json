@@ -4,7 +4,7 @@
 		"type": "origins:invulnerability",
 		"damage_condition": {
 			"type": "origins:name",
-			"name": "摔落"
+			"name": "fall"
 		},
 		"condition": {
 			"type": "origins:in_block",
