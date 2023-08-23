@@ -1,7 +1,7 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "小蘑菇…（任务）"},
+        "title": {"text": "小蘑菇……（任务）"},
         "description": {"text": "收集10个菌丝。奖励：120经验值，50个绯红菌岩，50个诡异菌岩。"},
         
         "icon": {"item": "minecraft:mycelium"},
