@@ -1,6 +1,6 @@
 {
   "name": "范围",
-  "description": "35个方块",
+  "description": "35格",
   "type": "origins:multiple",
 
   "firebolt": {
@@ -27,7 +27,7 @@
           "type": "origins:damage",
           "amount": 3,
           "source": {
-            "name": "点火",
+            "name": "onFire",
             "fire": true,
             "bypasses_armor": false
           }
