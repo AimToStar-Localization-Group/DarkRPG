@@ -1,6 +1,6 @@
 {
-    "name": "Pure",
-    "description": "You're so pure, you can't bare the nether. It corrupts your body so you can't naturally heal.",
+    "name": "纯真",
+    "description": "你太纯真了，你无法忍受下界。它会腐蚀你的身体，让你无法自然恢复生命值。",
     "condition": {
         "type": "origins:dimension",
         "dimension": "minecraft:the_nether"

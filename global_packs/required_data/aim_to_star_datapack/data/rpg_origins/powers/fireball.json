@@ -1,6 +1,6 @@
 {
-    "name": "Fireball",
-    "description": "You can shoot a fireball in the direction your facing, intersting how spells can do that.",
+    "name": "火球",
+    "description": "你可以向你的面朝方向发射一枚火球，真想知道什么咒语可以做到那个。",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:fireball",
     "cooldown": 1500,

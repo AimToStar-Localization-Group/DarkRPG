@@ -1,6 +1,6 @@
 {
-    "name": "Prepared",
-    "description": "You're always prepared, so you start your journy with a shield.",
+    "name": "准备好了",
+    "description": "你一直在准备当中，那就拿着盾牌开启你的旅途吧！",
     "type": "origins:starting_equipment",
     "stack": {
         "item": "minecraft:shield",
