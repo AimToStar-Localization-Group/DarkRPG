@@ -1,6 +1,6 @@
 {
   "name": "范围",
-  "description": "11个方块",
+  "description": "11格",
   "type": "origins:multiple",
 
   "firebolt": {
@@ -27,7 +27,7 @@
           "type": "origins:damage",
           "amount": 4,
           "source": {
-            "name": "闪电之鞭",
+            "name": "lightningBolt",
             "bypasses_armor": false
           }
         },
