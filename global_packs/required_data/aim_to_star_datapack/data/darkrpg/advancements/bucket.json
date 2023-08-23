@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Water Catcher (Quest)"},
-        "description": {"text": "Craft 5x Buckets.  Rewards: 50 Exp."},
+        "title": {"text": "捕水者（任务）"},
+        "description": {"text": "制造5个桶。奖励：50经验值。"},
         
         "icon": {"item": "minecraft:bucket"},
         "frame": "challenge",

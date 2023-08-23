@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Fur No More (Quest)"},
-        "description": {"text": "Craft 1x Shears.  Rewards: 30 Exp."},
+        "title": {"text": "不再有毛（任务）"},
+        "description": {"text": "制作1把剪刀。奖励：30经验值。"},
         
         "icon": {"item": "minecraft:shears"},
         "frame": "challenge",

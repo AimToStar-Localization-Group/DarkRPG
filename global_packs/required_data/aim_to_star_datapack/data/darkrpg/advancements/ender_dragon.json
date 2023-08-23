@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Ender's Demise (Quest)"},
-        "description": {"text": "(Final Extreme Quest) Kill The Ender Dragon.  Reward: 4000 Exp, 1x Black Bed, 1x Elytra, 25x Lapis Lazuli, 25x Red Mushroom Blocks, 1x Pink Shulker Box, 1x Cyan Shulker Box, 1x Brown Shulker Box."},
+        "title": {"text": "末影之灭（任务）"},
+        "description": {"text": "（最终极限任务）杀死末影龙。奖励：4000经验值，1个黑色床，1个鞘翅，25个青金石，25个红色蘑菇方块，1个粉红色潜影盒，1个青色潜影盒，1个棕色潜影盒。"},
         
         "icon": {"item": "minecraft:dragon_head"},
         "frame": "challenge",

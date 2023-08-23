@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Red ZzZZzz (Quest)"},
-        "description": {"text": "Craft a Red Bed.  Reward: 45 Exp, 10x Torches, 1x Diamond Axe."},
+        "title": {"text": "红ZzZZzz（任务）"},
+        "description": {"text": "制作红色床。奖励：45经验值，10个火把，1把钻石斧。"},
         
         "icon": {"item": "minecraft:red_bed"},
         "frame": "challenge",

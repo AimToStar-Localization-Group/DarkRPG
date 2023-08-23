@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "End Tower (Quest)"},
-        "description": {"text": "Gather 60x End Stone Bricks.  Reward: 200 Exp, 50x Glass, 10x Eye of the Ender."},
+        "title": {"text": "末地之塔（任务）"},
+        "description": {"text": "收集60个末地石砖。奖励：200经验值，50个玻璃，10个末影之眼。"},
         
         "icon": {"item": "minecraft:end_stone_bricks"},
         "frame": "challenge",

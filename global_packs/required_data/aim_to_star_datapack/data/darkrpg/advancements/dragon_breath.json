@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "What Did You Have For Dinner? (Quest)"},
-        "description": {"text": "Gather 1x Dragon Breath.  Rewards: 100 Exp."},
+        "title": {"text": "晚上吃了什么？（任务）"},
+        "description": {"text": "收集1个龙息。奖励：100经验值。"},
         
         "icon": {"item": "minecraft:dragon_breath"},
         "frame": "challenge",

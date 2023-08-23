@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "I'm Rich!! (Quest)"},
-        "description": {"text": "Craft 3x Diamond Blocks.  Rewards: 70 Exp."},
+        "title": {"text": "我真有钱！！（任务）"},
+        "description": {"text": "制作3个钻石块。奖励：70经验值。"},
         
         "icon": {"item": "minecraft:diamond_block"},
         "frame": "challenge",

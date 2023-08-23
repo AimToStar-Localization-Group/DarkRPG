@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "So.. about the money? (Quest)"},
-        "description": {"text": "Gather 32x Gold Ingots.  Reward: 80 Exp"},
+        "title": {"text": "所以……钱的事情呢？（任务）"},
+        "description": {"text": "收集32个金锭。奖励：80经验值。"},
         
         "icon": {"item": "minecraft:gold_ingot"},
         "frame": "challenge",

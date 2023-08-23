@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Groovy Fungi (Quest)"},
-        "description": {"text": "Gather 2x Crimson Fungus.  Reward: 25 Exp, 1x Iron Shovel, 10x Cooked Salmon."},
+        "title": {"text": "炫彩真菌（任务）"},
+        "description": {"text": "收集2个绯红菌。奖励：25经验值，1个铁铲，10个熟鲑鱼。"},
         
         "icon": {"item": "minecraft:crimson_fungus"},
         "frame": "challenge",

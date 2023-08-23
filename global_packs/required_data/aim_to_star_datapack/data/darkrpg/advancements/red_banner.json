@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Bannerama (Quest)"},
-        "description": {"text": "Craft a Red Banner.  Reward: 40 Exp, 1x Shield"},
+        "title": {"text": "旗帜百科（任务）"},
+        "description": {"text": "制作红色旗帜。奖励：40经验值，1个盾牌。"},
         
         "icon": {"item": "minecraft:red_banner"},
         "frame": "challenge",

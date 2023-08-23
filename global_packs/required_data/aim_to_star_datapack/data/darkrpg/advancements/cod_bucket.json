@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Bucket Of Cod (Quest)"},
-        "description": {"text": "Use an empty bucket and fill up with Cod.  Reward: 20 Exp, 5x Golden Apples."},
+        "title": {"text": "鳕鱼桶（任务）"},
+        "description": {"text": "用一个空桶来装鳕鱼。奖励：20经验值，5个金苹果。"},
         
         "icon": {"item": "minecraft:cod_bucket"},
         "frame": "challenge",

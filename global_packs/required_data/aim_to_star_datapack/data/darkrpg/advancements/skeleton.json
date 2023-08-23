@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Bone Collector (Quest)"},
-        "description": {"text": "Kill Skeletons, Collect 20x Bones.  Reward: 100 Exp, 25x Pumpkin Pie, 5x Leather."},
+        "title": {"text": "骨头收集者（任务）"},
+        "description": {"text": "击杀骷髅，并收集20根骨头。奖励：100经验值，25个南瓜派，5个皮革。"},
         
         "icon": {"item": "minecraft:skeleton_skull"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Going to Hell (Quest)"},
-        "description": {"text": "Gather 14x Obisidan blocks.  Reward: 20 Exp, 1x Flint and Steel"},
+        "title": {"text": "是时候去地狱了（任务）"},
+        "description": {"text": "收集14个黑曜石。奖励：20经验值，1个打火石。"},
         
         "icon": {"item": "minecraft:obsidian"},
         "frame": "challenge",

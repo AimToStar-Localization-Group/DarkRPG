@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Creeper Casino Roulette"},
-        "description": {"text": "Try your luck and win rare prizes. Entry fee is 5 Diamonds per spin. Stand on a Diamond Block to enable the process and switch between off-hand and main hand to initiate."},
+        "title": {"text": "苦力怕轮盘赌"},
+        "description": {"text": "用运气来赢得大奖！每次的花费是5颗钻石，站在钻石块上将钻石在主手和副手之间切换以开始赌局。"},
         
         "icon": {"item": "minecraft:diamond"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by creators of DarkRPG",
     "display": {
-        "title": {"text": "Special Login Rewards"},
-        "description": {"text": "Open the rewards bundle to receive your special login rewards..."},
+        "title": {"text": "特殊登录奖励"},
+        "description": {"text": "打开奖励袋，领取你的特殊登录奖励……"},
         
         "icon": {"item": "minecraft:bundle"},
         "frame": "challenge",

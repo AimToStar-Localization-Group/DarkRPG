@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Metal Gear Rising (Quest)"},
-        "description": {"text": "Gather 10x Melons.  Reward: 120 Exp, 50x Moss Block."},
+        "title": {"text": "合金装备崛起（任务）"},
+        "description": {"text": "收集10个西瓜片。奖励：120经验值，50个苔藓块。"},
         
         "icon": {"item": "minecraft:melon"},
         "frame": "challenge",

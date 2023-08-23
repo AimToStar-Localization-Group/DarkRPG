@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Bone Meal Craving (Quest)"},
-        "description": {"text": "Craft 9x Bone Meal.  Rewards: 50 Exp."},
+        "title": {"text": "骨粉渴望（任务）"},
+        "description": {"text": "制造9个骨粉。奖励：50经验值。"},
         
         "icon": {"item": "minecraft:bone_meal"},
         "frame": "challenge",

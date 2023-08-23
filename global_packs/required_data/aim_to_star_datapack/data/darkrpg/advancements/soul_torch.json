@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Light Of The Soul (Quest)"},
-        "description": {"text": "Craft 1x Soul Torch.  Rewards: 100 Exp."},
+        "title": {"text": "灵魂之光（任务）"},
+        "description": {"text": "制作1个灵魂火把。奖励：100经验值。"},
         
         "icon": {"item": "minecraft:soul_torch"},
         "frame": "challenge",

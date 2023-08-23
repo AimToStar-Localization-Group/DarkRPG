@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Pass The Dip (Quest)"},
-        "description": {"text": "Craft 25x Gold Nuggets.  Rewards: 80 Exp."},
+        "title": {"text": "自私鬼（任务）"},
+        "description": {"text": "制造25个金粒。奖励：80经验值。"},
         
         "icon": {"item": "minecraft:gold_nugget"},
         "frame": "challenge",

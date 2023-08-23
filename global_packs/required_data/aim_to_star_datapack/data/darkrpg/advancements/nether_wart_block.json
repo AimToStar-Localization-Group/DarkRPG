@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Build The Wart (Quest)"},
-        "description": {"text": "Craft 1x Nether Wart Block.  Rewards: 70 Exp."},
+        "title": {"text": "疣农场（任务）"},
+        "description": {"text": "制作1个下界疣块。奖励：70经验值。"},
         
         "icon": {"item": "minecraft:nether_wart_block"},
         "frame": "challenge",

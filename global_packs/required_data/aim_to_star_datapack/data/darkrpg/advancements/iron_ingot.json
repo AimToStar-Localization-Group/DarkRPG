@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Iron Man IV (Quest)"},
-        "description": {"text": "Get an Iron Ingot.  Reward: 15 Exp, 1x Golden Pickaxe, 1x Flint."},
+        "title": {"text": "铁人四项（任务）"},
+        "description": {"text": "获得铁锭。奖励：15经验值，1把金稿，1个燧石。"},
         
         "icon": {"item": "minecraft:iron_ingot"},
         "frame": "challenge",

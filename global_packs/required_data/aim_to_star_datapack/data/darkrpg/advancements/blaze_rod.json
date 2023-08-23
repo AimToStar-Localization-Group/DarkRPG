@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Rolling around in fire (Quest)"},
-        "description": {"text": "Gather 64x Blaze Rods.  Reward: 130 Exp."},
+        "title": {"text": "与火共舞（任务）"},
+        "description": {"text": "收集64个烈焰棒。奖励：130经验值。"},
         
         "icon": {"item": "minecraft:blaze_rod"},
         "frame": "challenge",

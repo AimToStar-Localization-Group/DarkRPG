@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Skeleton Towers (Quest)"},
-        "description": {"text": "Craft 1x Bone Block.  Rewards: 50 Exp."},
+        "title": {"text": "骷髅之塔（任务）"},
+        "description": {"text": "制造1个骨块。奖励：50经验值。"},
         
         "icon": {"item": "minecraft:bone_block"},
         "frame": "challenge",

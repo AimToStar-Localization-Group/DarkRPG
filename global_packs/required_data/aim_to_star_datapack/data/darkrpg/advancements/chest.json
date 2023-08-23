@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Spacious (Quest)"},
-        "description": {"text": "Craft a Chest.  Reward: 10 Exp, 6x Copper Ingots, 1x Chest."},
+        "title": {"text": "真宽敞（任务）"},
+        "description": {"text": "制造箱子。奖励：10经验值，6个铜锭，1个箱子。"},
         
         "icon": {"item": "minecraft:chest"},
         "frame": "challenge",

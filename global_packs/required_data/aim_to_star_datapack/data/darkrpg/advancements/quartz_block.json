@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Precise Timekeeping (Quest)"},
-        "description": {"text": "Craft 1x Quartz Block.  Rewards: 85 Exp."},
+        "title": {"text": "精确计时（任务）"},
+        "description": {"text": "制作1个石英块。奖励：85经验值。"},
         
         "icon": {"item": "minecraft:quartz_block"},
         "frame": "challenge",

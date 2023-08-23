@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Got Copper? (Quest)"},
-        "description": {"text": "Get a Copper Ingot.  Reward: 15 Exp, 1x Golden Sword."},
+        "title": {"text": "有铜吗？（任务）"},
+        "description": {"text": "得到铜锭。奖励：15经验值，1把金剑。"},
         
         "icon": {"item": "minecraft:copper_ingot"},
         "frame": "challenge",

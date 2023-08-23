@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Pagemaster (Quest)"},
-        "description": {"text": "Craft 3x Books.  Rewards: 40 Exp."},
+        "title": {"text": "书本管理员（任务）"},
+        "description": {"text": "制造3本书。奖励：40经验值。"},
         
         "icon": {"item": "minecraft:book"},
         "frame": "challenge",

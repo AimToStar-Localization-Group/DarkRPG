@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Magmaliciouslydocious (Quest)"},
-        "description": {"text": "Kill Magma Cubes, Collect 60x Magma Cream.  Reward: 1000 Exp, 5x Totem of Undying."},
+        "title": {"text": "美味可爱的岩浆怪（任务）"},
+        "description": {"text": "杀死岩浆怪，并收集60个岩浆膏。奖励：1000经验值，5个不死图腾。"},
         
         "icon": {"item": "minecraft:magma_cream"},
         "frame": "challenge",

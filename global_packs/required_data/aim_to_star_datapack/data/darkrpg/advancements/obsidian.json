@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "Obsidianary (Quest)"},
-        "description": {"text": "Mine Obsidian.  Reward: 50 Exp, 1x Iron Sword, 1x Iron Helm."},
+        "title": {"text": "黑曜石百科（任务）"},
+        "description": {"text": "挖黑曜石。奖励：50经验值，1把铁剑，1个铁头盔。"},
         
         "icon": {"item": "minecraft:obsidian"},
         "frame": "challenge",
