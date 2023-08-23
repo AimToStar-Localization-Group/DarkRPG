@@ -1,6 +1,6 @@
 {
   "name": "范围",
-  "description": "8个方块",
+  "description": "8格",
   "type": "origins:multiple",
 
   "firebolt": {
