@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "经验转盘"},
-        "description": {"text": "测试你人品的时候到了！用你的经验来赌博，赢取奖品…"},
+        "description": {"text": "测试你人品的时候到了！用你的经验来赌博，赢取奖品……"},
         
         "icon": {"item": "minecraft:raw_gold_block"},
         "frame": "challenge",
