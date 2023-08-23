@@ -27,7 +27,7 @@
           "type": "origins:damage",
           "amount": 4,
           "source": {
-            "name": "凋零",
+            "name": "wither",
             "magic": true,
             "bypasses_armor": false
           }
