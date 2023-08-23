@@ -1,4 +1,4 @@
-tellraw @s {"text": "绑定诅咒已被清除…", "color": "aqua", "bold":"true"}
+tellraw @s {"text": "绑定诅咒已被清除……", "color": "aqua", "bold":"true"}
 item modify entity @s armor.head darkinventory:clearcob
 item modify entity @s armor.chest darkinventory:clearcob
 item modify entity @s armor.legs darkinventory:clearcob
