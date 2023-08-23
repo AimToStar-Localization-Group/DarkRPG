@@ -194,7 +194,7 @@
 		"type": "origins:modify_damage_taken",
 		"damage_condition": {
 			"type": "origins:name",
-			"name": "摔落"
+			"name": "fall"
 		},
 		"modifier": {
 			"name": "bouncy wool hehe",
