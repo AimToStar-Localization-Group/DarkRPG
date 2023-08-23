@@ -1,7 +1,7 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "火中舞蹈（任务）"},
+        "title": {"text": "与火共舞（任务）"},
         "description": {"text": "收集64个烈焰棒。奖励：130经验值。"},
         
         "icon": {"item": "minecraft:blaze_rod"},
