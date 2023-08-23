@@ -1,7 +1,7 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "舒缓…（任务）"},
+        "title": {"text": "舒缓……（任务）"},
         "description": {"text": "制造1个蜂蜜瓶。奖励：80经验值。"},
         
         "icon": {"item": "minecraft:honey_bottle"},
