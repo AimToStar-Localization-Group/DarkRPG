@@ -5,6 +5,12 @@ DarkRPG 整合包汉化
 
 ---
 
+Github 上目前未汉化：
+
+- [ ] 起源：aegis `global_packs/required_data/aim_to_star_datapack/data/aegis`
+
+---
+
 **整合包 CurseForge 链接：**
 https://www.curseforge.com/minecraft/modpacks/darkrpg
 
