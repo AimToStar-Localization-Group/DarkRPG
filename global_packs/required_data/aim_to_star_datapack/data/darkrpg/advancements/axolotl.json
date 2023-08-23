@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "美西螈调研（任务）"},
-        "description": {"text": "杀死美西螈。奖励：500经验值，1个桶。"},
+        "description": {"text": "杀死美西螈。奖励：500经验值，1个铁桶。"},
         
         "icon": {"item": "minecraft:bucket"},
         "frame": "challenge",
