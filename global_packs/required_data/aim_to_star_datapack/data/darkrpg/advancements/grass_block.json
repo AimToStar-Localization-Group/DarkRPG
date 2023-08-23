@@ -1,7 +1,7 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "绿化…（任务）"},
+        "title": {"text": "绿化……（任务）"},
         "description": {"text": "收集10个草方块。奖励：120经验值，50个沙砾。"},
         
         "icon": {"item": "minecraft:grass_block"},
