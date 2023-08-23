@@ -1,5 +1,5 @@
 {
-	"name": "Wood Elf",
-	"description": "Wood elves are native to forests and have a distinct advantage when in their element. They have an easier time hiding in foliage, are slightly faster, have training in elven weapons, and the regular elven traits of darkvision and being slimmer.",
+	"name": "木精灵",
+	"description": "木精灵是森林的原住民，在森林中有明显的优势。他们能更轻易地隐藏于叶片之下，移速也稍快。他们有精灵武器训练，同时也具有其他普通精灵的特性：夜视能力和更苗条的身型。",
 	"type": "origins:simple"
 }

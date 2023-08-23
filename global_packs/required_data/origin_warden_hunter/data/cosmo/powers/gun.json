@@ -10,6 +10,6 @@
       "key": "key.origins.secondary_active",
       "continuous": true
   },
-  "name": "Warden Blast",
-  "description": "Since you have been down here so long you can use some of the wardens moves."
+  "name": "监守者冲击波",
+  "description": "因为长时间待在这里所以你可以使用监守者的一些招式。"
 }

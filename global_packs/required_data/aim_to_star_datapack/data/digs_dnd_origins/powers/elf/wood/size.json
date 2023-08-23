@@ -1,6 +1,6 @@
 {
-	"name": "Size",
-	"description": "You are slightly slimmer than humans and you have 20% less health points. Your size is medium.",
+	"name": "体型",
+	"description": "比普通人类苗条一点点的同时，你的生命值减少20%。你是中等体型。",
 	"type": "origins:multiple",
 	"size": {
 		"type": "origins:action_on_callback",

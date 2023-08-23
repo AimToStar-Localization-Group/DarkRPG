@@ -1,6 +1,6 @@
 {
-	"name": "Halfling Nimbleness",
-	"description": "You can move through the space of any creature that is a size larger than you without being slowed down.",
+	"name": "敏捷的半身人",
+	"description": "你能在不减速的情况下穿过任何比你大的生物。",
 	"type": "origins:multiple",
 	
 	"toggle": {

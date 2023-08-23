@@ -1,6 +1,6 @@
 {
-	"name": "Mask of the Wild",
-	"description": "Sneaking while up against foliage will render you (but not your armor) invisible.",
+	"name": "大自然的掩护",
+	"description": "在树叶下潜行能使你（不包括你的盔甲）隐身。",
 	"type": "origins:multiple",
 	"phase": {
     "type": "origins:invisibility",

@@ -1,6 +1,6 @@
 {
-    "name": "Dwarven Combat Training",
-    "description": "You have proficiency with axes, dealing +2 damage with them.",
+    "name": "矮人的战斗训练",
+    "description": "你精通用斧，使用时能额外造成2点伤害。",
     "type": "origins:multiple",
     "melee": {
         "type": "origins:modify_damage_dealt",

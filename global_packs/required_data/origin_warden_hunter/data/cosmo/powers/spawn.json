@@ -1,6 +1,6 @@
 {
-  "name": "In hell",
-    "description": "your only hobby that you find interesting is in the deep dark because God hates you in particular.",
+  "name": "身处地狱",
+    "description": "你唯一的兴趣爱好就是待在黑暗中，因为上帝特别讨厌你。your only hobby that you find interesting is in the deep dark because God hates you in particular.",
   "type": "origins:modify_player_spawn",
   "dimension": "minecraft:overworld",
   "structure": "minecraft:ancient_city",

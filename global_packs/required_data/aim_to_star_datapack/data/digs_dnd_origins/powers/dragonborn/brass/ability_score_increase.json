@@ -1,6 +1,6 @@
 {
-	"name": "Ability Score Increase",
-	"description": "Due to your increased strength, you deal 1 extra melee damage.",
+	"name": "能力值提升",
+	"description": "由于力量增加，你能额外造成1点近战伤害。",
 	"type": "origins:attribute",
 	"modifier": {
 		"attribute": "minecraft:generic.attack_damage",

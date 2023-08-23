@@ -1,6 +1,6 @@
 {
-  "name": "Range",
-  "description": "11 Blocks",
+  "name": "范围",
+  "description": "11格",
   "type": "origins:multiple",
 
   "firebolt": {

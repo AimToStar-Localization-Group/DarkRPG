@@ -5,6 +5,6 @@
 	"icon": "minecraft:golden_boots",
 	"order": 1,
 	"impact": 0,
-	"name": "Mobile",
-	"description": "Your speed increases by 20% but your exhaustion increases by 30%."
+	"name": "行动自如",
+	"description": "移速增加20%的同时，你的饥饿速度增加30%。"
 }

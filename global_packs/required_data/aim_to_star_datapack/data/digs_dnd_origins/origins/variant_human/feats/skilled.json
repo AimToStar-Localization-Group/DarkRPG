@@ -6,6 +6,6 @@
 	"order": 1,
 	"impact": 0,
 	"hidden": true,
-	"name": "Skilled",
-	"description": "You gain proficiency in three additional skills of your choice, but all skills will be half as effective. You will choose your skills upon selecting this feat."
+	"name": "熟能生巧",
+	"description": "你能额外选择三种技能，但是这些技能的效果减半。选择该专长后，你可以选择技能。"
 }

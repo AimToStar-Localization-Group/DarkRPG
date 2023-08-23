@@ -5,6 +5,6 @@
 	"icon": "minecraft:black_dye",
 	"order": 1,
 	"impact": 0,
-	"name": "Skulker",
-	"description": "You are expert at slinking through shadows. Sneaking while in light level 7 or less will render you (but not your armor) invisible. Sky light level is taken into account for this feat."
+	"name": "潜伏者",
+	"description": "你很擅长在阴影中潜伏。在亮度小于等于7的情况下潜行能使你（不包括你的盔甲）隐身。天空光照等级也要考虑在内。"
 }

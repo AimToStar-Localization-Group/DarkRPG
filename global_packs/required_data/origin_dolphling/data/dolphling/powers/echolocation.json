@@ -1,6 +1,6 @@
 {
-    "name": "Echolocation",
-    "description": "Secondary: Emit an ultrasonic pulse, allowing you to see the location of nearby entities, even through walls!",
+    "name": "回声定位",
+    "description": "次要技能: 发出一段超声波脉冲, 即使隔着墙也能让你定位附近的实体。",
     "badges": [
         {
             "sprite": "origins:textures/gui/badge/active.png",

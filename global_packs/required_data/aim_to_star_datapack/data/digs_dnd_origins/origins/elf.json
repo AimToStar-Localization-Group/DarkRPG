@@ -7,6 +7,6 @@
 	"icon": "minecraft:bow",
 	"order": 0,
 	"impact": 1,
-	"name": "Elf",
-	"description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. You will pick a sub race if you pick this race."
+	"name": "精灵",
+	"description": "精灵是一个超凡脱俗的魔法种族，他们生活在世界上，但又不完全属于这个世界。选择该种族后，你可以选择亚种。"
 }

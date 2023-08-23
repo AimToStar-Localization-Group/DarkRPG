@@ -5,6 +5,6 @@
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
 	"impact": 0,
-	"name": "Ray of Frost",
-	"description": "A frigid beam of blue-white light streaks toward a creature within range."
+	"name": "寒冰射线",
+	"description": "以一道冰冷的蓝白光束击中射程内的生物。"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Ability Score Increase",
-  "description": "Due to your increased charisma, villagers reduce their prices for you.",
+  "name": "能力值提升",
+  "description": "由于魅力提升，村民们为你降价。",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:apply_effect",

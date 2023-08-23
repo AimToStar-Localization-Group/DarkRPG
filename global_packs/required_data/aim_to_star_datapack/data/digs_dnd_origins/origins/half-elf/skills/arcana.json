@@ -5,6 +5,6 @@
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
 	"impact": 0,
-	"name": "Arcana",
-	"description": "You gain xp 20% faster."
+	"name": "奥秘",
+	"description": "你获得的经验增加20%。"
 }

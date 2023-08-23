@@ -5,6 +5,6 @@
 	"icon": "minecraft:carrot",
 	"order": 1,
 	"impact": 0,
-	"name": "Animal Handling",
-	"description": "You deal no damage to animals tamed by you."
+	"name": "触摸动物",
+	"description": "你不会对已被你驯服的动物造成伤害。"
 }

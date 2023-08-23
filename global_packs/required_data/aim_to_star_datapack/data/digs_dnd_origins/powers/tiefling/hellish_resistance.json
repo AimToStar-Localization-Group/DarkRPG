@@ -1,6 +1,6 @@
 {
-  "name": "Hellish Resistance",
-  "description": "You take half damage from fire damage.",
+  "name": "地狱抗性",
+  "description": "你受到的火焰伤害减半。",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:or",

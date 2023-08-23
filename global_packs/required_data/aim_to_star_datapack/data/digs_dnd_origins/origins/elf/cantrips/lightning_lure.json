@@ -5,6 +5,6 @@
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
 	"impact": 0,
-	"name": "Lightning Lure",
-	"description": "You create a lash of lightning energy that strikes at one creature you're aiming at. On a hit, the target takes 4 lightning damage and is stunned for half a second."
+	"name": "闪电之鞭",
+	"description": "生成一条闪电之鞭击打指定的目标。命中后，目标受到4点闪电伤害并眩晕半秒。"
 }

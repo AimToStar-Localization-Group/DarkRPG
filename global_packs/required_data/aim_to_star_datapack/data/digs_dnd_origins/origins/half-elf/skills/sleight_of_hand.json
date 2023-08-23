@@ -5,6 +5,6 @@
 	"icon": "minecraft:gray_dye",
 	"order": 1,
 	"impact": 0,
-	"name": "Sleight of Hand",
-	"description": "Most of your actions do not trigger sculk sensors."
+	"name": "精巧手法",
+	"description": "你的大部分操作都不会惊动幽匿感测体。"
 }

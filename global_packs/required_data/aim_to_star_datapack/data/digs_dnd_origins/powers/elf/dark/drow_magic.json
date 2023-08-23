@@ -1,5 +1,5 @@
 {
-  "name": "Drow Magic",
-  "description": "You can cast the faerie fire and darkness spells each once a day with this ability. You regain the ability to do so once you take a long rest. These spells both require concentration and cannot be active at the same time.",
+  "name": "卓尔精灵魔法",
+  "description": "有了这项能力后，你每天都可以释放一次精灵之火和永夜。经过一段长时间的休息后你才能再次使用技能。这些法术都需要集中注意力，所以无法同时生效。",
   "type": "origins:simple"
 }

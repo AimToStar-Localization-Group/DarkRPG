@@ -5,6 +5,6 @@
 	"icon": "minecraft:netherite_ingot",
 	"order": 1,
 	"impact": 0,
-	"name": "Tough",
-	"description": "Your health point maximum increases by 20%, but your ranged attack damage is reduced by 30%."
+	"name": "坚韧",
+	"description": "你的最大生命值增加20%，但是你的远程伤害减少30%。"
 }

@@ -1,6 +1,6 @@
 {
-	"name": "Damage Resistance",
-	"description": "Poisons last half as long for you.",
+	"name": "抗性",
+	"description": "你受到的中毒效果持续时间减半。",
 	"type": "origins:modify_status_effect_duration",
 	"status_effect": "minecraft:poison",
 	"modifier": {

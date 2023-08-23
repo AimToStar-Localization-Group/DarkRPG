@@ -1,6 +1,6 @@
 {
-  "name": "Tool Proficiency",
-  "description": "You gain proficiency with mason's tools, you can mine any ore with a stone pickaxe or greater.",
+  "name": "精通工具",
+  "description": "你精通石匠的工具，只要拿着石镐或更高级的稿子，你就能挖掘所有类型的矿石。",
   "type": "origins:multiple",
 
   "wood_pick": {

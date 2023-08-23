@@ -1,6 +1,6 @@
 {
-    "name": "Breaching",
-    "description": "Primary: Torpedo yourself forward with great speed in the water.",
+    "name": "鲸跃",
+    "description": "主要技能：在水中以极快的速度冲刺，如同发射的鱼雷",
     "badges": [
         {
             "sprite": "origins:textures/gui/badge/active.png",

@@ -1,6 +1,6 @@
 {
-    "name": "Relentless Endurance",
-    "description": "When you are reduced to 0 health points, you are reduced to 1 instead. Once you use this trait, you can't use it again until you finish a long rest.",
+    "name": "永不停歇",
+    "description": "当你生命值减少到0时，将会替换成生命值减少到1。一旦此特性起了作用，只有当你经过了长时间的休息后，特性才能再次生效。",
     "type": "origins:multiple",
     "prevent_death": {
         "type": "origins:prevent_death",
