@@ -4,7 +4,7 @@
     "condition": {
         "type": "origins:health",
         "comparison": "<=",
-        "compare_to": 5   
+        "compare_to": 5
     },
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,
