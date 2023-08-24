@@ -1,11 +1,13 @@
 {
   "item.things.things_almanac": "Things Almanac",
+
   "block.things.stone_glowstone_fixture": "Stone Glowstone Fixture",
   "block.things.quartz_glowstone_fixture": "Quartz Glowstone Fixture",
   "block.things.deepslate_glowstone_fixture": "Deepslate Glowstone Fixture",
   "block.things.gleaming_ore": "Gleaming Ore",
   "block.things.deepslate_gleaming_ore": "Deepslate Gleaming Ore",
   "block.things.diamond_pressure_plate": "Diamond Pressure Plate",
+
   "item.things.hardening_catalyst": "Hardening Catalyst",
   "item.things.hardening_catalyst.tooltip": "Apply in an anvil to make any item unbreakable",
   "item.things.recall_potion": "Recall Potion",
@@ -14,14 +16,8 @@
   "item.things.bater_wucket": "Bater Wucket",
   "item.things.ender_pouch": "Ender Pouch",
   "item.things.ender_pouch.tooltip": [
-    {
-      "text": "Press ",
-      "color": "gray"
-    },
-    {
-      "index": 0,
-      "color": "white"
-    },
+    {"text": "Press ", "color": "gray"},
+    {"index": 0, "color": "white"},
     " to open ender Chest inventory"
   ],
   "item.things.monocle": "Monocle",
@@ -33,14 +29,8 @@
   "item.things.displacement_tome": "Displacement Tome",
   "item.things.displacement_tome.tooltip": "A fancy tool used for teleportation. Right click onto Ender Pearls to charge",
   "item.things.displacement_tome.tooltip.charges": [
-    {
-      "text": "Charges: ",
-      "color": "gray"
-    },
-    {
-      "index": 0,
-      "color": "#5800FF"
-    }
+    {"text": "Charges: ", "color": "gray"},
+    {"index": 0, "color": "#5800FF"}
   ],
   "item.things.displacement_page": "Displacement Page",
   "item.things.mining_gloves": "Mining Glove",
@@ -57,36 +47,16 @@
   "item.things.enchanted_wax_gland.tooltip": "Makes you float in water. And apparently also really fast",
   "item.things.item_magnet": "Item Magnet",
   "item.things.item_magnet.tooltip": [
-    {
-      "text": "⚡ ",
-      "color": "#8000ff"
-    },
-    {
-      "text": "Charge: ",
-      "color": "gray"
-    },
-    {
-      "index": 0,
-      "color": "dark_gray"
-    }
+    {"text": "⚡ ", "color": "#8000ff"},
+    {"text": "Charge: ", "color": "gray"},
+    {"index": 0, "color": "dark_gray"}
   ],
   "item.things.consolation_cake.hint": "You may exchange this for a consolation cake",
   "item.things.consolation_cake": [
-    {
-      "italic": false,
-      "text": ""
-    },
-    {
-      "text": "❤",
-      "color": "#EB1D36"
-    },
-    {
-      "text": " Consolation Cake "
-    },
-    {
-      "text": "❤",
-      "color": "#EB1D36"
-    }
+    {"italic": false, "text": ""},
+    {"text": "❤", "color": "#EB1D36"},
+    {"text": " Consolation Cake "},
+    {"text": "❤", "color": "#EB1D36"}
   ],
   "item.things.rabbit_foot_charm": "Rabbit Foot Charm",
   "item.things.rabbit_foot_charm.tooltip": "Grants permanent Jump Boost II",
@@ -108,22 +78,20 @@
   "item.things.agglomeration": "Agglomeration",
   "item.things.empty_agglomeration": "Empty Agglomeration",
   "item.things.empty_agglomeration.tooltip": "Combine with two trinkets which share at least one slot to agglomerate them",
+
   "effect.things.momentum": "Momentum",
+
   "enchantment.things.retribution": "Retribution",
   "enchantment.things.retribution.desc": "Rewards the user with strength upon blocking an attack with their enchanted shield",
+
   "container.enderpouch": "Ender Pouch",
   "itemGroup.things.things": "Things",
   "trinkets.slot.feet.charm": "Charm",
   "category.things.things": "Things",
+
   "gui.things.displacement_tome.charges": [
-    {
-      "text": "Charges: ",
-      "color": "gray"
-    },
-    {
-      "index": 0,
-      "color": "white"
-    }
+    {"text": "Charges: ", "color": "gray"},
+    {"index": 0, "color": "white"}
   ],
   "gui.things.displacement_tome.edit_hint": "✎",
   "gui.things.displacement_tome.create": "Create",
@@ -131,16 +99,10 @@
   "gui.things.displacement_tome.delete": "Delete",
   "gui.things.displacement_tome.no_pages": [
     "",
-    {
-      "text": "! ",
-      "color": "yellow",
-      "bold": true
-    },
-    {
-      "text": "No Displacement Pages",
-      "color": "gray"
-    }
+    {"text": "! ", "color": "yellow", "bold": true},
+    {"text": "No Displacement Pages", "color": "gray"}
   ],
+
   "text.things.tooltip_hint": [
     {
       "text": "Hold ",
@@ -153,10 +115,13 @@
     " for more info"
   ],
   "text.things.crafting_component": "Crafting component",
+
   "key.things.openenderchest": "Open Ender Pouch",
   "key.things.place_item": "Place Item in World",
+
   "key.mouse.5": "Mouse 5",
   "key.mouse.4": "Mouse 4",
+
   "advancement.things.root.title": "Things",
   "advancement.things.root.description": "Probably useful ones at that",
   "advancement.things.gleaming_powder.title": "Like Diamonds, but less shiny",
@@ -205,6 +170,7 @@
   "advancement.things.agglomerate_apple.description": "A strange yet innovative idea",
   "advancement.things.eat_agglomerated_apple.title": "Once",
   "advancement.things.eat_agglomerated_apple.description": "It nourishes you once. And now it's broken",
+
   "text.config.things.title": "Things Configuration",
   "text.config.things.option.generateGleamingOre": "Gleaming Ore Generation",
   "text.config.things.option.appleTrinket": "Apple Trinket enabled",
@@ -219,6 +185,7 @@
   "text.config.things.option.sockPerLevelSpeedAmplifier": "Socks speed amplifier",
   "text.config.things.option.makeLockedContainersUnbreakable": "Unbreakable Locked Containers",
   "text.config.things.option.enableAgglomerationInvScrollSelection": "Toggle Inventory Scrolling On Agglomeration",
+
   "text.config.things.category.effectLevels": "Trinket Status Effects",
   "text.config.things.option.effectLevels.miningGloveMomentum": "Mining Glove Momentum Level",
   "text.config.things.option.effectLevels.mossNecklaceRegen": "Mossy Necklace Regeneration Level",
