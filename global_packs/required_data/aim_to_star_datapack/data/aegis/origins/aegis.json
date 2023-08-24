@@ -1,6 +1,6 @@
 {
-    "name": "Spellbound Aegis",
-    "description": "A spirit tied to a suit of armor, determined to protect others and get back what was lost!",
+    "name": "咒语庇护神",
+    "description": "与盔甲相连着的灵魂，决心保护他人并夺回所失去的一切！",
     "powers": [
         "aegis:power/swift_step/description",
         "aegis:power/swift_step/dash",

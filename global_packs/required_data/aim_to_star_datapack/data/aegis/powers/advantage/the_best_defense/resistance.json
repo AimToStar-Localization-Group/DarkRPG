@@ -1,5 +1,5 @@
 {
-    "name": "resistance",
+    "name": "抗性提升",
     "hidden": true,
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,

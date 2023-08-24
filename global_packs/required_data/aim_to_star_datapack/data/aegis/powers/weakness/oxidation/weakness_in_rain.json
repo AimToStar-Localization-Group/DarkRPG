@@ -1,5 +1,5 @@
 {
-    "name": "weakness in rain",
+    "name": "雨中弱点",
     "hidden": true,
     "condition": {
         "type": "origins:and",

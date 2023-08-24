@@ -1,5 +1,5 @@
 {
-    "name": "Hunger Immunity",
+    "name": "饥饿免疫",
     "hidden": true,
     "type": "origins:effect_immunity",
     "effect": "minecraft:hunger"
