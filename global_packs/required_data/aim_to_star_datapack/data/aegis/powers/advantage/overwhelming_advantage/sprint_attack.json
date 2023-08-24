@@ -1,5 +1,5 @@
 {
-    "name": "knockback during sprint",
+    "name": "冲刺时击退",
     "hidden": true,
     "condition": {
         "type": "origins:sprinting"

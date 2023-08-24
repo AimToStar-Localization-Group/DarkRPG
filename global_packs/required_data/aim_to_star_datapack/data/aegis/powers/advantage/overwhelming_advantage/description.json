@@ -1,5 +1,5 @@
 {
-    "name": "Overwhelming Advantage",
-    "description": "Your armor is quite heavy, allowing for extra force to be put into any attack done whilst sprinting.",
+    "name": "压倒性优势",
+    "description": "你的身体非常沉重，在冲刺时进行的任何攻击都会造成额外伤害。",
     "type": "origins:simple"
 }

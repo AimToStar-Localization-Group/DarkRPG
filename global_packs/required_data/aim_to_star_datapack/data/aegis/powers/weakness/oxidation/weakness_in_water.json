@@ -1,5 +1,5 @@
 {
-    "name": "weakness in water",
+    "name": "水中弱点",
     "hidden": true,
     "condition": {
         "type": "origins:submerged_in",

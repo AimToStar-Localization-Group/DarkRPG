@@ -1,5 +1,5 @@
 {
-    "name": "no breath bar",
+    "name": "无呼吸槽",
     "hidden": true,
     "condition": {
         "type": "origins:submerged_in",

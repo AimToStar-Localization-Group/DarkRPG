@@ -1,5 +1,5 @@
 {
-    "name": "suffocation immunity",
+    "name": "窒息免疫",
     "hidden": true,
     "type": "origins:invulnerability",
     "damage_condition": {

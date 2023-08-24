@@ -1,5 +1,5 @@
 {
-    "name": "Poison Immunity",
+    "name": "中毒免疫",
     "hidden": true,
     "type": "origins:effect_immunity",
     "effect": "minecraft:poison"

@@ -1,5 +1,5 @@
 {
-    "name": "less fall damage",
+    "name": "更少的摔落伤害",
     "hidden": true,
     "type": "origins:modify_damage_taken",
     "damage_condition": {
