@@ -50,17 +50,17 @@
 	"lore_book.tier": "Spell tier: %1$s",
 	"lore_book.cast_xp": "XP on cast: %1$s",
 	"enchantment.amethyst_core.none": "None",
-	"attribute.name.generic.amethyst_core.spell_level": "Spell Level",
-	"attribute.name.generic.amethyst_core.spell_cooldown": "Spell Cooldown",
-	"attribute.name.generic.amethyst_core.spell_mana_cost": "Spell Mana Cost",
-	"attribute.name.generic.amethyst_core.spell_damage": "Spell Damage",
-	"attribute.name.generic.amethyst_core.spell_amplifier": "Spell Amplifier",
-	"attribute.name.generic.amethyst_core.spell_duration": "Spell Duration",
-	"attribute.name.generic.amethyst_core.spell_range": "Spell Range",
-	"attribute.name.generic.amethyst_core.spell_experience": "Spell Experience Gain",
+	"attribute.name.generic.amethyst_core.spell_level": "Spell Level Multiplier",
+	"attribute.name.generic.amethyst_core.spell_cooldown": "Cooldown Reduction",
+	"attribute.name.generic.amethyst_core.spell_mana_cost": "Mana Cost Reduction",
+	"attribute.name.generic.amethyst_core.spell_damage": "Spell Damage Multiplier",
+	"attribute.name.generic.amethyst_core.spell_amplifier": "Spell Amplifier Multiplier",
+	"attribute.name.generic.amethyst_core.spell_duration": "Spell Duration Multiplier",
+	"attribute.name.generic.amethyst_core.spell_range": "Spell Range Multiplier",
+	"attribute.name.generic.amethyst_core.spell_experience": "Spell XP Multiplier",
 	"attribute.name.generic.amethyst_core.enchantability": "Enchantability",
 	"attribute.name.generic.amethyst_core.damage_multiplication": "Incoming Damage",
+	"attribute.name.generic.amethyst_core.player_experience": "Bonus Experience",
 	"attribute.name.generic.amethyst_core.shielding": "Shielding Chance",
-	"attribute.name.generic.amethyst_core.player_experience": "Bonus Experience"
-
+	"attribute.name.generic.amethyst_core.magic_resistance": "Magic Resistance"
 }
