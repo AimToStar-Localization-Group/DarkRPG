@@ -153,13 +153,10 @@
         " 获取更多信息"
     ],
     "text.things.crafting_component": "合成部件",
-
     "key.things.openenderchest": "开启末影袋",
     "key.things.place_item": "在世界中放置物品",
-
     "key.mouse.5": "鼠标5号键",
     "key.mouse.4": "鼠标4号键",
-
     "advancement.things.root.title": "杂七杂八的东西",
     "advancement.things.root.description": "可能还是些好东西呢",
     "advancement.things.gleaming_powder.title": "和钻石差不多，但没那么闪就对了",
