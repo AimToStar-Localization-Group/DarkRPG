@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_xp_gain",
-  "modifier": {
-      "operation": "multiply_total",
-      "value": -0.06
-  }  ,
-    "name": "经验疲劳",
-    "description": "你获得经验比普通人更慢。"
-}

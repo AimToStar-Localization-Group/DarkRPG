@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_projectile_damage",
-  "modifier": {
-      "operation": "addition",
-      "value": 8.0
-  },
-  "name": "Arrows",
-  "description": "You are more vulnerable to arrows"
-}

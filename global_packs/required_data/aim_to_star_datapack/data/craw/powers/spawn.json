@@ -1,7 +1,0 @@
-{
-    "type": "origins:modify_player_spawn",
-    "dimension": "overworld",
-    "structure": "ancient_city",
-    "name": "What once was home",
-    "description":"You appear in the nearest Ancient City"
-}

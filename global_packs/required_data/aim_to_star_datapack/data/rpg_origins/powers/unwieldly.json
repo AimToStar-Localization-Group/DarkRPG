@@ -1,9 +1,0 @@
-{
-    "name": "笨手笨脚",
-    "description": "因为你醉心于魔法，造成的所有伤害减少了。",
-    "type": "origins:modify_damage_dealt",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": -0.25
-    }
-}

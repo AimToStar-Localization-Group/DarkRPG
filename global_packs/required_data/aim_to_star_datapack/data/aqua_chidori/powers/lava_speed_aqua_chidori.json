@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_lava_speed",
-    "modifier": {
-        "operation": "addition",
-        "value": 0.4
-    },
-    "name": "熔岩加速",
-    "description": "多亏了熔岩亲和性，你能在熔岩中移动得更快。"
-}

@@ -1,9 +1,0 @@
-{
-    "name": "无暇休息",
-    "description": "你只能在冲刺中回复生命值。",
-    "condition": {
-        "inverted": true,
-        "type": "origins:sprinting"
-    },
-    "type": "origins:disable_regen"
-}

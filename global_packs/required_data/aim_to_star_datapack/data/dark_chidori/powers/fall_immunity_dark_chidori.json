@@ -1,9 +1,0 @@
-{
-  "type": "origins:invulnerability",
-  "damage_condition": {
-    "type": "origins:name",
-    "name": "fall"
-  },
-  "name": "坐标破坏者",
-  "description": "黑魔法使你免受一切摔落伤害。"
-}
