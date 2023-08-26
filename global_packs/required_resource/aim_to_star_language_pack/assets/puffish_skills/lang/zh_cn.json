@@ -1,13 +1,13 @@
 {
-	"text.puffish_skills.skills": "技能",
-	"text.puffish_skills.points_left": "技能点：",
-
-	"category.puffish_skills.skills": "技能",
-	"key.puffish_skills.open": "开启技能树",
-
-	"chat.puffish_skills.new_point": "你获得了一个新的技能点，按%s开启技能树。",
-
-	"toast.puffish_skills.invalid_config.description": "无效的配置，请检查游戏日志。",
-
-	"gamerule.puffish_skills:announceNewPoints": "宣布了新的技能点"
+    "text.puffish_skills.skills": "技能",
+    "category.puffish_skills.skills": "技能",
+    "key.puffish_skills.open": "开启技能树",
+    "chat.puffish_skills.new_point": "你获得了一个新的技能点，按%s开启技能树。",
+    "toast.puffish_skills.invalid_config.description": "无效的配置，请检查游戏日志。",
+    "gamerule.puffish_skills:announceNewPoints": "宣布了新的技能点",
+    "text.puffish_skills.points_left": "剩余技能点： ",
+    "command.puffish_skills.points.add.success.single": "为%3$s增加%1$s点技能点至类别%2$s",
+    "command.puffish_skills.points.add.success.multiple": "为玩家%3$s增加%1$s点技能点至类别%2$s",
+    "command.puffish_skills.experience.add.success.single": "为%3$s增加%1$s点经验至类别%2$s",
+    "command.puffish_skills.experience.add.success.multiple": "为玩家%3$s增加%1$s点经验至类别%2$s"
 }
