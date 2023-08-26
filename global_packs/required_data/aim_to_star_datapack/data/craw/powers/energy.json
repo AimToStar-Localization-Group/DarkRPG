@@ -1,0 +1,43 @@
+{
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 14,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+            "bar_index": 3
+        }
+    },
+    "death": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:change_resource",
+            "resource": "*:energy_resource",
+            "change": -14,
+            "operation": "add"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "*:energy_resource",
+            "change": -14,
+            "operation": "add"
+        }
+    },
+    "energy_over_time": {
+        "condition": {
+            "type": "origins:on_block"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:energy_resource",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "hidden": true
+}

@@ -1,0 +1,14 @@
+{
+	"type": "origins:prevent_elytra_flight",
+	"condition": {
+		"type": "origins:in_block_anywhere",
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:water"
+		},
+		"comparison": ">=",
+		"compare_to": 1
+	},
+	"name": "Wet wings",
+	"description": "They are heavier if they wet, making flying harder the longer you stay in the water"
+}

@@ -1,0 +1,6 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:scrape",
+    "frequency": 4,
+    "hidden":true
+}

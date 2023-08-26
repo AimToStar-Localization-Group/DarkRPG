@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team add sculk"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join sculk @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join sculk @e[type=minecraft:warden]"
+			}
+		]
+	},
+	"name": "Chilling in the darkness",
+	"description": "Your body has evolved to the deep dark, you are unable to trigger sculk sensors since they are now a part of you, this also makes the warden passive towards you"
+}

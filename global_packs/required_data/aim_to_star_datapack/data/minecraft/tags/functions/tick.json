@@ -1,4 +1,5 @@
-
 {
-  "values": ["minecraft:welcome_tick"]
+  "values": [
+    "minecraft:welcome_tick"
+  ]
 }

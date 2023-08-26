@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"modifier": {
+		"operation": "addition",
+		"value": 5
+	},
+	"name": "That smells good",
+	"description": "Be careful with the fire, you could get roasted"
+}
