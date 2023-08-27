@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "登录奖励",
+                "color": "blue",
+                "bold": true,
+                "italic": false
+              }},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Items:[
+              {Count:1b,id:\"minecraft:stone_sword\"},
+              {Count:1b,id:\"minecraft:leather_boots\"},
+              {Count:1b,id:\"minecraft:torch\"},
+              {Count:9b,id:\"minecraft:apple\"},
+              {Count:7b,id:\"minecraft:bread\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
