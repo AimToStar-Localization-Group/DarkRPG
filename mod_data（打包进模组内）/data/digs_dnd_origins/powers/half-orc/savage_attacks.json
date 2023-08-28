@@ -1,0 +1,9 @@
+{
+    "name": "野蛮进攻",
+    "description": "你的近战伤害增加20%。",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "value": 0.2,
+        "operation": "multiply_base"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "恐惧",
+    "description": "你身上的恶魔血统为大多数人所惧。村民们太害怕了以至于不敢和你交易。",
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+
+  "name": "踏风",
+  "description": "以千鸟之力融合羽人之躯，踏风而起！",
+  "type": "origins:launch",
+    "cooldown": 30,
+    "hud_render": {
+        "bar_index": 2
+    },
+    "sound": "minecraft:entity.blaze.shoot",
+    "speed": 2,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+
+}

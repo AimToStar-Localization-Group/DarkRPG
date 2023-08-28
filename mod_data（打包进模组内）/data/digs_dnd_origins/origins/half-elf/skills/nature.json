@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/nature"
+	],
+	"icon": "minecraft:wheat",
+	"order": 1,
+	"impact": 0,
+	"name": "自然",
+	"description": "对农作物使用骨粉时，骨粉效果会生效两次。"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "modifier": {
+      "operation": "addition",
+      "value": 8.0
+  },
+  "name": "箭矢",
+  "description": "箭矢对你造成的伤害更高"
+}

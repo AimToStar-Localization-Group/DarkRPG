@@ -1,0 +1,5 @@
+{
+  "name": "专长",
+  "description": "你能选择一种专长。选择该种族后，你将选择你的专长。",
+  "type": "origins:simple"
+}

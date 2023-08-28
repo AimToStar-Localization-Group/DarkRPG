@@ -1,0 +1,42 @@
+{
+    "name": "精灵武器训练",
+    "description": "你精通剑和弓，使用时都能额外造成2点伤害。",
+    "type": "origins:multiple",
+    "melee": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "digs_dnd_origins:elf_melee_weapons"
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2.0
+        }
+    },
+    "ranged": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "digs_dnd_origins:elf_ranged_weapons"
+                    }
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2.0
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "夜视",
+  "description": "由于你有恶魔血统，即使身处昏暗环境你也能看清。",
+  "type": "origins:night_vision",
+  "strength": 0.5
+}

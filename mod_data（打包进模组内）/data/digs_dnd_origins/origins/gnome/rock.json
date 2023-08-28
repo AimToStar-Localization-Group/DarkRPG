@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/rock/size",
+	    "digs_dnd_origins:gnome/rock/speed",
+	    "digs_dnd_origins:gnome/rock/darkvision",
+		"digs_dnd_origins:gnome/rock/tinker"
+	],
+	"icon": "minecraft:spyglass",
+	"order": 1,
+	"impact": 2,
+	"name": "岩侏儒",
+	"description": "作为岩石侏儒，你拥有超越其他侏儒的天生创造力和坚韧不拔的精神。"
+}

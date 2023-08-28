@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/lightning_lure"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "闪电之鞭",
+	"description": "生成一条闪电之鞭击打指定的目标。命中后，目标受到4点闪电伤害并眩晕半秒。"
+}

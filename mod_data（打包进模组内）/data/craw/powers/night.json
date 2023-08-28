@@ -1,0 +1,15 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:night_vision",
+			"duration": 99999,
+			"amplifier": 1,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		}
+	},
+	"hidden": true
+}

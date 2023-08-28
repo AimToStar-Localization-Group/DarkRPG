@@ -1,0 +1,17 @@
+{
+  "name": "能力值提升",
+  "description": "由于魅力提升，村民们为你降价。",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hero_of_the_village",
+      "duration": 240,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 200
+}

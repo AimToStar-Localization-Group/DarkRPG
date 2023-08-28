@@ -1,0 +1,10 @@
+{
+    "name": "耐力",
+    "description": "你比别人更加有耐力，你受到的伤害变少了。",
+    "loading_priority": 0,
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "addition",
+        "value": -1
+    }
+}

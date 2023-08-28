@@ -1,0 +1,33 @@
+{
+	"name": "抗性",
+	"description": "寒冰对你造成的伤害减半，你受到的缓慢效果持续时间减半。",
+	"type": "origins:multiple",
+	"freeze": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "freeze"
+				},
+				{
+					"type": "origins:name",
+					"name": "freeze.player"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	},
+	"slow": {
+		"type": "origins:modify_status_effect_duration",
+		"status_effects": "minecraft:slowness",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	}
+}

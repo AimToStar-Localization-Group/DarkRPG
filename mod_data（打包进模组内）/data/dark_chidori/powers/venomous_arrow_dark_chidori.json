@@ -1,0 +1,17 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "cooldown": 100,
+  "hud_render": {
+      "should_render": true
+  },
+  "tag": "{pickup:0b,CustomPotionEffects:[{Id:19,Duration:150,Amplifier:0b}]}",
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+  },
+ "hidden": true,
+  "condition": {
+    "type": "origins:sneaking"
+}
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"digs_dnd_origins:dwarf/hill/size",
+		"digs_dnd_origins:dwarf/hill/speed",
+		"digs_dnd_origins:dwarf/hill/darkvision",
+		"digs_dnd_origins:dwarf/hill/dwarven_resilience",
+		"digs_dnd_origins:dwarf/hill/dwarven_combat_training",
+		"digs_dnd_origins:dwarf/hill/dwarven_toughness",
+		"digs_dnd_origins:dwarf/hill/tool_proficiency"
+	],
+	"icon": "minecraft:iron_shovel",
+	"order": 1,
+	"impact": 2,
+	"name": "丘陵矮人",
+	"description": "作为一名丘陵矮人，你有着敏锐的感知和直觉，以及惊人的恢复力。"
+}

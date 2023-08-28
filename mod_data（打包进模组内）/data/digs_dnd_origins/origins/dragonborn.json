@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"digs_dnd_origins:dragonborn/description_black",
+		"digs_dnd_origins:dragonborn/description_blue",
+		"digs_dnd_origins:dragonborn/description_brass",
+		"digs_dnd_origins:dragonborn/description_green",
+		"digs_dnd_origins:dragonborn/description_red",
+		"digs_dnd_origins:dragonborn/description_white"
+	],
+	"icon": "digs_dnd_origins:black_scale",
+	"order": 0,
+	"impact": 2,
+	"name": "龙裔",
+	"description": "正如他们的名字所宣称的那样，龙裔是龙族的后代。他们骄傲地行走于世，世人带着未知的恐惧恭迎他们。选择该种族后，你可以选择亚种。"
+}

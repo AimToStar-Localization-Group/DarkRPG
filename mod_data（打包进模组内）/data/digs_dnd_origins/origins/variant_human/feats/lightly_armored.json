@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/lightly_armored"
+	],
+	"icon": "minecraft:leather_chestplate",
+	"order": 1,
+	"impact": 0,
+	"name": "轻型装甲",
+	"description": "精通轻甲的你在使用方面训练有素。穿戴一整套锁链及以下的盔甲时，盔甲韧性增加2。受益的同时，你的移速也降低了5%。"
+}

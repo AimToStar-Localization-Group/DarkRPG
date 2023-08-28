@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:ranged_weapons"
+    }
+  },
+  "name": "远程无知",
+  "description": "你只使用过自己的双拳，对远程武器没有任何认知。"
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/medicine"
+	],
+	"icon": "minecraft:potion",
+	"order": 1,
+	"impact": 0,
+	"name": "医术",
+	"description": "所有治疗效果增加20%。"
+}

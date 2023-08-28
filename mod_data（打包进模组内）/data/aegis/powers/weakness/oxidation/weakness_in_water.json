@@ -1,0 +1,20 @@
+{
+    "name": "水中弱点",
+    "hidden": true,
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 100,
+        "amplifier": 0,
+        "show_particles": true,
+        "show_icon": true
+    }
+}

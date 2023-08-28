@@ -1,0 +1,16 @@
+{
+    "name": "水行者",
+    "description": "你已经学会了如何驾驭海洋之心的力量，当你握住它时，你可以在水上来去自如。",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:heart_of_the_sea"
+            }
+        }
+    },
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:water"
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/sleight_of_hand"
+	],
+	"icon": "minecraft:gray_dye",
+	"order": 1,
+	"impact": 0,
+	"name": "精巧手法",
+	"description": "你的大部分操作都不会惊动幽匿感测体。"
+}

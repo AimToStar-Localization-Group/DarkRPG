@@ -1,0 +1,10 @@
+{
+	"name": "能力值提升",
+	"description": "由于智力提升，你的法术威力增加1。",
+	"type": "origins:attribute",
+    "modifier": {
+        "attribute": "spell_power:arcane",
+        "value": 1,
+        "operation": "addition"
+    }
+}

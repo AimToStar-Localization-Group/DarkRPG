@@ -1,0 +1,5 @@
+{
+  "name": "技能",
+  "description": "你能主动选择并精通一种技能。选择该种族后，你将选择你的技能。",
+  "type": "origins:simple"
+}

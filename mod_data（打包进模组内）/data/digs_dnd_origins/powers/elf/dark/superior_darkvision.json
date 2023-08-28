@@ -1,0 +1,6 @@
+{
+	"name": "出色的夜视能力",
+	"description": "由于在幽暗地域待习惯了，比起普通的夜视能力，你的视力更加好。",
+	"type": "origins:night_vision",
+	"strength": 1.0
+}

@@ -1,0 +1,9 @@
+{
+    "name": "并不明智",
+    "description": "你热爱音乐，但这就是关键所在。你获得的经验值变少。",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.35
+    }
+}

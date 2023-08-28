@@ -1,0 +1,15 @@
+{
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": "<",
+        "compare_to": 20
+    },
+    "type": "origins:action_over_time",
+    "interval": 160,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 20,
+        "saturation": 20
+    },
+    "hidden": true
+}

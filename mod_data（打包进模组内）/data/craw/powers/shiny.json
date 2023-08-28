@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 3
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 7
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 6
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 3
+    },
+    "name": "闪闪发光",
+    "description": "作为一只喜鹊，你喜欢闪闪发光的东西，这意味着你更喜欢穿戴铁制品以上的装备"
+}

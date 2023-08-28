@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team add sculk"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join sculk @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join sculk @e[type=minecraft:warden]"
+			}
+		]
+	},
+	"name": "暗中休憩",
+	"description": "你的身体已经适应了深暗，所以你不会触发幽匿感测体，因为它现在是你的一部分，同时监守者对你来说是中立生物"
+}

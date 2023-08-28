@@ -1,0 +1,10 @@
+{
+	"name": "灵活步法",
+	"description": "你的基础移速要快10%。",
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": 0.1
+	}
+}

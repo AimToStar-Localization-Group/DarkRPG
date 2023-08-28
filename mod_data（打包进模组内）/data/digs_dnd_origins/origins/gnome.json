@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/description_deep",
+		"digs_dnd_origins:gnome/description_forest",
+		"digs_dnd_origins:gnome/description_rock"
+	],
+	"icon": "minecraft:spyglass",
+	"order": 0,
+	"impact": 2,
+	"name": "侏儒",
+	"description": "侏儒的能量和热情在他们小小身躯的每一寸血肉中闪耀。选择该种族后，你可以选择亚种。"
+}

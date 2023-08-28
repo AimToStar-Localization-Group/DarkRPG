@@ -1,0 +1,9 @@
+{
+  "name": "出神",
+  "description": "精灵不需要睡觉，取而代之的是每天4小时的深度冥想，保持意识半清醒。你的失眠度的增长速度减半。",
+  "type": "origins:modify_insomnia_ticks",
+  "modifier": {
+    "operation": "multiply_base_additive",
+    "value": 1
+  }
+}

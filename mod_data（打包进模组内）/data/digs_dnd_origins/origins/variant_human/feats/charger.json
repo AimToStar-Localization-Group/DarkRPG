@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/charger"
+	],
+	"icon": "minecraft:goat_horn",
+	"order": 1,
+	"impact": 0,
+	"name": "战马",
+	"description": "你可以在疾跑时选择击退生物或者对其造成更多伤害。如果你空手攻击目标，你能造成显著击退。但是你手持武器的话，能对目标额外造成4点伤害。这个能力有6秒的冷却，且冷却时间内无法疾跑。"
+}

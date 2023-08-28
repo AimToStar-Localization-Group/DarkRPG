@@ -1,0 +1,112 @@
+{
+	"type": "origins:multiple",
+	"heal": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:command",
+					"command": "execute if entity @e[type=minecraft:experience_orb,distance=..4]",
+					"comparison": ">=",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:health",
+					"comparison": "<",
+					"compare_to": 20
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": ">=",
+					"compare_to": 10
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:if_else",
+					"condition": {
+						"type": "origins:and",
+						"conditions": [{
+								"type": "origins:or",
+								"conditions": [{
+										"type": "origins:exposed_to_sun"
+									},
+									{
+										"type": "origins:dimension",
+										"dimension": "minecraft:the_nether"
+									}
+								]
+							},
+							{
+								"type": "origins:or",
+								"conditions": [{
+										"type": "origins:origin",
+										"origin": "wardenoriginpack:wardentrue"
+									},
+									{
+										"type": "origins:and",
+										"conditions": [{
+												"type": "origins:origin",
+												"origin": "wardenoriginpack:wardenidentity"
+											},
+											{
+												"inverted": true,
+												"type": "origins:biome",
+												"condition": {
+													"type": "origins:temperature",
+													"comparison": "<=",
+													"compare_to": 0.35
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					"if_action": {
+						"type": "origins:and",
+						"actions": [{
+							"type": "origins:heal",
+							"amount": 2
+						}]
+					},
+					"else_action": {
+						"type": "origins:and",
+						"actions": [{
+							"type": "origins:heal",
+							"amount": 4
+						}]
+					}
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "kill @e[type=minecraft:experience_orb,limit=1,distance=..8]",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:sculk_soul ~ ~2 ~ 0.4 0.7 0.4 0.04 15",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.sculk.spread",
+					"volume": 4,
+					"pitch": 1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.sculk_catalyst.bloom",
+					"volume": 4,
+					"pitch": 1
+				}
+			]
+		}
+	},
+	"name": "猎人",
+	"description": "食物不会恢复你的生命值，你的幽匿存在需要经验值才能恢复"
+}
