@@ -63,6 +63,11 @@
 		"key": "key.origins.secondary_active",
 		"continuous": true
 	},
+		"condition": {
+		"type": "origins:gamemode",
+		"gamemode": "spectator",
+		"inverted": true
+	},
 	"name": "咯咯叫",
 	"description": "按设置的次要键位，你会发出一声刺耳的尖叫，听到它的每个生物都将陷入麻痹和失明"
 }
