@@ -9,8 +9,8 @@
     "trinkets.slot.head.vanity": "头部装饰",
     "text.autoconfig.vanityslots.option.itemBlacklist.@Tooltip": "此物品不该被放在装饰槽中。",
     "trinkets.slot.legs.vanity": "腿部装饰",
-    "text.autoconfig.vanityslots.option.disallowBinding.@Tooltip": "Prevent items with Curse of Binding from being put in vanity slots.",
-    "title.vanityslots.config": "VanitySlots Config",
+    "text.autoconfig.vanityslots.option.disallowBinding.@Tooltip": "防止带有绑定诅咒的物品装备进装饰槽",
+    "title.vanityslots.config": "VanitySlots配置",
     "text.autoconfig.vanityslots.option.itemBlacklist": "盔甲黑名单",
     "text.autoconfig.vanityslots.option.disallowBinding": "禁用绑定诅咒"
 }
