@@ -6,7 +6,7 @@
     "morebows.confBowDurability": "耐久",
     "item.morebows.ender_bow": "末影弓",
     "morebows.confCatGen": "常规设置",
-    "item.morebows.gold_bow": "更改多重射击弓处理额外箭矢的方式。可选选项：\n使用1支箭，射出多支自定义箭\n使用1支箭，射出多支标准箭\n使用尽可能多的箭，射出用过的箭",
+    "item.morebows.gold_bow": "金弓",
     "morebows.confBowDurability.tooltip": "弓的耐久度。数值越高耐久度越高.",
     "morebows.confGenFrostCold.tooltip": "如果启用，寒冰箭将对燃烧单位造成三倍伤害，并扑灭着火的实体。\n启用此功能还能防止寒冰箭着火。",
     "item.morebows.flame_bow": "烈焰弓",
