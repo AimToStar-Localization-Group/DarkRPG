@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "肮脏的生意（任务）"},
-        "description": {"text": "收集10个砂土。奖励：120经验值，50个缠根泥土。"},
+        "title": {"text": "Dirty Business (Quest)"},
+        "description": {"text": "Gather 10x Coarse Dirt.  Reward: 120 Exp, 50x Rooted Dirt."},
         
         "icon": {"item": "minecraft:coarse_dirt"},
         "frame": "challenge",

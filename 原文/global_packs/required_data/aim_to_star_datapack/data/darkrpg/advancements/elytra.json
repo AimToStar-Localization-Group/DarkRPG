@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "我能飞！（任务）"},
-        "description": {"text": "获得1个鞘翅。奖励：200经验值。"},
+        "title": {"text": "I Can Fly! (Quest)"},
+        "description": {"text": "Obtain 1x Elytra.  Rewards: 200 Exp."},
         
         "icon": {"item": "minecraft:elytra"},
         "frame": "challenge",

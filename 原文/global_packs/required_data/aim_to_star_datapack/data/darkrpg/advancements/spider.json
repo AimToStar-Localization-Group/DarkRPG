@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "蜘蛛恐惧症（任务）"},
-        "description": {"text": "击杀蜘蛛，并收集3个蜘蛛眼。奖励：100经验值，35个面包，20个苹果，1个钻石稿。"},
+        "title": {"text": "Arachnophobicly (Quest)"},
+        "description": {"text": "Kill Spiders, Collect 3x Spider Eyes.  Reward: 100 Exp, 35x Bread, 20 Apples, 1x Diamond Pickaxe."},
         
         "icon": {"item": "minecraft:cobweb"},
         "frame": "challenge",

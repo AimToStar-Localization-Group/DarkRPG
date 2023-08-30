@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "更多岩浆制品（任务）"},
-        "description": {"text": "击杀岩浆怪，并收集30个岩浆膏。奖励：350经验值，25个玻璃，25个皮革。"},
+        "title": {"text": "Magmaliciously (Quest)"},
+        "description": {"text": "Kill Magma Cubes, Collect 30x Magma Cream.  Reward: 350 Exp, 25x Glass, 25x Leather."},
         
         "icon": {"item": "minecraft:magma_cream"},
         "frame": "challenge",

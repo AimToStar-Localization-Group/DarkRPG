@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "真正的Minecraft现在开始（任务）"},
-        "description": {"text": "砍树，收集资源，制造工作台。奖励：20经验值，10根木棍。"},
+        "title": {"text": "Real Minecraft Starts Now (Quest)"},
+        "description": {"text": "Assault a tree, gather resources, make a Crafting Table.  Reward: 20 Exp, 10x Sticks."},
         
         "icon": {"item": "minecraft:crafting_table"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "用腐肉来转换为钻石"},
-        "description": {"text": "将9个腐肉转化为1颗钻石。站在工作台上在主手和副手之间相互切换腐肉来兑换。"},
+        "title": {"text": "Convert Rotten Flesh to Diamonds"},
+        "description": {"text": "Convert 9x Rotten Flesh into 1x Diamond. Stand on a Crafting Table to enable the process and switch between off-hand and main hand to initiate."},
         
         "icon": {"item": "minecraft:rotten_flesh"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "摇滚熔炉（任务）"},
-        "description": {"text": "制造熔炉。奖励：30经验值。"},
+        "title": {"text": "Smelter Skelter (Quest)"},
+        "description": {"text": "Craft a Furnace.  Rewards: 30 Exp."},
         
         "icon": {"item": "minecraft:furnace"},
         "frame": "challenge",

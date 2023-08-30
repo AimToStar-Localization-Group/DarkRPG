@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "木棍难题（任务）"},
-        "description": {"text": "收集30根木棍。奖励：30经验值。"},
+        "title": {"text": "Sticky Situation (Quest)"},
+        "description": {"text": "Gather 30x Sticks.  Rewards: 30 Exp."},
         
         "icon": {"item": "minecraft:stick"},
         "frame": "challenge",

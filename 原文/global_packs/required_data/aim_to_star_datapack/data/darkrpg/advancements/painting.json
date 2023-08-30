@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "达芬奇之谜（任务）"},
-        "description": {"text": "制作画。奖励：30经验值。"},
+        "title": {"text": "Da Vinci Code (Quest)"},
+        "description": {"text": "Craft a Painting.  Rewards: 30 Exp."},
         
         "icon": {"item": "minecraft:painting"},
         "frame": "challenge",

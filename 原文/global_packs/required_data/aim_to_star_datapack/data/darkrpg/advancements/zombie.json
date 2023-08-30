@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "僵尸困扰（任务）"},
-        "description": {"text": "击杀僵尸，并收集9个腐肉。奖励：50经验值，1个锁链胸甲，1把弩，1颗钻石。"},
+        "title": {"text": "Zombie Trouble (Quest)"},
+        "description": {"text": "Kill Zombies, Collect 9x Rotten Flesh.  Reward: 50 Exp, 1x Chainmail Chestplate, 1x Crossbow, 1x Diamond."},
         
         "icon": {"item": "minecraft:zombie_head"},
         "frame": "challenge",

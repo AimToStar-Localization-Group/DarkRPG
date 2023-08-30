@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "金属运动鞋（任务）"},
-        "description": {"text": "制作1个铁靴子。奖励：50经验值。"},
+        "title": {"text": "Metal Sneakers (Quest)"},
+        "description": {"text": "Craft 1x Iron Boots.  Rewards: 50 Exp."},
         
         "icon": {"item": "minecraft:iron_boots"},
         "frame": "challenge",

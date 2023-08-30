@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "美西螈实验（任务）"},
-        "description": {"text": "用水桶抓住美西螈。奖励：200经验值，1个砂轮。"},
+        "title": {"text": "Axolotl Testing (Quest)"},
+        "description": {"text": "Use a Bucket of Water to catch an Axolotl.  Reward: 200 Exp, 1x Grindstone."},
         
         "icon": {"item": "minecraft:axolotl_bucket"},
         "frame": "challenge",

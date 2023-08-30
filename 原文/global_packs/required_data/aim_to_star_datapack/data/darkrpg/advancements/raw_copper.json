@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "氧化剂（任务）"},
-        "description": {"text": "收集50个粗铜。奖励：40经验值，1把下界合金剑，1把钻石剑，1把金剑，60支箭，1把弩。"},
+        "title": {"text": "Oxidizer (Quest)"},
+        "description": {"text": "Gather 50x Raw Copper.  Reward: 80 Exp, 35x Brown Wool, 1x Diamond Sword, 1x Gold Pickaxe, 60x Arrows, 1x Crossbow"},
         
         "icon": {"item": "minecraft:raw_copper"},
         "frame": "challenge",

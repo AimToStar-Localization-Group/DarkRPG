@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "找到监守者了！（任务）"},
-        "description": {"text": "（额外极限任务）找到监守者并杀掉它。奖励：2000经验值，1个Pigstep唱片。"},
+        "title": {"text": "Warden Found! (Quest)"},
+        "description": {"text": "(Bonus Extreme Quest) Find and kill The Warden.  Reward: 2000 Exp, 1x Pigstep Music Disc"},
 
         "icon": {"item": "minecraft:sculk_shrieker"},
         "frame": "challenge",

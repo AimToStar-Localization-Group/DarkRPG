@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "寻找疣（任务）"},
-        "description": {"text": "收集9个下界疣。奖励：70经验值。"},
+        "title": {"text": "Seek The Wart (Quest)"},
+        "description": {"text": "Gather 9x Nether Warts.  Rewards: 70 Exp."},
         
         "icon": {"item": "minecraft:nether_wart"},
         "frame": "challenge",

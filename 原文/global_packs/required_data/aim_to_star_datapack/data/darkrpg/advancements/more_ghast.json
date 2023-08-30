@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "更加惊魂失魄（任务）"},
-        "description": {"text": "击杀恶魂，并收集40个恶魂之泪。奖励：1000经验值，5个附魔金苹果。"},
+        "title": {"text": "More Ghastly (Quest)"},
+        "description": {"text": "Kill Ghasts, Collect 40x Ghast Tears.  Reward: 1000 Exp, 5x Enchanted Golden Apples."},
         
         "icon": {"item": "minecraft:ghast_tear"},
         "frame": "challenge",

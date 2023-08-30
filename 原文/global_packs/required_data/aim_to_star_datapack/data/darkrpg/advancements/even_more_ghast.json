@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "魂飞魄散（任务）"},
-        "description": {"text": "杀死恶魂，并收集60个恶魂之泪。奖励：2000经验值，2个海晶灯。"},
+        "title": {"text": "Even More Ghastly (Quest)"},
+        "description": {"text": "Kill Ghasts, Collect 60x Ghast Tears.  Reward: 2000 Exp, 2x Sea Lanterns."},
         
         "icon": {"item": "minecraft:ghast_tear"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "果汁循环（任务）"},
-        "description": {"text": "冶炼4个紫颂果成爆裂的紫颂果。奖励：150经验值。"},
+        "title": {"text": "Fruity Loops (Quest)"},
+        "description": {"text": "Smelt Chorus Fruits into Popped Chorus Fruit and obtain x4 of them.  Rewards: 150 Exp."},
         
         "icon": {"item": "minecraft:popped_chorus_fruit"},
         "frame": "challenge",

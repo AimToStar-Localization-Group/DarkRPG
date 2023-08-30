@@ -2,11 +2,11 @@
     "__comment": "DarkQuesting Quests",
     "display": {
         "title": {
-            "text": "暗黑任务",
+            "text": "DarkQuesting",
             "color": "dark_purple"
         },
         "description": {
-            "text": "通过完成任务来获得经验和奖励！"
+            "text": "Complete Quests and receive Experience and Rewards!"
         },
         "icon": {
             "item": "minecraft:book"

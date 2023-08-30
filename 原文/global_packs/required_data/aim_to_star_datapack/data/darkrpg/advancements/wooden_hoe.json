@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "农夫的请求（任务）"},
-        "description": {"text": "制作木锄。奖励：10经验值，30个橡木栅栏。"},
+        "title": {"text": "Farmer's Request (Quest)"},
+        "description": {"text": "Craft a Wooden Hoe.  Reward: 10 Exp, 30x Oak Fence."},
         
         "icon": {"item": "minecraft:wooden_hoe"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "是时候让这里变亮了！（任务）"},
-        "description": {"text": "制作8个火把。奖励：30经验值。"},
+        "title": {"text": "Let There Be Light! (Quest)"},
+        "description": {"text": "Craft 8x Torches.  Rewards: 30 Exp."},
         
         "icon": {"item": "minecraft:torch"},
         "frame": "challenge",

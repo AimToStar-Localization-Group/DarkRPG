@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "修复，重命名以及合成！（任务）"},
-        "description": {"text": "制造1个铁砧。奖励：65经验值。"},
+        "title": {"text": "Repair, Rename and Combine! (Quest)"},
+        "description": {"text": "Craft 1x Anvil.  Rewards: 65 Exp."},
         
         "icon": {"item": "minecraft:anvil"},
         "frame": "challenge",

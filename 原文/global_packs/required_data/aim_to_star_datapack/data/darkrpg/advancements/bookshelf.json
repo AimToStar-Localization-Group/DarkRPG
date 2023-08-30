@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "图书管理员（任务）"},
-        "description": {"text": "制造1个书架。奖励：40经验值。"},
+        "title": {"text": "Library Master (Quest)"},
+        "description": {"text": "Craft 1x Bookshelf.  Rewards: 40 Exp."},
         
         "icon": {"item": "minecraft:bookshelf"},
         "frame": "challenge",

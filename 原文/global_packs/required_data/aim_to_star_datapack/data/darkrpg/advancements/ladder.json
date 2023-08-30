@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "无蛇之梯（任务）"},
-        "description": {"text": "制作5个梯子。奖励：30经验值。"},
+        "title": {"text": "Ladders Without Snakes (Quest)"},
+        "description": {"text": "Craft 5x Ladders.  Rewards: 30 Exp."},
         
         "icon": {"item": "minecraft:ladder"},
         "frame": "challenge",

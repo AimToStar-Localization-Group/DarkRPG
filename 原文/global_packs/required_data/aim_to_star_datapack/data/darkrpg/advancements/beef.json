@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "牛肉味（任务）"},
-        "description": {"text": "杀死牛并获得1个生牛肉。奖励：15经验值，10个蜂蜜瓶，10碗甜菜汤。"},
+        "title": {"text": "Beefy (Quest)"},
+        "description": {"text": "Hunt cows for 1x Raw Beef.  Reward: 15 Exp, 10x Honey Bottles, 10x Beetroot Soup."},
         
         "icon": {"item": "minecraft:beef"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "别碰这个！（任务）"},
-        "description": {"text": "制作1个岩浆块。奖励：70经验值。"},
+        "title": {"text": "Can't Touch This! (Quest)"},
+        "description": {"text": "Craft 1x Magma Block.  Rewards: 70 Exp."},
         
         "icon": {"item": "minecraft:magma_block"},
         "frame": "challenge",

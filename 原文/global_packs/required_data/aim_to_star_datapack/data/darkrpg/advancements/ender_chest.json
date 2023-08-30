@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "多维存储（任务）"},
-        "description": {"text": "制造1个末影箱。奖励：100经验值。"},
+        "title": {"text": "Multi-Dimensional Storage (Quest)"},
+        "description": {"text": "Craft 1x Ender Chest.  Rewards: 100 Exp."},
         
         "icon": {"item": "minecraft:ender_chest"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "挖掘现场（任务）"},
-        "description": {"text": "制作一个下界合金铲。奖励：65经验值，1个下界合金靴，2个附魔之瓶。"},
+        "title": {"text": "Dig Site (Quest)"},
+        "description": {"text": "Craft a Netherite Shovel.  Reward: 65 Exp, 1x Netherite Boots, 2x Experience Bottles."},
         
         "icon": {"item": "minecraft:netherite_shovel"},
         "frame": "challenge",

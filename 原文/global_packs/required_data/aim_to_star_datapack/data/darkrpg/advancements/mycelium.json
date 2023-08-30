@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "小蘑菇……（任务）"},
-        "description": {"text": "收集10个菌丝。奖励：120经验值，50个绯红菌岩，50个诡异菌岩。"},
+        "title": {"text": "Shroomy... (Quest)"},
+        "description": {"text": "Gather 10x Mycelium.  Reward: 120 Exp, 50x Crimson Nylium, 50x Warped Nylium."},
         
         "icon": {"item": "minecraft:mycelium"},
         "frame": "challenge",

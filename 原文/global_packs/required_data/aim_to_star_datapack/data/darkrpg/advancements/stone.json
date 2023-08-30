@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "石化（任务）"},
-        "description": {"text": "挖一些圆石，用熔炉烧制5个石头。奖励：30经验值，1根钓鱼竿，1把弓，30支箭。"},
+        "title": {"text": "Stoned (Quest)"},
+        "description": {"text": "Mine some Cobblestone, Use a Furnace and make 5x Stone.  Reward: 30 Exp, 1x Fishing Rod, 1x Bow, 30x Arrows."},
         
         "icon": {"item": "minecraft:stone"},
         "frame": "challenge",

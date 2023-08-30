@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "主故事线"},
-        "description": {"text": "这是主要的故事任务线。完成某些任务后将解锁这个系列中更难的任务。"},
+        "title": {"text": "Main Story Line"},
+        "description": {"text": "This is the main story quest chain. Completing each goal will unlock harder quests in this series."},
         
         "icon": {"item": "minecraft:book"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "黑暗中的一束光（任务）"},
-        "description": {"text": "制造1个荧石。奖励：70经验值。"},
+        "title": {"text": "Glow In The Dark (Quest)"},
+        "description": {"text": "Craft 1x Glowstone.  Rewards: 70 Exp."},
         
         "icon": {"item": "minecraft:glowstone"},
         "frame": "challenge",

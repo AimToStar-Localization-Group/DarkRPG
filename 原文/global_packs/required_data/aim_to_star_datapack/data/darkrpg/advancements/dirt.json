@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "甩掉肩上的尘土（任务）"},
-        "description": {"text": "获得2个泥土。奖励：5经验值，1个木镐。"},
+        "title": {"text": "Dirt off your shoulders (Quest)"},
+        "description": {"text": "Get 2x Dirt.  Reward: 5 Exp, 1x Wooden Pickaxe."},
         
         "icon": {"item": "minecraft:dirt"},
         "frame": "challenge",

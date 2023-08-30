@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "羊毛制品（任务）"},
-        "description": {"text": "通过击杀一些羊来获得1个羊毛。奖励：5经验值，50个粉红色羊毛，3个仙人掌，1个桶。"},
+        "title": {"text": "Wooly (Quest)"},
+        "description": {"text": "Hunt some sheep for 1x White Wool.  Reward: 5 Exp, 50x Pink Wool, 3x Cactus, 1x Bucket."},
         
         "icon": {"item": "minecraft:white_wool"},
         "frame": "challenge",

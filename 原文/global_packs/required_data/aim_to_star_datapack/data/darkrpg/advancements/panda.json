@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "太残忍了吧……（任务）"},
-        "description": {"text": "伤害熊猫。奖励：10经验值，10粘液球。"},
+        "title": {"text": "So cruel.. (Quest)"},
+        "description": {"text": "Hurt a Panda.  Reward: 10 Exp, 10x Slime Balls"},
         
         "icon": {"item": "minecraft:panda_spawn_egg"},
         "frame": "challenge",

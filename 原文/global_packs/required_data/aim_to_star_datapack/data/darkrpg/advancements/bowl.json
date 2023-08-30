@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "汤与面条（任务）"},
-        "description": {"text": "制造8个碗。奖励：65经验值。"},
+        "title": {"text": "Soup And Noodles (Quest)"},
+        "description": {"text": "Craft 8x Bowls.  Rewards: 65 Exp."},
         
         "icon": {"item": "minecraft:bowl"},
         "frame": "challenge",

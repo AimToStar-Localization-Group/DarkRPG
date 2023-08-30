@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "舒服（任务）"},
-        "description": {"text": "用粉红色羊毛制作粉红色床。奖励：5经验值，2个潜影盒。"},
+        "title": {"text": "Cozy (Quest)"},
+        "description": {"text": "Craft a Pink Bed using Pink Wool.  Reward: 5 Exp, 2x Shulker Boxes."},
         
         "icon": {"item": "minecraft:pink_bed"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "石英的力量（任务）"},
-        "description": {"text": "收集20个下界石英。奖励：85经验值。"},
+        "title": {"text": "Power Of Quartz (Quest)"},
+        "description": {"text": "Gather 20x Nether Quartz.  Rewards: 85 Exp."},
         
         "icon": {"item": "minecraft:quartz"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "骨头大师（任务）"},
-        "description": {"text": "击杀更多骷髅，并收集50个骨头。奖励：500经验值，30个苹果，20个胡萝卜，5个煤炭。"},
+        "title": {"text": "Bone Master (Quest)"},
+        "description": {"text": "Kill More Skeletons, Collect 50x Bones.  Reward: 500 Exp, 30 Apples, 20 Carrots, 5x Coal."},
         
         "icon": {"item": "minecraft:skeleton_skull"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "腐肉成瘾（任务）"},
-        "description": {"text": "击杀更多僵尸，并收集45个腐肉。奖励：375经验值，50支箭，5颗钻石。"},
+        "title": {"text": "Rotten Flesh Addiction (Quest)"},
+        "description": {"text": "Kill More Zombies, Collect 45x Rotten Flesh.  Reward: 375 Exp, 50x Arrows, 5x Diamonds."},
         
         "icon": {"item": "minecraft:zombie_head"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "我爱蜘蛛（任务）"},
-        "description": {"text": "击杀更多蜘蛛，并收集50个蜘蛛眼。奖励：500经验值，1个铁胸甲，1个钻石靴子。"},
+        "title": {"text": "I Love Spiders (Quest)"},
+        "description": {"text": "Kill More Spiders, Collect 50x Spider Eyes.  Reward: 500 Exp, 1x Iron Chestplate, 1x Diamond Boots."},
         
         "icon": {"item": "minecraft:cobweb"},
         "frame": "challenge",

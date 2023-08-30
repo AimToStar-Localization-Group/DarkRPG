@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "区域平等（任务）"},
-        "description": {"text": "收集10个灰化土。奖励：120经验值，50个南瓜，20个雕刻过的南瓜。"},
+        "title": {"text": "Zonal Equality (Quest)"},
+        "description": {"text": "Gather 10x Podzol.  Reward: 120 Exp, 50x Pumpkin, 20x Carved Pumpkin."},
         
         "icon": {"item": "minecraft:podzol"},
         "frame": "challenge",

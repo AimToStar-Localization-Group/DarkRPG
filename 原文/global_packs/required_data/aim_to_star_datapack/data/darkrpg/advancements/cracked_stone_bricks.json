@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "地震（任务）"},
-        "description": {"text": "制造4个裂纹石砖，奖励：50经验值。"},
+        "title": {"text": "Earthquake (Quest)"},
+        "description": {"text": "Craft 4x Cracked Stone Bricks.  Rewards: 50 Exp."},
         
         "icon": {"item": "minecraft:cracked_stone_bricks"},
         "frame": "challenge",

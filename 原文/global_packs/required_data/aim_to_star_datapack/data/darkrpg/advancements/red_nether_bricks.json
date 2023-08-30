@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "砖块上的砖块（任务）"},
-        "description": {"text": "制作2个红色下界砖块。奖励：85经验值。"},
+        "title": {"text": "Brick On Brick (Quest)"},
+        "description": {"text": "Craft 2x Red Nether Bricks.  Rewards: 85 Exp."},
         
         "icon": {"item": "minecraft:red_nether_bricks"},
         "frame": "challenge",

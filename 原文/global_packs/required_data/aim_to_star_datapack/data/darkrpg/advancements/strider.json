@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "炽足兽的末日（任务）"},
-        "description": {"text": "击杀炽足兽。奖励：320经验值，10个紫水晶碎片。"},
+        "title": {"text": "Strider Ender (Quest)"},
+        "description": {"text": "Kill a Strider. Reward: 320 Exp, 10x Amethyst Shards."},
         
         "icon": {"item": "minecraft:amethyst_shard"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "贝壳之力（任务）"},
-        "description": {"text": "（困难任务完结）寻找且杀死潜影贝，并获得2个潜影壳。奖励：2000经验值，30颗钻石，15个附魔金苹果，1个下界合金胸甲，1个下界合金头盔。"},
+        "title": {"text": "Shell Power (Quest)"},
+        "description": {"text": "(Final Hard Quest) Find and kill Shulkers, Obtain 2x Shulker Shells.  Reward: 2000 Exp, 30x Diamonds, 15x Enchanted Golden Apples, 1x Netherite Chestplate, 1x Netherite Helmet."},
         
         "icon": {"item": "minecraft:shulker_shell"},
         "frame": "challenge",

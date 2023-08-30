@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "易碎品（任务）"},
-        "description": {"text": "制作3个玻璃瓶。奖励：65经验值。"},
+        "title": {"text": "Breakable (Quest)"},
+        "description": {"text": "Craft 3x Glass Bottles.  Rewards: 65 Exp."},
         
         "icon": {"item": "minecraft:glass_bottle"},
         "frame": "challenge",

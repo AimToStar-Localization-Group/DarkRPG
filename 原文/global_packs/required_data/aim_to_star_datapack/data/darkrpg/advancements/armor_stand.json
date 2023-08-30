@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "橱窗购物家（任务）"},
-        "description": {"text": "制造盔甲架。奖励：5经验值，25个橡木木板，1个橡木告示牌，1个橡木门。"},
+        "title": {"text": "Window Shopper (Quest)"},
+        "description": {"text": "Craft an Armor Stand.  Reward: 5 Exp, 25 Oak Planks, 1 Oak Sign, 1 Oak Door."},
         
         "icon": {"item": "minecraft:armor_stand"},
         "frame": "challenge",

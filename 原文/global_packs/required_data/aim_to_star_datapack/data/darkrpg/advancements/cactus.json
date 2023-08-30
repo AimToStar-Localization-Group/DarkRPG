@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "可远观不可亵玩焉（任务）"},
-        "description": {"text": "收集10个仙人掌。奖励：120经验值，50粘土块。"},
+        "title": {"text": "Look But Do Not Touch (Quest)"},
+        "description": {"text": "Gather 10x Cactus.  Reward: 120 Exp, 50x Clay."},
         
         "icon": {"item": "minecraft:cactus"},
         "frame": "challenge",

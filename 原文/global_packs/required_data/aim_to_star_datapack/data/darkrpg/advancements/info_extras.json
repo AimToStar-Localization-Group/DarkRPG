@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "额外任务"},
-        "description": {"text": "这些是额外的任务，这些任务可以以任意顺序完成。"},
+        "title": {"text": "Extra Quests"},
+        "description": {"text": "These are extra quests that can be completed in any order."},
         
         "icon": {"item": "minecraft:book"},
         "frame": "challenge",

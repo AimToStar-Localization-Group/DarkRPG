@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "谁有诡异菌呀？（任务）"},
-        "description": {"text": "获得诡异菌。奖励：50经验值，1把下界合金剑。"},
+        "title": {"text": "Warped Fungus Anyone? (Quest)"},
+        "description": {"text": "Get a Warped Fungus.  Reward: 50 Exp, 1x Netherite Sword."},
         
         "icon": {"item": "minecraft:warped_fungus"},
         "frame": "challenge",

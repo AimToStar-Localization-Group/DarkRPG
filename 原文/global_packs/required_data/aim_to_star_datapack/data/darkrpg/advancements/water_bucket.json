@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "冷静一下（任务）"},
-        "description": {"text": "把空桶装满水。奖励：5经验值，1个锁链头盔，50支箭。"},
+        "title": {"text": "Cool Down (Quest)"},
+        "description": {"text": "Fill an empty Bucket with Water.  Reward: 5 Exp, 1x Chainmal Helmet, 50x Arrows."},
         
         "icon": {"item": "minecraft:water_bucket"},
         "frame": "challenge",

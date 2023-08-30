@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "神奇的潜影贝（任务）"},
-        "description": {"text": "杀死潜影贝，并收集30个潜影壳。奖励：280经验值，25个兔子脚，1个下界合金锄。"},
+        "title": {"text": "The Incredible Shulk (Quest)"},
+        "description": {"text": "Kill Shulkers, Collect 30x Shulker Shells.  Reward: 280 Exp, 25x Rabbit Stew, 1x Netherite Hoe."},
         
         "icon": {"item": "minecraft:shulker_shell"},
         "frame": "challenge",

@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "合成任务"},
-        "description": {"text": "制作各种物品并获得额外的经验值。这些任务可以以任意顺序完成。"},
+        "title": {"text": "Crafting Quests"},
+        "description": {"text": "Craft various items and gain bonus Experience points. These can be completed in any order."},
         
         "icon": {"item": "minecraft:book"},
         "frame": "challenge",
