@@ -107,6 +107,6 @@
 			]
 		}
 	},
-	"name": "猎人",
-	"description": "食物不会恢复你的生命值，你的幽匿存在需要经验值才能恢复"
+	"name": "Hunter",
+	"description": "Food won't do anything to recover your health, your sculks part demand XP instead"
 }

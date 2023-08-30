@@ -2,6 +2,6 @@
     "type": "origins:modify_player_spawn",
     "dimension": "overworld",
     "structure": "ancient_city",
-    "name": "曾经的家园",
-    "description":"你会出生在离你最近的远古城市"
+    "name": "What once was home",
+    "description":"You appear in the nearest Ancient City"
 }

@@ -20,6 +20,6 @@
 			}
 		]
 	},
-	"name": "暗中休憩",
-	"description": "你的身体已经适应了深暗，所以你不会触发幽匿感测体，因为它现在是你的一部分，同时监守者对你来说是中立生物"
+	"name": "Chilling in the darkness",
+	"description": "Your body has evolved to the deep dark, you are unable to trigger sculk sensors since they are now a part of you, this also makes the warden passive towards you"
 }

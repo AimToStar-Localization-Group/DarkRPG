@@ -187,6 +187,6 @@
             "show_icon": false
         }
     },
-    "name": "被诅咒的存在",
-    "description": "穿戴、手持或被任何带有诅咒附魔的武器击中，都会让你受到凋零II效果，持续3秒"
+    "name": "Cursed being",
+    "description": "Wearing, holding, or being hit by anything with a curse enchantment will affect you with Wither II for 3 seconds"
 }

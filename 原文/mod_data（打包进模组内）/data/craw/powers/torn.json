@@ -63,6 +63,6 @@
     "phase_down_condition": {
         "type": "origins:sneaking"
     },
-    "name": "与菌落合为一体",
-    "description": "你是幽匿的一部分，这意味着你可以与其他幽匿融合，随意穿过它们，但前提是在你在没有穿任何盔甲的情况下"
+    "name": "One with the colony",
+    "description": "You are part sculk meaning that you can fuse yourself with other sculks to go through them, but you have to do it without any armor on"
 }

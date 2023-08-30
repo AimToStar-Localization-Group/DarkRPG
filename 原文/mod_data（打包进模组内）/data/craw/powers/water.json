@@ -9,6 +9,6 @@
 		"comparison": ">=",
 		"compare_to": 1
 	},
-	"name": "湿翅膀",
-	"description": "如果你长时间待在水里，翅膀会被弄湿，变得很重，让你飞行更加困难"
+	"name": "Wet wings",
+	"description": "They are heavier if they wet, making flying harder the longer you stay in the water"
 }
