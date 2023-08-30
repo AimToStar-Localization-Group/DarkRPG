@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "挖到了吗？（任务）"},
-        "description": {"text": "收集下界合金碎片，并制作4个下界合金锭。奖励：65经验值，1个下界合金护腿，20个黄绿色染色玻璃。"},
+        "description": {"text": "收集下界合金碎片，并制作4个下界合金锭。奖励：65经验值，1个下界合金靴子，20个黄绿色染色玻璃。"},
         
         "icon": {"item": "minecraft:netherite_scrap"},
         "frame": "challenge",

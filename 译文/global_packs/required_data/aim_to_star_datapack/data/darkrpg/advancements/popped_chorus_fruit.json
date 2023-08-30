@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "果汁循环（任务）"},
-        "description": {"text": "冶炼4个紫颂果成爆裂的紫颂果。奖励：150经验值。"},
+        "description": {"text": "冶炼4个紫颂果成爆裂紫颂果。奖励：150经验值。"},
         
         "icon": {"item": "minecraft:popped_chorus_fruit"},
         "frame": "challenge",

@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "来按按钮（任务）"},
-        "description": {"text": "制作1个石制按钮。奖励：65经验值。"},
+        "description": {"text": "制作1个石头按钮。奖励：65经验值。"},
         
         "icon": {"item": "minecraft:stone_button"},
         "frame": "challenge",

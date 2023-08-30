@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "监狱长（任务）"},
-        "description": {"text": "制作16个铁栅栏。奖励：30经验值。"},
+        "description": {"text": "制作16个铁栏杆。奖励：30经验值。"},
         
         "icon": {"item": "minecraft:iron_bars"},
         "frame": "challenge",

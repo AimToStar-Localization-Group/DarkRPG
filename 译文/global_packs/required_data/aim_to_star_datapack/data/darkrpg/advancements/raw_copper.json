@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "氧化剂（任务）"},
-        "description": {"text": "收集50个粗铜。奖励：40经验值，1把下界合金剑，1把钻石剑，1把金剑，60支箭，1把弩。"},
+        "description": {"text": "收集50个粗铜。奖励：80经验值，35个棕色羊毛，1把钻石剑，1把金镐，60支箭，1把弩。"},
         
         "icon": {"item": "minecraft:raw_copper"},
         "frame": "challenge",
