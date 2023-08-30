@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "所以……钱的事情呢？（任务）"},
+        "description": {"text": "收集32个金锭。奖励：80经验值。"},
+        
+        "icon": {"item": "minecraft:gold_ingot"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_gold_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:gold_ingot"],
+                        "count": {
+                            "min": 32
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+
+		"experience": 80
+    },
+    "parent": "darkrpg:diamond_block"
+}

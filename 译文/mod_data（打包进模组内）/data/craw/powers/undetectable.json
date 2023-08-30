@@ -1,0 +1,26 @@
+{
+	"type": "origins:prevent_game_event",
+	"event": "minecraft:step",
+    "events": [
+        "minecraft:hit_ground"
+    ],
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:if_else",
+				"condition": {
+					"inverted": true,
+					"type": "origins:power_active",
+					"power": "wardenoriginpack:togglephase"
+				},
+				"if_action": {
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.warden.step",
+					"volume": 2
+				}
+			}
+		]
+	},
+	"hidden":true
+}

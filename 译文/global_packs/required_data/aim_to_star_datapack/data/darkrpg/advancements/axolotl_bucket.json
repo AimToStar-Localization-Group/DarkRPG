@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "美西螈实验（任务）"},
+        "description": {"text": "用水桶抓住美西螈。奖励：200经验值，1个砂轮。"},
+        
+        "icon": {"item": "minecraft:axolotl_bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_axolotl_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:axolotl_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:axolotl": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:axolotl_bucket"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:axolotl"
+}

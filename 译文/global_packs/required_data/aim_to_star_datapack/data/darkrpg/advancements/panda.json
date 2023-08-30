@@ -1,0 +1,30 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "太残忍了吧……（任务）"},
+        "description": {"text": "伤害熊猫。奖励：10经验值，10粘液球。"},
+        
+        "icon": {"item": "minecraft:panda_spawn_egg"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_panda": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:panda"
+	      }
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:panda"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:raw_copper"
+}

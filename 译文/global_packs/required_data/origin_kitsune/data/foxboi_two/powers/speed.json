@@ -1,0 +1,13 @@
+{
+	"type":"origins:attribute",
+	"modifier":{
+	   "attribute": "minecraft:generic.movement_speed",
+	   "value": 0.02,
+	   "operation": "addition"
+	},
+	"name": "小个子",
+	"description": "小个子带来了轻体重，以牺牲生命为代价，使移动变得更加轻便。",
+	"tick_rate": 2
+}
+
+

@@ -1,0 +1,35 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "是时候去地狱了（任务）"},
+        "description": {"text": "收集14个黑曜石。奖励：20经验值，1个打火石。"},
+        
+        "icon": {"item": "minecraft:obsidian"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:obsidian"],
+                        "count": {
+                            "min": 14
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:obsidian2"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:panda"
+}

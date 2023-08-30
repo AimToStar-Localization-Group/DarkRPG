@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "农夫的请求（任务）"},
+        "description": {"text": "制作木锄。奖励：10经验值，30个橡木栅栏。"},
+        
+        "icon": {"item": "minecraft:wooden_hoe"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_hoe"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_sword": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_hoe"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:wooden_sword"
+}

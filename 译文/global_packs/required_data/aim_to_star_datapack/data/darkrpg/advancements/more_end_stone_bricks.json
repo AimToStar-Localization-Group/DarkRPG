@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "末地之塔（任务）"},
+        "description": {"text": "收集60个末地石砖。奖励：200经验值，50个玻璃，10个末影之眼。"},
+        
+        "icon": {"item": "minecraft:end_stone_bricks"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_more_end_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:end_stone_bricks"],
+                        "count": {
+                            "min": 60
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_stone_bricks": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_end_stone_bricks"
+        ],
+		"experience": 200
+    },
+    "parent": "darkrpg:end_stone_bricks"
+}

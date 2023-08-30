@@ -1,0 +1,32 @@
+{
+    "name": "冲刺时击退",
+    "hidden": true,
+    "condition": {
+        "type": "origins:sprinting"
+    },
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_velocity",
+                "z": 1,
+                "client": true,
+                "server": true
+            },
+            {
+                "type": "origins:damage",
+                "amount": 2,
+                "source": {
+                    "name": "generic"
+                }
+            }
+        ]
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    }
+}

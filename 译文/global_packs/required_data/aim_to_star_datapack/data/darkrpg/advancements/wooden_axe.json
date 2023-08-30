@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "哒哒哒（任务）"},
+        "description": {"text": "制作一把木斧。奖励：20经验值，1个木制盾牌。"},
+        
+        "icon": {"item": "minecraft:wooden_axe"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_axe"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:crafting_table": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_axe"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:crafting_table"
+}

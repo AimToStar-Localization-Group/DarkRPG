@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "挖掘现场（任务）"},
+        "description": {"text": "制作一个下界合金铲。奖励：65经验值，1个下界合金靴，2个附魔之瓶。"},
+        
+        "icon": {"item": "minecraft:netherite_shovel"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_netherite_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:netherite_shovel"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:netherite_shovel"
+        ],
+		"experience": 65
+    },
+    "parent": "darkrpg:end_enderman"
+}

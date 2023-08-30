@@ -1,0 +1,12 @@
+{
+	"type": "origins:resource",
+	"min": 0,
+	"max": 15,
+	"start_value": 0,
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 10
+	},
+	"name": "努力",
+	"description": "剪掉所有的羊毛是很费劲的，往往能耗空你的饥饿值。"
+}

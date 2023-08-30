@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "营火故事（任务）"},
+        "description": {"text": "制造营火。奖励：10经验值，7个烤兔肉，50个绿色羊毛。"},
+        
+        "icon": {"item": "minecraft:campfire"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_campfire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:campfire"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:skeleton": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:campfire"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:skeleton"
+}

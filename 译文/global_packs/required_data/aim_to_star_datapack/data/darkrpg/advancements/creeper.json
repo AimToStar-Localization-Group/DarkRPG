@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "苦力怕难题（任务）"},
+        "description": {"text": "击败苦力怕。奖励：15经验值，1个锁链护腿，1个锁链靴子，5碗甜菜汤，1个桶。"},
+        
+        "icon": {"item": "minecraft:creeper_head"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_creeper": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:creeper"
+	      },
+		   "player": {"type_specific": {"type": "player","advancements": {"darkrpg:armor_stand": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:creeper"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:armor_stand"
+}

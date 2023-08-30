@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "甩掉肩上的尘土（任务）"},
+        "description": {"text": "获得2个泥土。奖励：5经验值，1个木镐。"},
+        
+        "icon": {"item": "minecraft:dirt"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:dirt"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_sword": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:dirt"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:wooden_sword"
+}

@@ -1,0 +1,73 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+
+				"type": "origins:area_of_effect",
+				"radius": 32,
+				"bientity_action": {
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:apply_effect",
+						"effects": [{
+								"effect": "minecraft:blindness",
+								"duration": 400,
+								"is_ambient": false,
+								"show_particles": false,
+								"show_icon": false,
+								"amplifier": 9000
+							},
+							{
+								"effect": "minecraft:slowness",
+								"duration": 400,
+								"is_ambient": false,
+								"show_particles": true,
+								"show_icon": false,
+								"amplifier": 9000
+							}
+						]
+					}
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "title @s actionbar {\"text\":\"Darkness surounds you\"}",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:sweep_attack ~ ~ ~ 1 1 1 0.10 100",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.10 1000",
+				"permission_level": 4
+			},
+
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:block.sculk_shrieker.shriek",
+				"volume": 0.5
+			}
+		]
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 18
+	},
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": true
+	},
+		"condition": {
+		"type": "origins:gamemode",
+		"gamemode": "spectator",
+		"inverted": true
+	},
+	"name": "咯咯叫",
+	"description": "按设置的次要键位，你会发出一声刺耳的尖叫，听到它的每个生物都将陷入麻痹和失明"
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "自私鬼（任务）"},
+        "description": {"text": "制造25个金粒。奖励：80经验值。"},
+        
+        "icon": {"item": "minecraft:gold_nugget"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_gold_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:gold_nugget"],
+                        "count": {
+                            "min": 25
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 80
+    },
+    "parent": "darkrpg:stone_button"
+}

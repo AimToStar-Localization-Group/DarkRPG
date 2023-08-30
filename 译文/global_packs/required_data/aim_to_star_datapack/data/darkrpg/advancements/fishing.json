@@ -1,0 +1,52 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "强力渔夫！（任务）"},
+        "description": {"text": "收集各种各样的鱼各64个（鳕鱼，鲑鱼，河豚，热带鱼）奖励：350经验值，5根钓鱼竿。"},
+        
+        "icon": {"item": "minecraft:pufferfish"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:salmon"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:pufferfish"],
+                        "count": {
+                            "min": 64
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:tropical_fish"],
+                        "count": {
+                            "min": 64
+                        }
+                    }]
+		} }
+        
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:fishing"
+        ],
+		"experience": 350
+    },
+    "parent": "darkrpg:diamond_armor"
+}

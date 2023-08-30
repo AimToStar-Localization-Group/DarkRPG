@@ -1,0 +1,42 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+	"type": "origins:and",
+	"conditions": [
+	  {
+		"type": "origins:food"
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "minecraft:fishes"
+		},
+		"inverted": true
+	  },
+	  {
+		"type": "origins:meat",
+		"inverted": true
+	  },
+	  {
+		"type": "origins:berries",
+		"inverted": true
+	  },
+	  {
+		 "type": "origins:ingredient",
+		 "ingredient": {
+		  "item": "glow_berries"
+		 },
+		 "inverted": true
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "item": "sweet_berries"
+		},
+		"inverted": true
+	  }
+	]
+  },
+  "name": "狐狸食性",
+  "description": "狐狸喜欢吃浆果，所以浆果能回4点饥饿值和14.4点饱和度（和金胡萝卜一样）。你的饮食范围被限制在肉、鱼和浆果内，所以你真没法吃蔬菜。"
+}

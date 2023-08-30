@@ -1,0 +1,10 @@
+{
+    "name": "迅速治愈",
+    "description": "你对中毒、虚弱、缓慢效果免疫。",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:weakness",
+        "minecraft:slowness"
+    ]
+}

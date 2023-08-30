@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "乘船旅行（任务）"},
+        "description": {"text": "制作橡木船。奖励：10经验值，1个铁靴子。"},
+        
+        "icon": {"item": "minecraft:oak_boat"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_oak_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:oak_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:cod": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:oak_boat"
+        ],
+		"experience": 10
+    },
+    "parent": "darkrpg:cod"
+}

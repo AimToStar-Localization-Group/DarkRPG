@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "牛肉味（任务）"},
+        "description": {"text": "杀死牛并获得1个生牛肉。奖励：15经验值，10个蜂蜜瓶，10碗甜菜汤。"},
+        
+        "icon": {"item": "minecraft:beef"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_beef": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:beef"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:stone": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:beef"
+        ],
+		"experience": 15
+    },
+    "parent": "darkrpg:stone"
+}

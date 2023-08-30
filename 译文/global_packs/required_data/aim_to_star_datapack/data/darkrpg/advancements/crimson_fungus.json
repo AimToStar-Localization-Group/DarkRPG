@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "炫彩真菌（任务）"},
+        "description": {"text": "收集2个绯红菌。奖励：25经验值，1个铁铲，10个熟鲑鱼。"},
+        
+        "icon": {"item": "minecraft:crimson_fungus"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_crimson_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:crimson_fungus"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:gold_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:crimson_fungus"
+        ],
+		"experience": 25
+    },
+    "parent": "darkrpg:gold_ingot"
+}

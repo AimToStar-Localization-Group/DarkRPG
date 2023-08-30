@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "与火共舞（任务）"},
+        "description": {"text": "收集64个烈焰棒。奖励：130经验值。"},
+        
+        "icon": {"item": "minecraft:blaze_rod"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_blaze_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:blaze_rod"],
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+
+		"experience": 130
+    },
+    "parent": "darkrpg:gold_ingot2"
+}

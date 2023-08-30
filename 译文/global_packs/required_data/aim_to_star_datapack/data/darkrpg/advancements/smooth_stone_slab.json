@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "是时候铺地板了（任务）"},
+        "description": {"text": "制作6个平滑石头台阶。奖励：30经验值。"},
+        
+        "icon": {"item": "minecraft:smooth_stone_slab"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_smooth_stone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:smooth_stone_slab"],
+                        "count": {
+                            "min": 6
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 30
+    },
+    "parent": "darkrpg:torch"
+}

@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "合成任务"},
+        "description": {"text": "制作各种物品并获得额外的经验值。这些任务可以以任意顺序完成。"},
+        
+        "icon": {"item": "minecraft:book"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_info_crafting": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {        
+		"experience": 0
+    },
+    "parent": "darkrpg:root"
+}

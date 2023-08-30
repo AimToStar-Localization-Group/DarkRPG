@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "书本管理员（任务）"},
+        "description": {"text": "制造3本书。奖励：40经验值。"},
+        
+        "icon": {"item": "minecraft:book"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:book"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 40
+    },
+    "parent": "darkrpg:cobblestone_wall"
+}

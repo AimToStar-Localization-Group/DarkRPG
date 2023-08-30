@@ -1,0 +1,35 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "旗帜百科（任务）"},
+        "description": {"text": "制作红色旗帜。奖励：40经验值，1个盾牌。"},
+        
+        "icon": {"item": "minecraft:red_banner"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_red_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:red_banner"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+    "loot": [
+            "darkrpg:red_banner"
+        ],
+		"experience": 40
+    },
+    "parent": "darkrpg:info_extras"
+}

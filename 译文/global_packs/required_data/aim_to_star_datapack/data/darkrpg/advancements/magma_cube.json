@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "岩浆制品（任务）"},
+        "description": {"text": "杀死岩浆怪，并收集10个岩浆膏。奖励：150经验值，10个铁锭，2个箱子。"},
+        
+        "icon": {"item": "minecraft:magma_cream"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_magma_cube": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:magma_cube"
+	      }
+       }
+    },
+        "darkrpg_magma_cream": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:magma_cream"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:magma_cube"
+        ],
+		"experience": 150
+    },
+    "parent": "darkrpg:bee"
+}

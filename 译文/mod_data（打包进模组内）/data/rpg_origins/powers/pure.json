@@ -1,0 +1,9 @@
+{
+    "name": "纯真",
+    "description": "你太纯真了，你无法忍受下界。它会腐蚀你的身体，让你无法自然恢复生命值。",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:disable_regen"
+}

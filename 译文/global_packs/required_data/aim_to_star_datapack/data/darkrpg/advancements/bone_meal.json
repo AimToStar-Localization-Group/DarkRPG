@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "骨粉渴望（任务）"},
+        "description": {"text": "制造9个骨粉。奖励：50经验值。"},
+        
+        "icon": {"item": "minecraft:bone_meal"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_bone_meal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:bone_meal"],
+                        "count": {
+                            "min": 9
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 50
+    },
+    "parent": "darkrpg:cobblestone_wall"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "可原谅的",
+    "description": "掠夺者们对你和村民的联盟感到棘手，你不会触发劫掠。",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:bad_omen"
+}

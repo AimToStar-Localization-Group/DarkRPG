@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier":{
+	   "value": 5,
+	   "operation": "multiply_base"
+	   },
+	"name": "新陈代谢旺盛",
+	"description": "一个小小的身体做这么多大动作当然需要消耗大量的食物！"
+}

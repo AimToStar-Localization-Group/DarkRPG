@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "炽足兽的末日（任务）"},
+        "description": {"text": "击杀炽足兽。奖励：320经验值，10个紫水晶碎片。"},
+        
+        "icon": {"item": "minecraft:amethyst_shard"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_amethyst_shard": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:strider"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:strider"
+        ],
+		"experience": 320
+    },
+    "parent": "darkrpg:bee"
+}

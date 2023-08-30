@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "黑曜石百科（任务）"},
+        "description": {"text": "挖黑曜石。奖励：50经验值，1把铁剑，1个铁头盔。"},
+        
+        "icon": {"item": "minecraft:obsidian"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:obsidian"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:spider": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:obsidian"
+        ],
+		"experience": 50
+    },
+    "parent": "darkrpg:spider"
+}

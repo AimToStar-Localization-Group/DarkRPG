@@ -1,0 +1,28 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "苦力怕轮盘赌"},
+        "description": {"text": "用运气来赢得大奖！每次的花费是5颗钻石，站在钻石块上将钻石在主手和副手之间切换以开始赌局。"},
+        
+        "icon": {"item": "minecraft:diamond"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_casino": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"items": ["minecraft:diamond"],"count": {"min": 5}}],
+                           "player": {"stepping_on": {"block": {"blocks": ["minecraft:diamond_block"]}}
+                            }}}},
+    "rewards": {
+    "loot": [
+            "darkrpg:casino"
+        ],
+		"function": "darkrpg:casino",
+        "experience": 0
+    },
+    "parent": "darkrpg:info_casino"
+}

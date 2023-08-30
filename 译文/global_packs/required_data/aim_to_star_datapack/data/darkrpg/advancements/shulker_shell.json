@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "贝壳之力（任务）"},
+        "description": {"text": "（困难任务完结）寻找且杀死潜影贝，并获得2个潜影壳。奖励：2000经验值，30颗钻石，15个附魔金苹果，1个下界合金胸甲，1个下界合金头盔。"},
+        
+        "icon": {"item": "minecraft:shulker_shell"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_shulker_shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:shulker_shell"],
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:shulker_shell"
+        ],
+		"experience": 2000
+    },
+    "parent": "darkrpg:enderman"
+}

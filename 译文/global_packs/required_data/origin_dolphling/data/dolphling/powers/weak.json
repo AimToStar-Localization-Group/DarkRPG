@@ -1,0 +1,12 @@
+{
+    "name": "虚弱",
+    "description": "牺牲强健的体魄换取水下的灵敏，这使得你的种族天生更脆弱。你只有8颗心的生命值。",
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "No health?",
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+    }
+
+}

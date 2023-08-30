@@ -1,0 +1,29 @@
+{
+	"type": "origins:restrict_armor",
+	"head": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:helmet"
+		}
+	},
+	"chest": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:chestplate"
+		}
+	},
+	"legs": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:leggings"
+		}
+	},
+	"feet": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "foxboi_two:boots"
+		}
+	},
+	"name": "滴答",
+	"description": "你不能穿锁链盔甲、皮革盔甲和下界合金盔甲，因为... ...对。"
+}

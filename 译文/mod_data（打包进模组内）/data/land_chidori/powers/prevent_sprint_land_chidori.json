@@ -1,0 +1,10 @@
+{
+  "name": "疾跑焦虑",
+  "description": "高个子使你的身体承受负担，只有吃饱时才能疾跑。",
+    "type": "origins:prevent_sprinting",
+    "condition": {
+        "type": "origins:food_level",
+        "compare_to": 16,
+        "comparison": "<="
+    }}
+

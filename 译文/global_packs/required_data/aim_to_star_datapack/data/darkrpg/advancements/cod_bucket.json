@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "鳕鱼桶（任务）"},
+        "description": {"text": "用一个空桶来装鳕鱼。奖励：20经验值，5个金苹果。"},
+        
+        "icon": {"item": "minecraft:cod_bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cod_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:white_wool": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:cod_bucket"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:white_wool"
+}

@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "腐肉成瘾（任务）"},
+        "description": {"text": "击杀更多僵尸，并收集45个腐肉。奖励：375经验值，50支箭，5颗钻石。"},
+        
+        "icon": {"item": "minecraft:zombie_head"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_more_zombie": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:zombie"
+	      }
+       }
+    },
+        "darkrpg_more_rotten_flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:rotten_flesh"],
+                        "count": {
+                            "min": 45
+                        }
+                    }
+                ],
+				 "player": {"type_specific": {"type": "player","advancements": {"darkrpg:zombie": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_zombie"
+        ],
+		"experience": 50
+    },
+    "parent": "darkrpg:zombie"
+}

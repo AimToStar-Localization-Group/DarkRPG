@@ -1,0 +1,15 @@
+{
+	"type": "origins:prevent_entity_render",
+		"entity_condition": {
+		  "type": "origins:equipped_item",
+		  "equipment_slot": "head",
+		  "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+			  "item": "minecraft:carved_pumpkin"
+			}
+		  }
+		},
+	"name": "畏惧稻草人",
+	"description": "作为一只鸟，你会惧怕佩戴南瓜的人"
+}

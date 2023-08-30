@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "真正的战士（任务）"},
+        "description": {"text": "制作木剑。奖励：5经验值，30个橡木木板，2个碗。"},
+        
+        "icon": {"item": "minecraft:wooden_sword"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_wooden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:wooden_sword"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_axe": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:wooden_sword"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:wooden_axe"
+}

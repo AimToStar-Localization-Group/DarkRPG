@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "苦力怕赌场"},
+        "description": {"text": "收集钻石，转动转盘，赢得众多奖励。在玩之前，请确保你的物品栏不是满的。这个任务可以重复完成。"},
+        
+        "icon": {"item": "minecraft:red_mushroom_block"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_info_extras": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {        
+		"experience": 0
+    },
+    "parent": "darkrpg:root"
+}

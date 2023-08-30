@@ -1,0 +1,19 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "cooldown": 15,
+  "hud_render": {
+      "should_render": true
+  },
+  "tag": "{pickup:0b}",
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+  },
+  "condition": {
+    "type": "origins:sneaking",
+    "inverted": true
+},
+  "name": "暗影箭",
+  "description": "黑魔法使你可以从胸口发射箭矢。潜行时咬破手指将箭头蘸血能让你射出一根特殊的毒箭，击中时令敌人中毒。"
+}

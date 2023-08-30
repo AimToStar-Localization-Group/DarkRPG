@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"biome": "minecraft:taiga",
+	"spawn_strategy": "default",
+	
+	"name": "甜蜜的家",
+	"description": "你的初始出生点在针叶林群系。"
+}

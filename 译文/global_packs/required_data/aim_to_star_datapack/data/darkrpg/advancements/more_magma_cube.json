@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "更多岩浆制品（任务）"},
+        "description": {"text": "击杀岩浆怪，并收集30个岩浆膏。奖励：350经验值，25个玻璃，25个皮革。"},
+        
+        "icon": {"item": "minecraft:magma_cream"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_more_magma_cube": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:magma_cube"
+	      }
+       }
+    },
+        "darkrpg_more_magma_cream": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:magma_cream"],
+                        "count": {
+                            "min": 30
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:magma_cube": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_magma_cube"
+        ],
+		"experience": 350
+    },
+    "parent": "darkrpg:magma_cube"
+}

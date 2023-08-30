@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "我得到灵魂啦！（任务）"},
+        "description": {"text": "制作1个灵魂营火。奖励：100经验值。"},
+        
+        "icon": {"item": "minecraft:soul_campfire"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_soul_campfire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:soul_campfire"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 100
+    },
+    "parent": "darkrpg:red_nether_bricks"
+}

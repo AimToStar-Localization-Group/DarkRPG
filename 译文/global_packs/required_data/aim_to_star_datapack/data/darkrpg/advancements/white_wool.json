@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "羊毛制品（任务）"},
+        "description": {"text": "通过击杀一些羊来获得1个羊毛。奖励：5经验值，50个粉红色羊毛，3个仙人掌，1个桶。"},
+        
+        "icon": {"item": "minecraft:white_wool"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_white_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:white_wool"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:oak_boat": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:white_wool"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:oak_boat"
+}

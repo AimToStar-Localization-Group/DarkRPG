@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "蜘蛛恐惧症（任务）"},
+        "description": {"text": "击杀蜘蛛，并收集3个蜘蛛眼。奖励：100经验值，35个面包，20个苹果，1个钻石稿。"},
+        
+        "icon": {"item": "minecraft:cobweb"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_spider": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:spider"
+	      }
+       }
+    },
+        "darkrpg_spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:spider_eye"],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:iron_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:spider"
+        ],
+		"experience": 100
+    },
+    "parent": "darkrpg:iron_ingot"
+}

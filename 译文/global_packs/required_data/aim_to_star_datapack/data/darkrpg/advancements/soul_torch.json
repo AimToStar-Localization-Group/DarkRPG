@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "灵魂之光（任务）"},
+        "description": {"text": "制作1个灵魂火把。奖励：100经验值。"},
+        
+        "icon": {"item": "minecraft:soul_torch"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_soul_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:soul_torch"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 100
+    },
+    "parent": "darkrpg:red_nether_bricks"
+}

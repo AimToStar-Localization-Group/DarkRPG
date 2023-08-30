@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "冷静一下（任务）"},
+        "description": {"text": "把空桶装满水。奖励：5经验值，1个锁链头盔，50支箭。"},
+        
+        "icon": {"item": "minecraft:water_bucket"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_water_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:water_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:creeper": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:water_bucket"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:creeper"
+}

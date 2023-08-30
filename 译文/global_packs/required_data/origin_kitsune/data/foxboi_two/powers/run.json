@@ -1,0 +1,19 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+	   "attribute": "minecraft:generic.movement_speed",
+	   "value": 0.015,
+	   "operation": "addition"
+	},
+	"condition":
+	{
+	"type": "origins:health",
+	"comparison": "<",
+	"compare_to": 7
+	},
+	"name": "快跑！",
+	"description": "只要你的生命值低于四颗心，你就会获得一个小小的移速提升。",
+	"tick_rate": 2
+}
+
+

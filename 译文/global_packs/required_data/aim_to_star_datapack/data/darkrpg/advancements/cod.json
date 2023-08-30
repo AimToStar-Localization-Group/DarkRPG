@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "好多鱼（任务）"},
+        "description": {"text": "通过钓鱼得到5生鳕鱼。奖励：5经验值，1个海龟头盔。"},
+        
+        "icon": {"item": "minecraft:cod"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:cod"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:stone": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:cod"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:stone"
+}

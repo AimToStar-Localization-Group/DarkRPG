@@ -1,0 +1,50 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "看看你自己！（任务）"},
+        "description": {"text": "集齐钻石盔甲的4件套。奖励：150经验值。"},
+        
+        "icon": {"item": "minecraft:diamond_chestplate"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_diamond_armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:diamond_helmet"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_chestplate"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_leggings"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+					                    {
+                        "items": ["minecraft:diamond_boots"],
+                        "count": {
+                            "min": 1
+                        }
+                    }]
+		} }
+        
+    },
+    "rewards": {
+
+		"experience": 150
+    },
+    "parent": "darkrpg:red_banner"
+}

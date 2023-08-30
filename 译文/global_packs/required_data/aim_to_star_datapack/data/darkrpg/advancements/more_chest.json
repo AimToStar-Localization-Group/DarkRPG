@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "盒装餐（任务）"},
+        "description": {"text": "制作5个箱子。奖励：20经验值，1个粉红色潜影盒。"},
+        
+        "icon": {"item": "minecraft:pink_shulker_box"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_more_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:chest"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:chest": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:more_chest"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg:chest"
+}

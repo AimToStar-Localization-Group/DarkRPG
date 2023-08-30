@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "红ZzZZzz（任务）"},
+        "description": {"text": "制作红色床。奖励：45经验值，10个火把，1把钻石斧。"},
+        
+        "icon": {"item": "minecraft:red_bed"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_red_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:red_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:bee": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:red_bed"
+        ],
+		"experience": 45
+    },
+    "parent": "darkrpg:bee"
+}

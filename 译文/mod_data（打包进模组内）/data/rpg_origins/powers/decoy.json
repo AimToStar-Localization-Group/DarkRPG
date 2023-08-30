@@ -1,0 +1,22 @@
+{
+    "name": "诱饵",
+    "description": "很多人把你当做他们的诱饵，这使得你可以在身体虚弱的时候跑的更快。",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 5
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "speed",
+        "duration": 10,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

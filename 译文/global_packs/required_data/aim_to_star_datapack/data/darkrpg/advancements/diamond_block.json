@@ -1,0 +1,35 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "屯积者！（任务）"},
+        "description": {"text": "收集64个钻石块。奖励：200经验值，10个绿宝石块，10个金块。"},
+        
+        "icon": {"item": "minecraft:diamond_block"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_diamond_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:diamond_block"],
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:diamond_block"
+        ],
+		"experience": 200
+    },
+    "parent": "darkrpg:fishing"
+}

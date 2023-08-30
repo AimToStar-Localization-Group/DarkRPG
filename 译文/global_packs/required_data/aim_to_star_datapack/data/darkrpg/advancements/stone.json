@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "石化（任务）"},
+        "description": {"text": "挖一些圆石，用熔炉烧制5个石头。奖励：30经验值，1根钓鱼竿，1把弓，30支箭。"},
+        
+        "icon": {"item": "minecraft:stone"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:stone"],
+                        "count": {
+                            "min": 5
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:wooden_axe": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:stone"
+        ],
+		"experience": 30
+    },
+    "parent": "darkrpg:wooden_axe"
+}

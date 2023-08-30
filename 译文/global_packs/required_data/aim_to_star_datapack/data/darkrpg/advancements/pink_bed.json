@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "舒服（任务）"},
+        "description": {"text": "用粉红色羊毛制作粉红色床。奖励：5经验值，2个潜影盒。"},
+        
+        "icon": {"item": "minecraft:pink_bed"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_pink_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:pink_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:white_wool": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:pink_bed"
+        ],
+		"experience": 5
+    },
+    "parent": "darkrpg:white_wool"
+}

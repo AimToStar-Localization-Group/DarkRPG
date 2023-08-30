@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "神奇的潜影贝（任务）"},
+        "description": {"text": "杀死潜影贝，并收集30个潜影壳。奖励：280经验值，25个兔子脚，1个下界合金锄。"},
+        
+        "icon": {"item": "minecraft:shulker_shell"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_shulker_again": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:shulker"
+	      }
+       }
+    },
+        "darkrpg_shulker_shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:shulker_shell"],
+                        "count": {
+                            "min": 30
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:netherite_ingot": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:shulker_again"
+        ],
+		"experience": 280
+    },
+    "parent": "darkrpg:netherite_ingot"
+}

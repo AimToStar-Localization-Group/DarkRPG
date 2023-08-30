@@ -1,0 +1,33 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "加强隐私防范（任务）"},
+        "description": {"text": "制造6个黑石墙。奖励：70经验值。"},
+        
+        "icon": {"item": "minecraft:blackstone_wall"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_blackstone_walls": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:blackstone_wall"],
+                        "count": {
+                            "min": 6
+                        }
+                    }
+                ]
+			
+            }
+        }
+    },
+    "rewards": {
+		"experience": 70
+    },
+    "parent": "darkrpg:nether_bricks"
+}

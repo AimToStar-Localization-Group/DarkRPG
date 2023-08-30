@@ -1,0 +1,31 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "人VS蜂（任务）"},
+        "description": {"text": "杀死蜜蜂。奖励：30经验值，15个蜂蜜瓶，1把钻石剑，10个红色羊毛。"},
+        
+        "icon": {"item": "minecraft:honey_bottle"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_bee": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:bee"
+	      },
+		  "player": {"type_specific": {"type": "player","advancements": {"darkrpg:crimson_fungus": "true"}}}
+		} }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:bee"
+        ],
+		"experience": 30
+    },
+    "parent": "darkrpg:crimson_fungus"
+}

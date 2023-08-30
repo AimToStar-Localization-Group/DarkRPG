@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "空间扭曲",
+  "description": "你能够打开一个拥有九格存储的空间口袋，可以通过设定的热键打开。"
+}

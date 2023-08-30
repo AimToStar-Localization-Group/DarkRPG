@@ -1,0 +1,44 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "美味可爱的岩浆怪（任务）"},
+        "description": {"text": "杀死岩浆怪，并收集60个岩浆膏。奖励：1000经验值，5个不死图腾。"},
+        
+        "icon": {"item": "minecraft:magma_cream"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"darkrpg_even_more_magma_cube": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+	    "entity": {
+		"type": "minecraft:magma_cube"
+	      }
+       }
+    },
+        "darkrpg_even_more_ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:magma_cream"],
+                        "count": {
+                            "min": 60
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:more_magma_cube": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:even_more_magma_cube"
+        ],
+		"experience": 1000
+    },
+    "parent": "darkrpg:more_magma_cube"
+}

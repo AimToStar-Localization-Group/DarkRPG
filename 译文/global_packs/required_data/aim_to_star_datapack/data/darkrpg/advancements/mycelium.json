@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "小蘑菇……（任务）"},
+        "description": {"text": "收集10个菌丝。奖励：120经验值，50个绯红菌岩，50个诡异菌岩。"},
+        
+        "icon": {"item": "minecraft:mycelium"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_mycelium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:mycelium"],
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg:end_enderman": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg:mycelium"
+        ],
+		"experience": 120
+    },
+    "parent": "darkrpg:end_enderman"
+}
