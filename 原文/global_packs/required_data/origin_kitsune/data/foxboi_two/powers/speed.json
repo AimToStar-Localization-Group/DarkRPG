@@ -5,8 +5,8 @@
 	   "value": 0.02,
 	   "operation": "addition"
 	},
-	"name": "小个子",
-	"description": "小个子带来了轻体重，以牺牲生命为代价，使移动变得更加轻便。",
+	"name": "Small Frame",
+	"description": "Your small frame gives little weight, making it easier to move at the cost of health.",
 	"tick_rate": 2
 }
 

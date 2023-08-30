@@ -15,6 +15,6 @@
      "type": "origins:power_active",
      "power": "*:phantomize"
     },
-    "name": "相位移动 [次要技能]",
-    "description": "你能穿过除了黑曜石、哭泣黑曜石、屏障和基岩以外的固体，但是你不能向上或者向下相位移动。"
+    "name": "Phasing [Secondary]",
+    "description": "You can walk through solid material, except obsidian, crying obsidian, barriers and bedrock, BUT you are unable to phase up or down."
 }

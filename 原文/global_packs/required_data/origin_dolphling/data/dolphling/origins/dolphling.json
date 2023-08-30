@@ -18,8 +18,8 @@
     "icon": "minecraft:kelp",
     "order": 0,
     "impact": 3,
-    "name": "海豚族",
+    "name": "Dolphling",
     "unchoosable": false,
-    "description": "海洋的使者。"
+    "description": "The ambassador of the ocean."
 
 }

@@ -4,6 +4,6 @@
 	"biome": "minecraft:taiga",
 	"spawn_strategy": "default",
 	
-	"name": "甜蜜的家",
-	"description": "你的初始出生点在针叶林群系。"
+	"name": "Home Sweet Home",
+	"description": "Your natural spawnpoint is in the Taiga biome."
 }

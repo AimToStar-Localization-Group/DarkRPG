@@ -1,6 +1,6 @@
 {
-    "name": "水生动物",
-    "description": "你适应良好的肺让你能在水下憋气，时间长达8分钟。",
+    "name": "Aquatic born",
+    "description": "Your adapted lungs allows you to hold your breath underwater for up to 8 minutes.",
     "type": "origins:action_over_time",
     "interval": 10,
     "entity_action": {

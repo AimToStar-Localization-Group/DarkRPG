@@ -1,6 +1,6 @@
 {
-    "name": "虚弱",
-    "description": "牺牲强健的体魄换取水下的灵敏，这使得你的种族天生更脆弱。你只有8颗心的生命值。",
+    "name": "Weak",
+    "description": "Your species is naturally more fragile, sacrificing hardiness for underwater mobility. You only have 8 hearts.",
     "type": "origins:attribute",
     "modifier": {
         "name": "No health?",
