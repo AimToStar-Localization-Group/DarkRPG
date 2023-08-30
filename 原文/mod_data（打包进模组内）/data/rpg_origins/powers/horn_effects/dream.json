@@ -1,6 +1,6 @@
 {
-    "name": "梦想",
-    "description": "等下，你不该看见这个的！这看起来好像你这在窥探着什么，我希望你找到你想要的。",
+    "name": "Dream",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
     "hidden": true,
     "condition": {
         "type": "origins:using_item",

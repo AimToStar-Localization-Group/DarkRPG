@@ -1,6 +1,6 @@
 {
-    "name": "回血池",
-    "description": "用指令召唤一个可以作用于所有人的回血池。",
+    "name": "Heal Pool",
+    "description": "Summon a pool of healing on command that effects every mob.",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:spawn_effect_cloud",

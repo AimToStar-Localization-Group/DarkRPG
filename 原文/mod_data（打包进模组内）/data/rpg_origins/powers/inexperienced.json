@@ -1,6 +1,6 @@
 {
-    "name": "生疏的",
-    "description": "因为你从未使用过剑，所以你可以勉强使用所有不是炮弹的东西。",
+    "name": "Inexperienced",
+    "description": "Due to never using a sword, you can barley use anything that isn't a projectile.",
     "type": "origins:modify_damage_dealt",
     "damage_condition": {
         "inverted": true,

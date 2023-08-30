@@ -1,6 +1,6 @@
 {
-    "name": "弱不禁风",
-    "description": "你不是打架的料，所以在你低血量时，生命回复速度变慢。",
+    "name": "Weak",
+    "description": "Your body wasn't built for strong combat, so it can't heal as fast when at low health.",
     "condition": {
         "type": "origins:health",
         "comparison": "<",

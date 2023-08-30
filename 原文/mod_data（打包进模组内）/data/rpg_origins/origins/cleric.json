@@ -1,6 +1,6 @@
 {
-    "name": "牧师",
-    "description": "你为治愈和提供帮助而来，很少对他人直接攻击。",
+    "name": "Cleric",
+    "description": "You're there to heal and help others. You'll rarely be seen directly attacking others.",
     "powers": [
         "rpg_origins:villagefriendly",
         "rpg_origins:untrained",

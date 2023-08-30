@@ -1,6 +1,6 @@
 {
-    "name": "选择目标",
-    "description": "你在拥有更多生命值时更加强壮，但相应的，你的生命值越少，你越虚弱。",
+    "name": "Select Targets",
+    "description": "You are stronger against mobs with a great amount of health, but are weaker against mobs with lower health.",
     "hidden": true,
     "type": "origins:modify_damage_dealt",
     "target_condition": {

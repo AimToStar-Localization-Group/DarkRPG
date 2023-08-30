@@ -1,6 +1,6 @@
 {
-    "name": "村民-友好型",
-    "description": "因为你和村民是一类人，所以你受到他们的欢迎。",
+    "name": "Village Friendly",
+    "description": "Since you're the same class as one of the villagers, you're favored by them.",
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,
     "max_stacks": 1,

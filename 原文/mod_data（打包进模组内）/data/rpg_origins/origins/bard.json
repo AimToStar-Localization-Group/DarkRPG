@@ -1,6 +1,6 @@
 {
-    "name": "吟游诗人",
-    "description": "你是个音乐多面手。你可以用你的社交技巧助人一臂之力。",
+    "name": "Bard",
+    "description": "You're an all around music player. You can use your soical skills to help anyone you desire.",
     "powers": [
         "rpg_origins:horn_effects/ponder",
         "rpg_origins:horn_effects/sing",

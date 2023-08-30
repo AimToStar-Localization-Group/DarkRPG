@@ -1,6 +1,6 @@
 {
-    "name": "潜行伤害",
-    "description": "潜行时的伤害",
+    "name": "Steathy Damage",
+    "description": "The damage effect of stealthy",
     "hidden": true,
     "condition": {
         "type": "origins:sneaking"

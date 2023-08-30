@@ -1,6 +1,6 @@
 {
-    "name": "音乐往事",
-    "description": "你曾经吹奏过山羊角，并且你一段时间以前仍然拥有一支角。",
+    "name": "Musical Past",
+    "description": "You've played goat horns in the past, and you still have one from a while ago.",
     "type": "origins:starting_equipment",
     "stack": {
         "item": "minecraft:goat_horn",

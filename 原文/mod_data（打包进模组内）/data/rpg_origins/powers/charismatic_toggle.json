@@ -1,6 +1,6 @@
 {
-    "name": "万人迷",
-    "description": "你是如此的受人欢迎，以至于人们在你的周围会增加回血和移速。",
+    "name": "Charismatic",
+    "description": "You're great with people, so much infact, that they heal more and move faster when around you.",
     "type": "origins:toggle",
     "active_by_default": true,
     "key": {

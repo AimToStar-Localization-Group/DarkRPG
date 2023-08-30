@@ -1,6 +1,6 @@
 {
-    "name": "不简单的同盟",
-    "description": "你和掠夺者们相知已久，但关系还没有好到让他们放你一马。当你杀死铁傀儡，他们便会趁虚而入。",
+    "name": "Uneasy Alliance",
+    "description": "You and the pillagers have known eachother, but not well enough for them to let you live. Whenever you kill an iron golem in a village, it'll start a raid.",
     "type": "origins:self_action_on_kill",
     "target_condition": {
         "type": "origins:entity_type",

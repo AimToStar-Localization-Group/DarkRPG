@@ -1,6 +1,6 @@
 {
-    "name": "盗贼",
-    "description": "你来去无踪又迅疾如风。一直为对厌恶之人行窃做准备。",
+    "name": "Thief",
+    "description": "You're sneaky, and fast. Always ready to steal from those you dislike.",
     "powers": [
         "rpg_origins:speedy",
         "rpg_origins:stealthy",

@@ -1,6 +1,6 @@
 {
-    "name": "水行者",
-    "description": "你已经学会了如何驾驭海洋之心的力量，当你握住它时，你可以在水上来去自如。",
+    "name": "Water Walk",
+    "description": "You've learned to harness the power of the heart of the sea, so while you hold it, you can walk on water.",
     "condition": {
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",

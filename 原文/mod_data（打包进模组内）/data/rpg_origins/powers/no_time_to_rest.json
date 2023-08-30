@@ -1,6 +1,6 @@
 {
-    "name": "无暇休息",
-    "description": "你只能在冲刺中回复生命值。",
+    "name": "No Time To Rest",
+    "description": "You can only heal naturally while you're sprinting.",
     "condition": {
         "inverted": true,
         "type": "origins:sprinting"

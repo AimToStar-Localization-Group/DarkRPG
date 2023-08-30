@@ -1,6 +1,6 @@
 {
-    "name": "盗窃",
-    "description": "当你杀死村民时（你为什么要这么干？）可以偷走点绿宝石。",
+    "name": "Thefty",
+    "description": "Whenever you kill a villager (Why would you) you can steal some emeralds.",
     "type": "origins:self_action_on_kill",
     "target_condition": {
         "type": "origins:entity_type",
