@@ -1,6 +1,6 @@
 {
-    "name": "手榴弹来袭",
-    "description": "注意点。",
+    "name": "grenade incoming",
+    "description": "look out.",
     "loading_priority": 10,
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",

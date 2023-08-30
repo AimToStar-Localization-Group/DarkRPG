@@ -1,6 +1,6 @@
 {
-  "name": "眼部功能障碍",
-    "description": "由于常年待在深暗之域，你失去了大部分的色觉。",
+  "name": "ocular disfunction",
+    "description": "after your years in the deep dark you have lost most of color perception.",
   "type": "origins:shader",
   "shader": "minecraft:shaders/post/desaturate.json"
 }

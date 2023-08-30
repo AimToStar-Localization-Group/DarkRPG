@@ -738,6 +738,6 @@
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
 		"bar_index": 24
 	},
-	"name": "毛茸茸的羊毛",
-	"description": "你柔软的羊绒可以被剪下来，导致你小跳一下。"
+	"name": "Fluffy Wool",
+	"description": "You can be sheared, and your soft wool cushions falls, causing you to bounce a bit."
 }

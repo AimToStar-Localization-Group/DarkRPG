@@ -103,6 +103,6 @@
 	"hud_render": {
 		"should_render": false
 	},
-	"name": "食草动物",
-	"description": "你只能吃草或者素食。"
+	"name": "Herbivore",
+	"description": "You can only eat grasses and vegetarian-friendly foods."
 }		
