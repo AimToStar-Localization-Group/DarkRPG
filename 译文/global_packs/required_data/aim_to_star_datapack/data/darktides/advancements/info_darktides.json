@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "暗黑潮汐"},
-        "description": {"text": "在水下时，将一把钻石铲放入副手，可以获得水下呼吸、速度以及夜视效果。"},
+        "description": {"text": "在水下时，将一把钻石锹放入副手，可以获得水下呼吸、速度以及夜视效果。"},
         
         "icon": {"item": "minecraft:pufferfish_bucket"},
         "frame": "task",

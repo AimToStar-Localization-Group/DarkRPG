@@ -2,7 +2,7 @@
     "__comment": "Made by the DarkRPG team",
     "display": {
         "title": {"text": "炫彩真菌（任务）"},
-        "description": {"text": "收集2个绯红菌。奖励：25经验值，1个铁铲，10个熟鲑鱼。"},
+        "description": {"text": "收集2个绯红菌。奖励：25经验值，1个铁锹，10个熟鲑鱼。"},
         
         "icon": {"item": "minecraft:crimson_fungus"},
         "frame": "challenge",
