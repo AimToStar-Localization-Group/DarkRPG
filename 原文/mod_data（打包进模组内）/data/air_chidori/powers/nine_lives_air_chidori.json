@@ -1,9 +1,9 @@
 {
-  "name": "九尾之命",
-  "description": "你比一般人少一颗心，总共只有9颗心。",
+  "name": "Lives of the Nine Tails",
+  "description": "You have 1 less heart than Humans giving you 9 hearts only.",
   "type": "origins:attribute",
   "modifier": {
-    "name": "九尾生命减少",
+    "name": "Nine lives health reduction",
     "attribute": "minecraft:generic.max_health",
     "value": -2.0,
     "operation": "addition"

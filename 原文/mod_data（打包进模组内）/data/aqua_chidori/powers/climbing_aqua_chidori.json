@@ -1,6 +1,6 @@
 {
-  "name": "攀岩者",
-  "description": "小巧灵活的体型让你能够轻松攀爬墙壁。",
+  "name": "Rock Climber",
+  "description": "Being small and nimble allows you to easily climb blocks.",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",

@@ -1,7 +1,7 @@
 {
 
-  "name": "踏风",
-  "description": "以千鸟之力融合羽人之躯，踏风而起！",
+  "name": "Continuous Flight",
+  "description": "Take to the skies. Infuse your Chidori powers with your Avian abilities!",
   "type": "origins:launch",
     "cooldown": 30,
     "hud_render": {

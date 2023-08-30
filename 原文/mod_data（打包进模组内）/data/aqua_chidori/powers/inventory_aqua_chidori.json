@@ -5,6 +5,6 @@
         "key": "key.loadToolbarActivator",
         "continuous": false
     },
-  "name": "液态口袋",
-  "description": "水之魔力赋予了你一个随身口袋，可以通过设定的热键打开。"
+  "name": "Liquid Pouch",
+  "description": "Aquatic magic has granted you access to your own special pouch. You can access this pouch by using your load hotbar activator key."
 }
