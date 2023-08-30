@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "登录奖励",
+                "text": "Login Rewards",
                 "color": "blue",
                 "bold": true,
                 "italic": false
