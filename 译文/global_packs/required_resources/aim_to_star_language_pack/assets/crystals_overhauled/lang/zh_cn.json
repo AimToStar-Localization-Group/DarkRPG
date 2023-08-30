@@ -121,5 +121,7 @@
     "item.crystals_overhauled.heliodor_armor_helmet": "金绿柱石头盔",
     "block.crystals_overhauled.heliodor_ore": "金绿柱石矿石",
     "item.crystals_overhauled.heliodor_shovel": "金绿柱石锹",
-    "item.crystals_overhauled.peridotite_axe": "橄榄石斧"
+    "item.crystals_overhauled.peridotite_axe": "橄榄石斧",
+    "advancements.peridotite_prospector.descr": "获得一块橄榄石碎片。",
+    "advancements.peridotite_prospector.title": "橄榄石勘探员"
 }

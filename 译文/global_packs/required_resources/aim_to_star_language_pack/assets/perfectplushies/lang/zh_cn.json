@@ -31,5 +31,14 @@
     "block.perfectplushies.sirjain_plushie": "SirJain玩偶",
     "block.perfectplushies.sirjain_plushie_rare": "SirJain玩偶",
     "block.perfectplushies.sizableshrimp_plushie": "SizableShrimp玩偶",
-    "block.perfectplushies.tslat_plushie": "Tslat玩偶"
+    "block.perfectplushies.tslat_plushie": "Tslat玩偶",
+    "block.perfectplushies.cat_plushie": "猫玩偶",
+    "block.perfectplushies.dog_plushie": "狗玩偶",
+    "block.perfectplushies.monkey_plushie": "猴子玩偶",
+    "entity.perfectplushies.wandering_plushie_trader": "流浪玩偶商人",
+    "block.perfectplushies.joosh_plushie": "Joosh玩偶",
+    "plushie.description.joosh_plushie": "Bonsai工作室的首席艺术家",
+    "block.perfectplushies.rocris_plushie": "RoCris玩偶",
+    "block.perfectplushies.turtle_plushie": "海龟玩偶",
+    "plushie.description.rocris_plushie": "早期支持者"
 }
