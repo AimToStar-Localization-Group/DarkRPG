@@ -1,8 +1,8 @@
 {
     "__comment": "Made by the DarkRPG team",
     "display": {
-        "title": {"text": "暗黑潮汐"},
-        "description": {"text": "在水下时，将一把钻石铲放入副手，可以获得水下呼吸、速度以及夜视效果。"},
+        "title": {"text": "DarkTides"},
+        "description": {"text": "Place a Diamond Shovel in offhand slot whilst underwater to gain Water Breathing, Speed, Night Vision."},
         
         "icon": {"item": "minecraft:pufferfish_bucket"},
         "frame": "task",
