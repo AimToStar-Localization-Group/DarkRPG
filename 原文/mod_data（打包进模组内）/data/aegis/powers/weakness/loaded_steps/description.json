@@ -1,5 +1,5 @@
 {
-    "name": "沉重的脚步",
-    "description": "你的步伐很吵，真的，特别吵。敌对生物能从很远的地方就侦测到你。",
+    "name": "Loaded Steps",
+    "description": "You're loud. You're really, really loud. Mobs will detect you from much further away.",
     "type": "origins:simple"
 }

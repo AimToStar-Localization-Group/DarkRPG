@@ -1,5 +1,5 @@
 {
-    "name": "再不生病",
-    "description": "生物实体的缺失意味着那些弱点将不复存在！你对饥饿、中毒和窒息具有免疫力。",
+    "name": "Lack of Ailments",
+    "description": "Not having a biological body means that its weaknesses no longer exist! You have an immunity to Hunger, Poison, and suffocation.",
     "type": "origins:simple"
 }

@@ -1,5 +1,5 @@
 {
-    "name": "你的血管",
-    "description": "你的盔甲就是你的血管，没有它，你的灵魂将会慢慢散去！当你不穿戴盔甲时，会受到凋灵效果。",
+    "name": "Your Vessel",
+    "description": "Your armor is your vessel, without it your soul will desperse! Wither is applied when you don't wear armor.",
     "type": "origins:simple"
 }
