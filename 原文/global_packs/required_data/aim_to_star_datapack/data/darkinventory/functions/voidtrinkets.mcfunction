@@ -17,5 +17,5 @@ execute as @s run trinkets set legs belt 0 air
 execute as @s run trinkets set chest vanity 0 air
 execute as @s run trinkets set chest back 0 air
 execute as @s run trinkets set chest necklace 0 air
-tellraw @s {"text": "饰品栏已清空", "color": "aqua", "bold":"true"}
+tellraw @s {"text": "Trinkets Voided", "color": "aqua", "bold":"true"}
 scoreboard players set @s voidtrinkets 0
