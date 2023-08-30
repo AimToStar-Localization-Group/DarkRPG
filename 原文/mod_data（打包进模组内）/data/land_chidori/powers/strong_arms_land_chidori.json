@@ -5,6 +5,6 @@
     "type": "origins:in_tag",
     "tag": "origins:natural_stone"
   },
-  "name": "碎石",
-  "description": "你可以徒手挖掘石头。"
+  "name": "Stone Smash",
+  "description": "You can smash stone with your bare hands."
 }

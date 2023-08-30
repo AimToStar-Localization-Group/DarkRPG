@@ -5,6 +5,6 @@
         "key": "key.loadToolbarActivator",
         "continuous": false
     },
-  "name": "潜影空间",
-  "description": "你能够打开一个拥有九格存储的潜影空间，可以通过设定的热键打开。"
+  "name": "Shulk Box",
+  "description": "You have special access to your own storage which allows you to carry 9 more items in your shulk box. You can access this bag by using your load hotbar activator key."
 }
