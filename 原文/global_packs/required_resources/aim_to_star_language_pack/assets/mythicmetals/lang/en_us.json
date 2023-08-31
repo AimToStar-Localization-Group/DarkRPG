@@ -1147,9 +1147,5 @@
     "tag.item.mythicmetals.unobtainium_blocks": "Unobtainium Blocks",
     "tag.item.mythicmetals.unobtainium_ores": "Unobtainium Ores",
     "tag.item.mythicmetals.armor": "Mythic Metals Armor",
-    "tag.item.mythicmetals.tools": "Mythic Metals Tools",
-    "generate": "generate",
-    "": "end",
-    "nugget": "nugget",
-    "1": "Banglum"
+    "tag.item.mythicmetals.tools": "Mythic Metals Tools"
 }
