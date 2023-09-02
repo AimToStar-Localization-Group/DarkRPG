@@ -1,0 +1,32 @@
+# 触发条件：当weblate分支有新的推送时
+on:
+  push:
+    branches:
+      - weblate
+
+# 任务列表
+jobs:
+  # 任务名称：创建PR
+  create-pr:
+    # 运行环境：ubuntu最新版
+    runs-on: ubuntu-latest
+    # 步骤列表
+    steps:
+      # 步骤1：检出仓库代码到工作空间
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # 指定要检出的分支为weblate
+          ref: weblate
+      
+      # 步骤2：使用Create Pull Request action创建PR
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          # 指定PR的目标分支为main
+          base: main
+          # 指定PR的标题和内容
+          title: '✅ 自动同步 - Weblate'
+          body: |
+            这是一个由 GitHub Actions 自动创建的 PR，用于将 weblate 分支的变更合并到 main 分支。
+            请审查并合并。
