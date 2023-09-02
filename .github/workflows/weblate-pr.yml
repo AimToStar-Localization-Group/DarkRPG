@@ -1,0 +1,40 @@
+name: Sync Weblate to Main
+
+on:
+  push:
+    branches:
+      - weblate
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config user.email "admin@zhxiwiki.org.cn"
+          git config user.name "admin"
+        
+      - name: Create PR
+        run: |
+          git checkout main
+          git pull origin main
+          git checkout -b weblate
+          git push -u origin weblate
+          
+          title="✅ 自动同步 - Weblate"
+          body="这是一个由 GitHub Actions 自动创建的 PR，用于将 weblate 分支的变更合并到 main 分支。请审查并合并。"
+          
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/AimToStar-Localization-Group/DarkRPG/pulls \
+            -d '{
+              "title": "'"$title"'",
+              "body": "'"$body"'",
+              "head": "weblate",
+              "base": "main"
+            }'
