@@ -852,7 +852,7 @@
     "scepter.modifier.amethyst_imbuement:skillful.desc": "增加1级法术等级",
     "scepter.modifier.amethyst_imbuement:champion_of_the_meek.desc": "保护受影响的实体并有几率给予抗性提升效果",
     "scepter.modifier.amethyst_imbuement:protective.desc": "保护受影响的实体",
-    "scepter.modifier.amethyst_imbuement:elemental.desc": "增益索引元素法术",
+    "scepter.modifier.amethyst_imbuement:elemental.desc": "增益所有元素法术",
     "scepter.modifier.amethyst_imbuement:blade_aspect.desc": "增益斩击类法术",
     "scepter.modifier.amethyst_imbuement:fire_aspect.desc": "增益火焰类法术",
     "scepter.modifier.amethyst_imbuement:ice_aspect.desc": "增益寒冰类法术",
@@ -1179,5 +1179,6 @@
     "readme.altars.xp_bush_1": "经验灌木",
     "readme.header.enchants": "附魔配置",
     "readme.header.entities": "实体配置",
-    "readme.villages.ctov_1": "CTOV (Choice Theorem's Overhauled Villages)"
+    "readme.villages.ctov_1": "CTOV (Choice Theorem's Overhauled Villages)",
+    "readme.altars.altar_1": "经验祭坛"
 }
