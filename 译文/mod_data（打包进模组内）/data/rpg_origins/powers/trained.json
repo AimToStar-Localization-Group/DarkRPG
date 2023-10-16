@@ -1,9 +1,0 @@
-{
-    "name": "春秋积序",
-    "description": "你训练的非常刻苦，无论如何，你造成的伤害更多了。",
-    "type": "origins:modify_damage_dealt",
-    "modifier": {
-        "operation": "multiply_base_multiplicative",
-        "value": 0.1
-    }
-}
