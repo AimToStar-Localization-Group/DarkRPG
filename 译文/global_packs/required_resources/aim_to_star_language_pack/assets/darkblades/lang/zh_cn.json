@@ -33,5 +33,7 @@
     "item_group.darkblades.dark_blades": "DarkBlades",
     "item.darkblades.dark_pellet": "暗黑弹丸",
     "item.darkblades.dark_rifle": "暗黑步枪",
-    "item.darkblades.dark_ingot_bundle": "暗黑锭堆"
+    "item.darkblades.dark_ingot_bundle": "暗黑锭堆",
+    "item.darkblades.dark_debug_stick": "暗黑调试棒",
+    "item.darkblades.dark_greatsword": "暗黑大剑"
 }

@@ -75,5 +75,11 @@
     "entity.minecraft.villager.wizards:wizard_merchant": "魔法师商人",
     "spell.wizards.arcane_bolt.description": "发出能量飞弹，造成{damage}点奥秘法术伤害。",
     "spell.wizards.arcane_bolt.name": "奥秘飞弹",
-    "effect.wizards.arcane_charge": "奥秘充能"
+    "effect.wizards.arcane_charge": "奥秘充能",
+    "item.wizards.staff_wizard": "魔法师权杖",
+    "spell.wizards.fire_scorch.name": "炙烤",
+    "spell.wizards.ice_lance.name": "寒冰之矛",
+    "spell.wizards.fire_scorch.description": "炙烤目标，造成{damage}点火焰伤害并点燃目标。",
+    "spell.wizards.ice_lance.description": "发射寒冰碎片穿透{pierce}目标，同时造成{damage}点寒冰法术伤害。",
+    "effect.wizards.frost_slowness": "缓慢"
 }

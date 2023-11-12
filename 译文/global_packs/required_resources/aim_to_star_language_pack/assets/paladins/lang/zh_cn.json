@@ -65,5 +65,8 @@
     "advancements.rpg_classes.paladin_mastery.title": "审判时刻",
     "advancements.rpg_classes.paladin_mastery.description": "获得骑士全部法术",
     "advancements.rpg_classes.priest_mastery.title": "侍于光明",
-    "advancements.rpg_classes.priest_mastery.description": "获得牧师全部法术"
+    "advancements.rpg_classes.priest_mastery.description": "获得牧师全部法术",
+    "item.paladins.diamond_holy_staff": "钻石神圣权杖",
+    "spell.paladins.heal.name": "治疗",
+    "spell.paladins.heal.description": "治疗自己或友方单位{heal}点生命值。"
 }
