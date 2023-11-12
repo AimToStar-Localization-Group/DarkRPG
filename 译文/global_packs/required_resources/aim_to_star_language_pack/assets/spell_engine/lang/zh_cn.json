@@ -79,5 +79,20 @@
     "gui.spell_engine.spell_binding": "法术绑定",
     "gui.spell_engine.spell_binding.title": "绑定法术",
     "block.spell_engine.spell_binding": "法术绑定台",
-    "hud.cast_attempt_error.on_cooldown": ""
+    "hud.cast_attempt_error.on_cooldown": "冷却中",
+    "spell.tooltip.host.proxy": "从已装备的法术书中施放法术",
+    "spell.tooltip.host.additional": "额外法术：",
+    "spell.tooltip.host.pre_loaded": "使用时施放法术",
+    "hud.cast_attempt_error.missing_item": "缺少%1$s",
+    "text.autoconfig.spell_engine.option.client.showSpellCastErrors.@Tooltip": "在HUD上显示关于施法尝试失败的错误消息",
+    "advancements.rpg_classes.classes.description": "在法术绑定台上将一本书转化为法术书",
+    "trinkets.slot.charm.spell_book": "法术书",
+    "text.autoconfig.spell_engine.option.client.showSpellCastErrors": "施法错误消息",
+    "hud.action_impaired.incapacitate": "倒地",
+    "text.autoconfig.spell_engine.option.client.shoulderSurfingAdaptiveWhileUse.@Tooltip": "允许施法物品使用肩窥自适应光标，仅限施法时使用",
+    "block.spell_engine.spell_binding.description": "使用它创造并填充法术书",
+    "advancements.rpg_classes.classes.title": "选择你的道路",
+    "text.autoconfig.spell_engine.option.client.shoulderSurfingAdaptiveWhileUse": "肩窥弓形行为",
+    "hud.action_impaired.silence": "静默的",
+    "hud.action_impaired.stun": "被击晕"
 }

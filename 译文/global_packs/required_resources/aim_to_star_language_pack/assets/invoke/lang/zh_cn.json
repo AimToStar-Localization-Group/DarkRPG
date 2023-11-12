@@ -1,0 +1,6 @@
+{
+    "item.invoke.arcaneinvoker_spell_book": "奥秘法术调用",
+    "effect.invoke.arcaneoverdrive": "奥秘法术超载",
+    "spell.invoke.agonizingblast.description": "在一条直线上向敌人爆炸三次。每次爆炸都会造成 {伤害} 奥术法术伤害，并触发八次爆炸，围绕它击中的第一个敌人射击，如果他们找到目标，每一次又触发八次爆炸，等等。不能无限重复。",
+    "spell.invoke.blink.description": "抛出一颗末影珍珠。"
+}
