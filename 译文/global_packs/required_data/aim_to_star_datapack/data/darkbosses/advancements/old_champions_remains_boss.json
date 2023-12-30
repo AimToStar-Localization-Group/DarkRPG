@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败古英雄的遗骸！"},
+        "description": {"text": "这具骷髅是在古英雄坟墓中出现的Boss，它已被另一名生物--暗夜之影附身。击杀古英雄后，它会掉落德拉格尔，同时暗夜之影也会生成。"},
+
+        "icon": {"item": "soulsweapons:draugr"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "old_champions_remains_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:draugr_boss"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Frenzied Shade Defeated!"},
+        "description": {"text": "The Frenzied Shade is a cursed and powerful soul, banished from it's former body, who mistakenly possessed the Old Champion. It flies and can move through any block. At half health the shade duplicates itself, summoning 4 other Frenzied Shades with a quarter of the originals health and only 35% damage, but other than the stats, their attacks and looks will still be the same."},
+
+        "icon": {"item": "soulsweapons:essence_of_eventide"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "frenzied_shade_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:night_shade"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

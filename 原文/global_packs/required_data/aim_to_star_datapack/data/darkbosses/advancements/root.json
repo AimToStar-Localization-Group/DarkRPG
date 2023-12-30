@@ -1,0 +1,31 @@
+{
+    "__comment": "DarkQuesting Quests",
+    "display": {
+        "title": {
+            "text": "DarkBosses",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Defeat Bosses! Each boss drops experience and items."
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "darkbosses_info_extras": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+        "experience" : 0
+    }
+}

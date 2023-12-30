@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "类魂Boss"},
+        "description": {"text": "击败腐朽的王，古英雄的遗骸，暗夜之影，复仇骑士，陨落王者和混沌君主。"},
+        
+        "icon": {"item": "soulsweapons:lord_soul_dark"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "info_souls_bosses": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"experience": 1
+    },
+    "parent": "darkbosses:root"
+}

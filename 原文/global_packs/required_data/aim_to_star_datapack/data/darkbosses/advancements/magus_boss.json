@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Magus Defeated!"},
+        "description": {"text": "Magus is summoned by using a Prismatic Effigy. Enter the Glass Ocean by using a Hexblade on the portal.."},
+
+        "icon": {"item": "spellbladenext:prismatic"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "void_blossom_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "spellbladenext:magus"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_spellblade_bosses"
+}

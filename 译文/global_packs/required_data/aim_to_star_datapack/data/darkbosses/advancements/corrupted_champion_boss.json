@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败堕落的英雄！"},
+        "description": {"text": "从废墟结构中收集3块骨杖碎片。获得一把骨头匕首。手持玻璃瓶，用骨头匕首杀死村民，将小血瓶装满。找到巫妖囚笼并等到晚上。将骨杖碎片放在祭坛前的堕落深石方块上。将血瓶倒入祭坛，召唤堕落的英雄。"},
+
+        "icon": {"item": "graveyard:purple_bone_staff"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "corrupted_champion_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "graveyard:lich"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_graveyard_bosses"
+}

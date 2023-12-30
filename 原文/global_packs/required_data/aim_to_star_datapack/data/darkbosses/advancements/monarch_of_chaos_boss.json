@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Monarch of Chaos Defeated!"},
+        "description": {"text": "The Monarch of Chaos is a powerful mage. Additionally, it wears both the Crown of Chaos and the Cape of Chaos, two items that will be dropped upon it's death with the Withered Wabbajack. It can be summoned by using the Shard of Uncertainty (which is dropped by the Wither) on the Blackstone Pedestal block."},
+
+        "icon": {"item": "soulsweapons:chaos_orb"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "monarch_of_chaos_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:chaos_monarch"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Decaying King Defeated!"},
+        "description": {"text": "The Decaying King spawns in the remnants of the Decaying Kingdom in the nether. This cursed monstrosity wields The Darkin Blade, and has many deadly attacks to look out for."},
+
+        "icon": {"item": "soulsweapons:darkin_blade"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "decaying_king_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:accursed_lord_boss"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

@@ -1,0 +1,1 @@
+execute as @s run title @s title {"text":"Boss Defeated!", "bold":true, "italic":false, "color":"yellow"}

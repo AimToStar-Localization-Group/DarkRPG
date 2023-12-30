@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败末影龙！"},
+        "description": {"text": "在一个实体第一次到达末地之后，末影龙就会生成，同时出现的还有出口传送门的基岩框架。"},
+
+        "icon": {"item": "minecraft:end_crystal"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragon_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:ender_dragon"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_vanilla_bosses"
+}

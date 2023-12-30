@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败暗夜之影！"},
+        "description": {"text": "暗夜之影是一名被诅咒的强大灵魂，它被驱逐出了原来的躯体，错误地附身于古英雄之身。它能飞，能穿过任何方块。当生命值减半时，暗夜之影会复制自己，召唤出另外4名暗夜之影，生命值只有原来的四分之一，伤害也只有原来的35%，但除属性外，它们的攻击和外观都是相同的。"},
+
+        "icon": {"item": "soulsweapons:essence_of_eventide"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "frenzied_shade_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:night_shade"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

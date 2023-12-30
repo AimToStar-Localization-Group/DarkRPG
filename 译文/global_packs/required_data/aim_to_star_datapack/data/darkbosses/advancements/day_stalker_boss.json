@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败昼从者！"},
+        "description": {"text": "通过向天空投掷混沌宝珠来召唤。挥舞着破晓者，在白天这位女神会被赋予力量，速度较慢，但比她的同伴更抗揍。当夜行者被击败时会被激怒。"},
+
+        "icon": {"item": "soulsweapons:dawnbreaker"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "decaying_king_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:day_stalker"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

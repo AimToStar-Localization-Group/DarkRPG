@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败陨落王者！"},
+        "description": {"text": "在破旧的月光祭坛上使用日暮精粹，你将让真正的继承者回归他原本的躯体。这将召唤出陨落王者，它是复仇骑士的凶猛强化版，第二阶段快速且危险。"},
+
+        "icon": {"item": "soulsweapons:moonlight_greatsword"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fallen_icon_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:moonknight"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

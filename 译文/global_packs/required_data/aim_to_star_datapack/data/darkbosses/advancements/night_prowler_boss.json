@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败夜伏者！"},
+        "description": {"text": "通过向天空投掷混沌宝珠来召唤。在夜间这位女神被赋予力量，挥舞着灵魂收割者，与她的姐姐相比，她的防御能力较弱，但速度更快，杀伤力更强，如果满足特定条件，她还喜欢四处传送。当昼行者被击败时会被激怒。"},
+
+        "icon": {"item": "soulsweapons:soul_reaper"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "decaying_king_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:night_prowler"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

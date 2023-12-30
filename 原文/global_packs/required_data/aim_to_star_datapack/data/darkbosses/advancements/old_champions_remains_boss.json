@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Old Champion's Remains Defeated!"},
+        "description": {"text": "A boss spawning in the Old Champion's Graves, this skeleton figure has been possessed by another being, namely The Frenzied Shade. After killing the Old Champion, it will drop the Draugr sword, and the Frenzied Shade will spawn."},
+
+        "icon": {"item": "soulsweapons:draugr"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "old_champions_remains_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:draugr_boss"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

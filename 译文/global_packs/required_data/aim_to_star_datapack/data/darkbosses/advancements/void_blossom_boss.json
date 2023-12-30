@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败虚空之花！"},
+        "description": {"text": "虚空之花出现于世界底部的稀有洞穴中。虚空百合将为你指明方向……"},
+
+        "icon": {"item": "bosses_of_mass_destruction:void_thorn"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "void_blossom_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "bosses_of_mass_destruction:void_blossom"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_bomd_bosses"
+}

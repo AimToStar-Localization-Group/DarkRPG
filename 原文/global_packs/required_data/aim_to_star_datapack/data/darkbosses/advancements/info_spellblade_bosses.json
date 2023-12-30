@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "Soulslike Bosses"},
+        "description": {"text": "Defeat Magus The Elemental."},
+        
+        "icon": {"item": "spellbladenext:flaming_falchion"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "info_spellblade_bosses": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"experience": 1
+    },
+    "parent": "darkbosses:root"
+}

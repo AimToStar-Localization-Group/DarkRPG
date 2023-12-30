@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Obsidilith Defeated!"},
+        "description": {"text": "Obsidilith, which appears in rare structures in the end islands.."},
+
+        "icon": {"item": "bosses_of_mass_destruction:obsidian_heart"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obsidilith_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "bosses_of_mass_destruction:obsidilith"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_bomd_bosses"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Fallen Icon Defeated!"},
+        "description": {"text": "By using the Essence of Eventide on the Old Moon Altar, you will return the true heir back to it's original body. This will result in the summoning of the Fallen Icon, a fierce empowered version of the Returning Knight with a fast and dangerous second phase."},
+
+        "icon": {"item": "soulsweapons:moonlight_greatsword"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fallen_icon_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:moonknight"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

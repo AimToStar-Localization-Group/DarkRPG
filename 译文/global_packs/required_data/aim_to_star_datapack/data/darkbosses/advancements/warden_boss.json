@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败监守者！"},
+        "description": {"text": "监守者不使用标准的生物生成机制。相反，当玩家激活四次自然生成的幽匿尖啸体时，如果24格内没有监守者，它就会生成。"},
+
+        "icon": {"item": "minecraft:sculk_shrieker"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "warden_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:warden"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_vanilla_bosses"
+}

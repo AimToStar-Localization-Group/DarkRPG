@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败腐朽的王！"},
+        "description": {"text": "腐朽之王生成于下界腐朽王国的残念。这只被诅咒的怪物挥舞着暗裔利刃，需要注意他许多致命的攻击方式。"},
+
+        "icon": {"item": "soulsweapons:darkin_blade"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "decaying_king_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:accursed_lord_boss"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Warden Defeated!"},
+        "description": {"text": "Wardens do not use standard mob spawning mechanics. They are instead spawned when a player activates naturally generated sculk shriekers four times instead and if there isn't already another warden within 24 blocks of it."},
+
+        "icon": {"item": "minecraft:sculk_shrieker"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "warden_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:warden"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_vanilla_bosses"
+}

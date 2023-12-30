@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "Bosses of Mass Destruction的Boss"},
+        "description": {"text": "击败暗夜巫妖，黑曜巨石柱，下界铁掌和虚空之花。"},
+        
+        "icon": {"item": "bosses_of_mass_destruction:levitation_block"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "info_bomd_bosses": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"experience": 1
+    },
+    "parent": "darkbosses:root"
+}

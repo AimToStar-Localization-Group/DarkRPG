@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Corrupted Champion Defeated!"},
+        "description": {"text": "Collect 3 bone staff fragments from the Ruins structures. Obtain a bone dagger. Hold a glass bottle in offhand and kill villagers with bone dagger to get Vial of Blood filled up. Find Lich Prison and wait until night. Place bone staff pieces on dark corrupted deepslate blocks front of altar. Pour Vial of Blood into altar to summon Corrupted Champion."},
+
+        "icon": {"item": "graveyard:purple_bone_staff"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "corrupted_champion_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "graveyard:lich"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_graveyard_bosses"
+}

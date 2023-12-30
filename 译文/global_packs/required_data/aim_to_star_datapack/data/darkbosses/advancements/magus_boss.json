@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "已击败至尊法师（Magus）！"},
+        "description": {"text": "使用棱镜之刃（Prismatic Effigy）召唤至尊法师。在传送门上使用咒剑进入琉璃之海（Glass Ocean）……"},
+
+        "icon": {"item": "spellbladenext:prismatic"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "void_blossom_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "spellbladenext:magus"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_spellblade_bosses"
+}
