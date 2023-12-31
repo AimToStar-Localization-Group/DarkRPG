@@ -1,0 +1,477 @@
+{
+	"name": "Diet",
+	"description": "As vampires, their diet is limited to blood. They can suck it straight from the living or bottle it to drink later. When their thirst is satisfied, vampires are stronger and faster than humans, and can see clearly in the dark.",
+	"badges": [
+		{
+			"type": "origins:tooltip",
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Sneak + Right click entities to suck their blood."
+		},
+		{
+			"type": "origins:tooltip",
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Right click entities with a glass bottle in offhand to fill it with their blood."
+		}
+	],
+	"type": "origins:action_on_callback",
+	"entity_action_gained": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/suck/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/bottle/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:blood/drink/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:disable/eating",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:disable/exhaustion",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:disable/hunger",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:disable/natural_regeneration",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/disable/sprinting",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/mining_fatigue",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/night_vision_1",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/night_vision_2",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/night_vision_3",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/night_vision_4",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/resistance",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/shader/desaturated",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/slowness",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/speed",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/starve",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/strength",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/strength_2",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:hungry/weakness",
+				"source": "*:*"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/suck/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/bottle/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/average",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/excellent",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/explosive",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/magical",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/otherworldly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/rotten",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/sizzling",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/slimey",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:blood/drink/toxic",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:disable/eating",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:disable/exhaustion",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:disable/hunger",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:disable/natural_regeneration",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/disable/sprinting",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/mining_fatigue",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/night_vision_1",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/night_vision_2",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/night_vision_3",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/night_vision_4",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/resistance",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/shader/desaturated",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/slowness",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/speed",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/starve",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/strength",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/strength_2",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:hungry/weakness",
+				"source": "*:*"
+			}
+		]
+	}
+}

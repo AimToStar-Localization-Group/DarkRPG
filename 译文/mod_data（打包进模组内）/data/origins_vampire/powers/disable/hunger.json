@@ -1,0 +1,7 @@
+{
+	"name": "Hunger effect immunity",
+	"Description": "You are immune to the hunger effect.",
+	"type": "origins:effect_immunity",
+	"effect": "minecraft:hunger",
+	"hidden": true
+}

@@ -1,7 +1,12 @@
 {
 	"root_health+2": {
 		"title": "+1颗心",
-		"frame": "challenge",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -21,7 +26,12 @@
 	},
 	"root_resistance+1%": {
 		"title": "+1%抗性提升",
-		"frame": "challenge",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -41,7 +51,12 @@
 	},
 	"root_melee_damage+3%": {
 		"title": "+3%近战伤害",
-		"frame": "challenge",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -61,7 +76,12 @@
 	},
 	"root_ranged_damage+3%": {
 		"title": "+3%远程伤害",
-		"frame": "challenge",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {

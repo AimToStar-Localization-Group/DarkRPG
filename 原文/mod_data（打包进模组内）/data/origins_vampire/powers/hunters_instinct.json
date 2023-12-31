@@ -1,0 +1,35 @@
+{
+	"name": "Hunter's instinct",
+	"description": "They gained the ability to detect the living around them and know whether they are hostile to them or not.",
+	"type": "origins:action_on_callback",
+	"entity_action_gained": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:grant_power",
+				"power": "*:detect_living/friendly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:detect_living/hostile",
+				"source": "*:*"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:revoke_power",
+				"power": "*:detect_living/friendly",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:detect_living/hostile",
+				"source": "*:*"
+			}
+		]
+	}
+}

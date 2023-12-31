@@ -1,0 +1,72 @@
+{
+	"name": "Unholy",
+	"description": "Being hit with a wooden tool or a stick will briefly incapaciate you.",
+	"type": "origins:action_when_hit",
+	"bientity_condition": {
+		"type": "origins:actor_condition",
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": [
+					{
+						"item": "minecraft:stick"
+					},
+					{
+						"tag": "origins_vampire:wooden_tier"
+					}
+				]
+			}
+		}
+	},
+	"bientity_action": {
+		"type": "origins:target_action",
+		"action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "playsound entity.phantom.death master @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle soul ~ ~1 ~"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle dust 5 .99 1 2 ~ ~1.35 ~ 0.2 0.2 0.2 2 20 normal"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:blindness",
+							"duration": 60,
+							"amplifier": 2,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"effect": "minecraft:instant_health",
+							"duration": 1,
+							"amplifier": 1,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"effect": "minecraft:slowness",
+							"duration": 60,
+							"amplifier": 10,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		}
+	}
+}

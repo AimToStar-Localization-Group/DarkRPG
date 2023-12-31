@@ -1,0 +1,5 @@
+{
+	"name": "Disable natural regeneration",
+	"type": "origins:disable_regen",
+	"hidden": true
+}

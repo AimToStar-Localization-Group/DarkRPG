@@ -1,0 +1,17 @@
+{
+	"name": "吸血鬼领主",
+	"description": "Pureblood vampires who received their vampirism through another pureblood vampire or from deities themselves.",
+	"icon": "minecraft:beetroot_soup",
+	"powers": [
+		"origins_vampire:flight/wing_flap",
+		"origins_vampire:bat_form",
+		"origins_vampire:diet",
+		"origins_vampire:health_regeneration",
+		"origins_vampire:hunters_instinct",
+		"origins_vampire:undead",
+		"origins_vampire:weakness/wooden_tools"
+	],
+	"unchoosable": true,
+	"order": 1,
+	"impact": 3
+}

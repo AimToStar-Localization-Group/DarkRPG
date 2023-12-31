@@ -1,0 +1,89 @@
+{
+	"name": "Winged",
+	"description": "Your wings are strong enough to propel you forward.",
+	"badges": [
+		{
+			"type": "origins:keybind",
+			"text": "Trigger with %s while flying.",
+			"sprite": "origins:textures/gui/badge/active.png"
+		}
+	],
+	"type": "origins:multiple",
+	"subpowers": {
+		"type": "origins:action_on_callback",
+		"entity_action_gained": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:grant_power",
+					"power": "*:flight/winged",
+					"source": "*:*"
+				}
+			]
+		},
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:revoke_power",
+					"power": "*:flight/winged",
+					"source": "*:*"
+				}
+			]
+		}
+	},
+	"flap": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"z": 1,
+					"space": "local",
+					"client": true,
+					"server": true,
+					"set": true
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:entity.ender_dragon.flap master @a[distance=..15] ~ ~ ~ 1 1.5"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:cloud ~ ~ ~ 0.2 0.2 0.2 0.01 3 normal"
+				}
+			]
+		},
+		"cooldown": 20,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/resource_bar.png",
+			"bar_index": 4
+		},
+		"key": {
+			"key": "key.forward",
+			"continuous": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:fall_flying"
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:lava",
+					"comparison": "==",
+					"compare_to": 0
+				}
+			]
+		}
+	}
+}

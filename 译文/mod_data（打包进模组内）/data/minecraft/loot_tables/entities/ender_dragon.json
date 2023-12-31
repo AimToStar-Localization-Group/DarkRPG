@@ -1,0 +1,32 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1,
+							"conditions": [
+								{
+									"condition": "killed_by_player"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:empty\",display:{Name:'{\"text\":\"血瓶\",\"italic\":false}',Lore:['{\"text\":\"末影龙之血\",\"color\":\"gold\"}']},HideFlags:32,CustomPotionColor:9900705,BloodQuality:ender_dragon}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

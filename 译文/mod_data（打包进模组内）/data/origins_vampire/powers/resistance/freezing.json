@@ -1,0 +1,17 @@
+{
+	"name": "Cadaverous coldness",
+	"description": "Your undead body is used to coldness.",
+	"hidden": true,
+	"badges": [
+		{
+			"type": "origins:tooltip",
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You are immune to freezing damage."
+		}
+	],
+	"type": "origins:invulnerability",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "freeze"
+	}
+}

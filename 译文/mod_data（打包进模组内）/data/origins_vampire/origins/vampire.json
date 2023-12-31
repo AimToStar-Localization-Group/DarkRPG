@@ -1,0 +1,15 @@
+{
+	"name": "吸血鬼",
+	"description": "吸血鬼是不死生物，他们吸食活人的血来满足自己的饥渴。",
+	"icon": "minecraft:beetroot_soup",
+	"powers": [
+		"origins_vampire:bat_form",
+		"origins_vampire:diet",
+		"origins_vampire:health_regeneration",
+		"origins_vampire:undead",
+		"origins_vampire:weakness/wooden_tools",
+		"origins_vampire:blood/drink/ender_dragon"
+	],
+	"order": 1,
+	"impact": 3
+}

@@ -1,0 +1,122 @@
+{
+	"name": "Bat form",
+	"description": "Vampires can transform into bats to move discretly and prevent the sunlight from affecting them. On the other hand this form is more fragile, and does not have hands, preventing them to use their tools.",
+	"type": "origins:multiple",
+	"toggle": {
+		"type": "origins:toggle",
+		"active_by_default": false
+	},
+	"subpowers": {
+		"type": "origins:action_on_callback",
+		"entity_action_gained": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:grant_power",
+					"power": "*:death/transform/bat",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/disable/armor",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/disable/attack_damage",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/disable/breaking_blocks",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/disable/ranged_weapons",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/disable/sprinting",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/lower_fly_speed",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/slow_falling",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/transform",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "*:transform/bat/water_breathing",
+					"source": "*:*"
+				}
+			]
+		},
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:revoke_power",
+					"power": "*:death/transform/bat",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/disable/armor",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/disable/attack_damage",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/disable/breaking_blocks",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/disable/ranged_weapons",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/disable/sprinting",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/lower_fly_speed",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/slow_falling",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/transform",
+					"source": "*:*"
+				},
+				{
+					"type": "origins:revoke_power",
+					"power": "*:transform/bat/water_breathing",
+					"source": "*:*"
+				}
+			]
+		}
+	}
+}

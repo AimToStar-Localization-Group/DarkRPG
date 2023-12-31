@@ -1,0 +1,15 @@
+{
+	"name": "吸血鬼领主",
+	"description": "Vampires are undead creatures that suck the blood of the living to fulfill their thirst.",
+	"icon": "minecraft:beetroot_soup",
+	"powers": [
+		"origins_vampire:bat_form",
+		"origins_vampire:diet",
+		"origins_vampire:health_regeneration",
+		"origins_vampire:undead",
+		"origins_vampire:weakness/wooden_tools",
+		"origins_vampire:blood/drink/ender_dragon"
+	],
+	"order": 1,
+	"impact": 3
+}

@@ -1,0 +1,55 @@
+{
+	"name": "Undead",
+	"description": "Vampires undead condition makes them immune to poison and freezing damage, but weak to fire, and sunlight. They also don't have to breath to survive.",
+	"type": "origins:action_on_callback",
+	"entity_action_gained": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:grant_power",
+				"power": "*:group/undead",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:resistance/freezing",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:weakness/sun",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "*:death/cry",
+				"source": "*:*"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:revoke_power",
+				"power": "*:group/undead",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:resistance/freezing",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:weakness/sun",
+				"source": "*:*"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "*:death/cry",
+				"source": "*:*"
+			}
+		]
+	}
+}
