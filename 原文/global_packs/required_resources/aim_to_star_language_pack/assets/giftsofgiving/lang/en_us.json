@@ -1,0 +1,22 @@
+{
+  "block.giftsofgiving.black_present": "Black Present",
+  "block.giftsofgiving.blue_present": "Blue Present",
+  "block.giftsofgiving.brown_present": "Brown Present",
+  "block.giftsofgiving.cyan_present": "Cyan Present",
+  "block.giftsofgiving.gray_present": "Gray Present",
+  "block.giftsofgiving.green_present": "Green Present",
+  "block.giftsofgiving.light_blue_present": "Light Blue Present",
+  "block.giftsofgiving.light_gray_present": "Light Gray Present",
+  "block.giftsofgiving.lime_present": "Lime Present",
+  "block.giftsofgiving.magenta_present": "Magenta Present",
+  "block.giftsofgiving.orange_present": "Orange Present",
+  "block.giftsofgiving.pink_present": "Pink Present",
+  "block.giftsofgiving.purple_present": "Purple Present",
+  "block.giftsofgiving.red_present": "Red Present",
+  "block.giftsofgiving.white_present": "White Present",
+  "block.giftsofgiving.yellow_present": "Yellow Present",
+  "giftsofgiving.container.present": "Present",
+  "giftsofgiving.container.present2": "A Gift for %s",
+  "giftsofgiving.container.present3": "To: %s  From: %s",
+  "itemGroup.giftsofgiving.tab": "Gifts of Giving"
+}
