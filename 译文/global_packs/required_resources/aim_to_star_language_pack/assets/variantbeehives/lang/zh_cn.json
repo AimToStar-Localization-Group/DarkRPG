@@ -1,4 +1,9 @@
 {
     "block.variantbeehives.acacia_beehive": "金合欢木蜂箱",
-    "block.variantbeehives.aa_aeronos_beehive": "空果木蜂箱"
+    "block.variantbeehives.aa_aeronos_beehive": "空果木蜂箱",
+    "block.variantbeehives.bm_ancient_oak_beehive": "古橡木蜂箱",
+    "block.variantbeehives.ru_baobab_beehive": "猴面包树木蜂箱",
+    "block.variantbeehives.ns_aspen_beehive": "白杨木蜂箱",
+    "block.variantbeehives.bamboo_beehive": "竹蜂箱",
+    "block.variantbeehives.birch_beehive": "白桦木蜂箱"
 }
