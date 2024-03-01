@@ -1,1 +1,17 @@
-{}
+{
+    "block.variantbookshelves.spruce_bookshelf": "云杉木书架",
+    "block.variantbookshelves.dark_oak_bookshelf": "深色橡木书架",
+    "block.variantbookshelves.bamboo_bookshelf": "竹木书架",
+    "block.variantbookshelves.birch_bookshelf": "白桦木书架",
+    "block.variantbookshelves.warped_bookshelf": "诡异木书架",
+    "block.minecraft.bookshelf": "橡木书架",
+    "block.variantbookshelves.bm_ancient_oak_bookshelf": "古式橡木书架",
+    "block.variantbookshelves.jungle_bookshelf": "丛林木书架",
+    "block.variantbookshelves.bot_dreamwood_bookshelf": "梦之木书架",
+    "block.variantbookshelves.ldv_cherry_bookshelf": "樱花木书架",
+    "block.variantbookshelves.ru_cherry_bookshelf": "樱花木书架",
+    "block.variantbookshelves.mangrove_bookshelf": "红树木书架",
+    "block.variantbookshelves.crimson_bookshelf": "绯红木书架",
+    "block.variantbookshelves.cherry_bookshelf": "樱花木书架",
+    "block.variantbookshelves.acacia_bookshelf": "金合欢木书架"
+}
