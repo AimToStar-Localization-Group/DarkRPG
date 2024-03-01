@@ -1,1 +1,22 @@
-{}
+{
+    "block.giftsofgiving.light_gray_present": "淡灰色礼物",
+    "giftsofgiving.container.present2": "送给%s的礼物",
+    "block.giftsofgiving.magenta_present": "品红色礼物",
+    "block.giftsofgiving.orange_present": "橙色礼物",
+    "block.giftsofgiving.pink_present": "粉红色礼物",
+    "giftsofgiving.container.present": "礼物",
+    "block.giftsofgiving.purple_present": "紫色礼物",
+    "block.giftsofgiving.red_present": "红色礼物",
+    "giftsofgiving.container.present3": "给：%s    来自：%s",
+    "block.giftsofgiving.white_present": "白色礼物",
+    "block.giftsofgiving.yellow_present": "黄色礼物",
+    "block.giftsofgiving.black_present": "黑色礼物",
+    "block.giftsofgiving.blue_present": "蓝色礼物",
+    "block.giftsofgiving.brown_present": "棕色礼物",
+    "block.giftsofgiving.cyan_present": "青色礼物",
+    "block.giftsofgiving.gray_present": "灰色礼物",
+    "block.giftsofgiving.green_present": "绿色礼物",
+    "block.giftsofgiving.light_blue_present": "淡蓝色礼物",
+    "block.giftsofgiving.lime_present": "黄绿色礼物",
+    "itemGroup.giftsofgiving.tab": "Gifts of Giving"
+}
